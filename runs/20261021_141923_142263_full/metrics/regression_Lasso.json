@@ -1,0 +1,28 @@
+{
+  "model": "Lasso",
+  "best_parameters": {
+    "model__tol": 0.001,
+    "model__selection": "random",
+    "model__max_iter": 10000,
+    "model__alpha": 0.00013219411484660288
+  },
+  "cv_selection_metric": "neg_rmse",
+  "cv_selection_score": -15.620822180962103,
+  "train": {
+    "rows": 57556,
+    "mae": 10.997273265459466,
+    "rmse": 15.57609212251567,
+    "r2": 0.3705060872764533,
+    "within_5_percent": 38.138508582945306
+  },
+  "test": {
+    "rows": 14389,
+    "mae": 11.007934042216654,
+    "rmse": 15.603095674356306,
+    "r2": 0.36716671842354487,
+    "within_5_percent": 38.60587949127806
+  },
+  "seconds": 1.8036627919937018,
+  "candidates": 30,
+  "pca_components": 13
+}

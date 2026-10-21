@@ -1,0 +1,101 @@
+2026-10-21 13:59:38,719 Run directory: /Users/anishech/Projects/ML_Spotify/runs/20261021_135938_718078_smoke
+2026-10-21 13:59:44,494 Matplotlib is building the font cache; this may take a moment.
+2026-10-21 13:59:48,988 Verified 13 dependencies in /Users/anishech/Projects/ML_Spotify/.venv/bin/python
+2026-10-21 13:59:49,135 Search budget: 130 model fits, 2 folds, 2 workers; sample_rows=8000
+2026-10-21 13:59:49,151 START NOTEBOOK pipeline_notebooks/data_processing.ipynb
+2026-10-21 13:59:49,645 Executing notebook with kernel: 
+2026-10-21 13:59:50,798 data_processing: cell 1 finished
+2026-10-21 13:59:50,948 [data_processing] after_missing_values: 113999 rows
+2026-10-21 13:59:50,957 [data_processing] after_dedup_track_id: 89740 rows
+2026-10-21 13:59:50,978 [data_processing] after_dedup_artists_album_name_track_name: 89379 rows
+2026-10-21 13:59:50,993 [data_processing] after_dedup_artists_track_name: 81343 rows
+2026-10-21 13:59:51,008 [data_processing] after_dedup_album_name_track_name: 80279 rows
+2026-10-21 13:59:51,012 [data_processing] after_speechiness: 79433 rows
+2026-10-21 13:59:51,017 [data_processing] after_instrumentalness: 74203 rows
+2026-10-21 13:59:51,021 [data_processing] after_liveness: 71945 rows
+2026-10-21 13:59:51,021 [data_processing] after_nonzero_duration: 71945 rows
+2026-10-21 13:59:51,445 [data_processing] Prepared 8000 modeling rows; 6400 train / 1600 holdout; hits 203 / 51
+2026-10-21 13:59:51,452 data_processing: cell 3 finished
+2026-10-21 13:59:51,477 data_processing: cell 4 finished
+2026-10-21 13:59:51,692 DONE NOTEBOOK pipeline_notebooks/data_processing.ipynb (2.6s)
+2026-10-21 13:59:51,693 START NOTEBOOK pipeline_notebooks/classification_model.ipynb
+2026-10-21 13:59:52,152 Executing notebook with kernel: 
+2026-10-21 13:59:53,224 classification: cell 1 finished
+2026-10-21 13:59:53,241 [classification] START LogisticRegression: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:59:54,244 [classification] DONE LogisticRegression: CV hit_f1=0.2166; holdout {'rows': 1600, 'actual_hits': 51, 'predicted_hits': 259, 'accuracy': 0.86, 'balanced_accuracy': 0.8518462259015938, 'hit_precision': 0.16602316602316602, 'hit_recall': 0.8431372549019608, 'hit_f1': 0.27741935483870966, 'confusion_matrix': [[1333, 216], [8, 43]], 'average_precision': 0.26259481776529503, 'roc_auc': 0.9037076418688843}; 1.0s
+2026-10-21 13:59:54,244 [classification] START DecisionTreeClassifier: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:59:54,353 [classification] DONE DecisionTreeClassifier: CV hit_f1=0.1625; holdout {'rows': 1600, 'actual_hits': 51, 'predicted_hits': 262, 'accuracy': 0.851875, 'balanced_accuracy': 0.8002443068899606, 'hit_precision': 0.1450381679389313, 'hit_recall': 0.7450980392156863, 'hit_f1': 0.24281150159744408, 'confusion_matrix': [[1325, 224], [13, 38]], 'average_precision': 0.1652353695107239, 'roc_auc': 0.8186052988012505}; 0.1s
+2026-10-21 13:59:54,354 [classification] START RandomForestClassifier: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:59:54,743 [classification] DONE RandomForestClassifier: CV hit_f1=0.2635; holdout {'rows': 1600, 'actual_hits': 51, 'predicted_hits': 201, 'accuracy': 0.89375, 'balanced_accuracy': 0.8503145609438094, 'hit_precision': 0.20398009950248755, 'hit_recall': 0.803921568627451, 'hit_f1': 0.3253968253968254, 'confusion_matrix': [[1389, 160], [10, 41]], 'average_precision': 0.2482557858716623, 'roc_auc': 0.9001126596539197}; 0.4s
+2026-10-21 13:59:54,744 [classification] START SVC: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:59:55,686 [classification] DONE SVC: CV hit_f1=0.1479; holdout {'rows': 1600, 'actual_hits': 51, 'predicted_hits': 76, 'accuracy': 0.934375, 'balanced_accuracy': 0.5868618590108736, 'hit_precision': 0.14473684210526316, 'hit_recall': 0.21568627450980393, 'hit_f1': 0.1732283464566929, 'confusion_matrix': [[1484, 65], [40, 11]], 'average_precision': 0.10154263239550777, 'roc_auc': 0.7607691236597931}; 0.9s
+2026-10-21 13:59:55,686 [classification] START KNeighborsClassifier: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:59:56,688 [classification] DONE KNeighborsClassifier: CV hit_f1=0.0264; holdout {'rows': 1600, 'actual_hits': 51, 'predicted_hits': 7, 'accuracy': 0.965, 'balanced_accuracy': 0.5078671881922556, 'hit_precision': 0.14285714285714285, 'hit_recall': 0.0196078431372549, 'hit_f1': 0.034482758620689655, 'confusion_matrix': [[1543, 6], [50, 1]], 'average_precision': 0.15850778405118782, 'roc_auc': 0.7780541525842098}; 0.9s
+2026-10-21 13:59:56,689 [classification] START GaussianNB: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:59:56,756 [classification] DONE GaussianNB: CV hit_f1=0.2478; holdout {'rows': 1600, 'actual_hits': 51, 'predicted_hits': 70, 'accuracy': 0.950625, 'balanced_accuracy': 0.6900656970341397, 'hit_precision': 0.3, 'hit_recall': 0.4117647058823529, 'hit_f1': 0.34710743801652894, 'confusion_matrix': [[1500, 49], [30, 21]], 'average_precision': 0.2561789910144434, 'roc_auc': 0.9090115064747655}; 0.1s
+2026-10-21 13:59:56,756 [classification] START GradientBoostingClassifier: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:59:57,369 [classification] DONE GradientBoostingClassifier: CV hit_f1=0.1368; holdout {'rows': 1600, 'actual_hits': 51, 'predicted_hits': 17, 'accuracy': 0.96125, 'balanced_accuracy': 0.5248927201610146, 'hit_precision': 0.17647058823529413, 'hit_recall': 0.058823529411764705, 'hit_f1': 0.08823529411764706, 'confusion_matrix': [[1535, 14], [48, 3]], 'average_precision': 0.1682381718718727, 'roc_auc': 0.8512133064975506}; 0.6s
+2026-10-21 13:59:57,369 [classification] START XGBClassifier: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:59:57,508 [classification] DONE XGBClassifier: CV hit_f1=0.0604; holdout {'rows': 1600, 'actual_hits': 51, 'predicted_hits': 3, 'accuracy': 0.96625, 'balanced_accuracy': 0.49903163331181405, 'hit_precision': 0.0, 'hit_recall': 0.0, 'hit_f1': 0.0, 'confusion_matrix': [[1546, 3], [51, 0]], 'average_precision': 0.18599901287478893, 'roc_auc': 0.8849479107330472}; 0.1s
+2026-10-21 13:59:57,508 [classification] START MLPClassifier: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:59:58,188 [classification] DONE MLPClassifier: CV hit_f1=0.0000; holdout {'rows': 1600, 'actual_hits': 51, 'predicted_hits': 0, 'accuracy': 0.968125, 'balanced_accuracy': 0.5, 'hit_precision': 0.0, 'hit_recall': 0.0, 'hit_f1': 0.0, 'confusion_matrix': [[1549, 0], [51, 0]], 'average_precision': 0.27216381067474477, 'roc_auc': 0.9118216686287168}; 0.7s
+2026-10-21 13:59:58,189 [classification] START BaggingClassifier: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:59:58,653 [classification] DONE BaggingClassifier: CV hit_f1=0.0636; holdout {'rows': 1600, 'actual_hits': 51, 'predicted_hits': 5, 'accuracy': 0.965, 'balanced_accuracy': 0.4983860555196901, 'hit_precision': 0.0, 'hit_recall': 0.0, 'hit_f1': 0.0, 'confusion_matrix': [[1544, 5], [51, 0]], 'average_precision': 0.11635546669683619, 'roc_auc': 0.7985480828871252}; 0.5s
+2026-10-21 13:59:58,727 [classification] Selected RandomForestClassifier using hit_f1 from training folds only
+2026-10-21 13:59:58,736 classification: cell 3 finished
+2026-10-21 13:59:58,740 classification: cell 4 finished
+2026-10-21 14:00:01,358 DONE NOTEBOOK pipeline_notebooks/classification_model.ipynb (9.7s)
+2026-10-21 14:00:01,360 START NOTEBOOK pipeline_notebooks/regression_model.ipynb
+2026-10-21 14:00:01,897 Executing notebook with kernel: 
+2026-10-21 14:00:02,919 regression: cell 1 finished
+2026-10-21 14:00:02,930 [regression] START Lasso: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 14:00:03,842 [regression] DONE Lasso: CV neg_rmse=-15.6789; holdout {'rows': 1600, 'mae': 11.204622219316034, 'rmse': 15.511162476107353, 'r2': 0.3612327565261533, 'within_5_percent': 35.6875}; 0.9s
+2026-10-21 14:00:03,843 [regression] START Ridge: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 14:00:03,883 [regression] DONE Ridge: CV neg_rmse=-15.6774; holdout {'rows': 1600, 'mae': 11.188314099654285, 'rmse': 15.509923131283461, 'r2': 0.3613348276960584, 'within_5_percent': 36.0}; 0.0s
+2026-10-21 14:00:03,883 [regression] START ElasticNet: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 14:00:03,921 [regression] DONE ElasticNet: CV neg_rmse=-15.6774; holdout {'rows': 1600, 'mae': 11.188433634576551, 'rmse': 15.509924664978595, 'r2': 0.36133470138753887, 'within_5_percent': 36.0}; 0.0s
+2026-10-21 14:00:03,922 [regression] START RandomForestRegressor: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 14:00:04,346 [regression] DONE RandomForestRegressor: CV neg_rmse=-16.2744; holdout {'rows': 1600, 'mae': 12.053663365570674, 'rmse': 15.86172137282167, 'r2': 0.33203366240273535, 'within_5_percent': 27.500000000000004}; 0.4s
+2026-10-21 14:00:04,347 [regression] START GradientBoostingRegressor: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 14:00:04,746 [regression] DONE GradientBoostingRegressor: CV neg_rmse=-16.1109; holdout {'rows': 1600, 'mae': 11.659119515653986, 'rmse': 15.678919393357447, 'r2': 0.34734120050839323, 'within_5_percent': 30.9375}; 0.4s
+2026-10-21 14:00:04,747 [regression] START AdaBoostRegressor: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 14:00:06,149 [regression] DONE AdaBoostRegressor: CV neg_rmse=-17.2548; holdout {'rows': 1600, 'mae': 13.832452198354396, 'rmse': 17.24557077803264, 'r2': 0.2103964564616405, 'within_5_percent': 20.75}; 1.4s
+2026-10-21 14:00:06,149 [regression] START KNeighborsRegressor: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 14:00:06,543 [regression] DONE KNeighborsRegressor: CV neg_rmse=-16.6930; holdout {'rows': 1600, 'mae': 12.381809199014333, 'rmse': 16.093165617406438, 'r2': 0.3123983590830739, 'within_5_percent': 27.375}; 0.4s
+2026-10-21 14:00:06,543 [regression] START XGBRegressor: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 14:00:06,651 [regression] DONE XGBRegressor: CV neg_rmse=-18.7675; holdout {'rows': 1600, 'mae': 15.357359886169434, 'rmse': 18.560046101216905, 'r2': 0.08544039726257324, 'within_5_percent': 17.9375}; 0.1s
+2026-10-21 14:00:06,699 [regression] Selected Ridge using neg_rmse from training folds only
+2026-10-21 14:00:06,705 regression: cell 3 finished
+2026-10-21 14:00:06,711 regression: cell 4 finished
+2026-10-21 14:00:09,328 DONE NOTEBOOK pipeline_notebooks/regression_model.ipynb (8.0s)
+2026-10-21 14:00:09,330 START NOTEBOOK pipeline_notebooks/regression_70to100_model.ipynb
+2026-10-21 14:00:09,895 Executing notebook with kernel: 
+2026-10-21 14:00:10,927 regression_high: cell 1 finished
+2026-10-21 14:00:10,938 [regression_high] START Lasso: 2 candidates x 2 folds + refit; train=203 holdout=51
+2026-10-21 14:00:11,869 [regression_high] DONE Lasso: CV neg_rmse=-4.6038; holdout {'rows': 51, 'mae': 2.9480622106532626, 'rmse': 3.7556102641745484, 'r2': 0.15687427387785557, 'within_5_percent': 86.27450980392157}; 0.9s
+2026-10-21 14:00:11,869 [regression_high] START Ridge: 2 candidates x 2 folds + refit; train=203 holdout=51
+2026-10-21 14:00:11,892 [regression_high] DONE Ridge: CV neg_rmse=-4.6647; holdout {'rows': 51, 'mae': 2.8706304749507034, 'rmse': 3.7447771038202027, 'r2': 0.16173129700940048, 'within_5_percent': 84.31372549019608}; 0.0s
+2026-10-21 14:00:11,893 [regression_high] START ElasticNet: 2 candidates x 2 folds + refit; train=203 holdout=51
+2026-10-21 14:00:11,915 [regression_high] DONE ElasticNet: CV neg_rmse=-4.5789; holdout {'rows': 51, 'mae': 3.0182913554549335, 'rmse': 3.791453694963142, 'r2': 0.1407039429157435, 'within_5_percent': 84.31372549019608}; 0.0s
+2026-10-21 14:00:11,916 [regression_high] START RandomForestRegressor: 2 candidates x 2 folds + refit; train=203 holdout=51
+2026-10-21 14:00:12,053 [regression_high] DONE RandomForestRegressor: CV neg_rmse=-4.6419; holdout {'rows': 51, 'mae': 3.129304430309903, 'rmse': 3.909057405666277, 'r2': 0.08656972302201371, 'within_5_percent': 80.3921568627451}; 0.1s
+2026-10-21 14:00:12,054 [regression_high] START GradientBoostingRegressor: 2 candidates x 2 folds + refit; train=203 holdout=51
+2026-10-21 14:00:12,112 [regression_high] DONE GradientBoostingRegressor: CV neg_rmse=-4.6639; holdout {'rows': 51, 'mae': 3.2650470513006074, 'rmse': 4.053314901605246, 'r2': 0.017908398607580756, 'within_5_percent': 84.31372549019608}; 0.1s
+2026-10-21 14:00:12,113 [regression_high] START AdaBoostRegressor: 2 candidates x 2 folds + refit; train=203 holdout=51
+2026-10-21 14:00:12,224 [regression_high] DONE AdaBoostRegressor: CV neg_rmse=-4.6349; holdout {'rows': 51, 'mae': 3.140367011190197, 'rmse': 3.887022552977254, 'r2': 0.0968384768466799, 'within_5_percent': 82.35294117647058}; 0.1s
+2026-10-21 14:00:12,224 [regression_high] START KNeighborsRegressor: 2 candidates x 2 folds + refit; train=203 holdout=51
+2026-10-21 14:00:12,249 [regression_high] DONE KNeighborsRegressor: CV neg_rmse=-4.6478; holdout {'rows': 51, 'mae': 3.0098734541285785, 'rmse': 3.9395541261650564, 'r2': 0.07226177742986528, 'within_5_percent': 82.35294117647058}; 0.0s
+2026-10-21 14:00:12,249 [regression_high] START XGBRegressor: 2 candidates x 2 folds + refit; train=203 holdout=51
+2026-10-21 14:00:12,303 [regression_high] DONE XGBRegressor: CV neg_rmse=-4.6410; holdout {'rows': 51, 'mae': 3.2047550678253174, 'rmse': 4.000949270142757, 'r2': 0.04312020540237427, 'within_5_percent': 86.27450980392157}; 0.1s
+2026-10-21 14:00:12,356 [regression_high] Selected ElasticNet using neg_rmse from training folds only
+2026-10-21 14:00:12,363 regression_high: cell 3 finished
+2026-10-21 14:00:12,367 regression_high: cell 4 finished
+2026-10-21 14:00:14,986 DONE NOTEBOOK pipeline_notebooks/regression_70to100_model.ipynb (5.7s)
+2026-10-21 14:00:14,987 START NOTEBOOK pipeline_notebooks/combined_pipeline.ipynb
+2026-10-21 14:00:15,518 Executing notebook with kernel: 
+2026-10-21 14:00:16,553 combined: cell 1 finished
+2026-10-21 14:00:16,635 [combined] Combined holdout: 201 shortlisted / 1600; metrics {'rows': 1600, 'actual_hits': 51, 'predicted_hits': 201, 'accuracy': 0.89375, 'balanced_accuracy': 0.8503145609438094, 'hit_precision': 0.20398009950248755, 'hit_recall': 0.803921568627451, 'hit_f1': 0.3253968253968254, 'confusion_matrix': [[1389, 160], [10, 41]], 'average_precision': 0.2482557858716623, 'roc_auc': 0.9001126596539197, 'shortlist_regression': {'rows': 201, 'mae': 28.148268362468336, 'rmse': 38.4921767675666, 'r2': -1.0831664971697457, 'within_5_percent': 17.91044776119403}, 'shortlist_mean_baseline': {'rows': 201, 'mae': 28.4354091610911, 'rmse': 38.50364369088886, 'r2': -1.0844078438834805, 'within_5_percent': 18.407960199004975}}
+2026-10-21 14:00:16,643 combined: cell 3 finished
+2026-10-21 14:00:16,648 combined: cell 4 finished
+2026-10-21 14:00:16,863 DONE NOTEBOOK pipeline_notebooks/combined_pipeline.ipynb (1.9s)
+2026-10-21 14:00:16,876 All notebooks completed. Results: /Users/anishech/Projects/ML_Spotify/runs/20261021_135938_718078_smoke/RESULTS.md

@@ -1,0 +1,57 @@
+{
+  "model": "SVC",
+  "best_parameters": {
+    "model__kernel": "rbf",
+    "model__gamma": "auto",
+    "model__C": 100
+  },
+  "cv_selection_metric": "hit_f1",
+  "cv_selection_score": 0.14790459677760392,
+  "train": {
+    "rows": 6400,
+    "actual_hits": 203,
+    "predicted_hits": 310,
+    "accuracy": 0.98140625,
+    "balanced_accuracy": 0.976104360047091,
+    "hit_precision": 0.635483870967742,
+    "hit_recall": 0.9704433497536946,
+    "hit_f1": 0.7680311890838206,
+    "confusion_matrix": [
+      [
+        6084,
+        113
+      ],
+      [
+        6,
+        197
+      ]
+    ],
+    "average_precision": 0.8557735017564492,
+    "roc_auc": 0.9944192764495134
+  },
+  "test": {
+    "rows": 1600,
+    "actual_hits": 51,
+    "predicted_hits": 76,
+    "accuracy": 0.934375,
+    "balanced_accuracy": 0.5868618590108736,
+    "hit_precision": 0.14473684210526316,
+    "hit_recall": 0.21568627450980393,
+    "hit_f1": 0.1732283464566929,
+    "confusion_matrix": [
+      [
+        1484,
+        65
+      ],
+      [
+        40,
+        11
+      ]
+    ],
+    "average_precision": 0.10154263239550777,
+    "roc_auc": 0.7607691236597931
+  },
+  "seconds": 0.9188180000055581,
+  "candidates": 2,
+  "pca_components": 13
+}

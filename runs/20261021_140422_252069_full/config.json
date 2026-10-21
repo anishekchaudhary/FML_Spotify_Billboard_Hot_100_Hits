@@ -1,0 +1,37 @@
+{
+  "profile": "full",
+  "description": "All cleaned rows and all valid model families; 30 candidates per family, five-fold validation.",
+  "seed": 42,
+  "sample_rows": null,
+  "test_size": 0.2,
+  "hit_threshold": 70,
+  "cv_folds": 5,
+  "n_jobs": 2,
+  "native_threads": 1,
+  "classification_iterations": 30,
+  "regression_iterations": 30,
+  "high_regression_iterations": 30,
+  "cell_timeout_seconds": -1,
+  "classifier_models": [
+    "LogisticRegression",
+    "DecisionTreeClassifier",
+    "RandomForestClassifier",
+    "SVC",
+    "KNeighborsClassifier",
+    "GaussianNB",
+    "GradientBoostingClassifier",
+    "XGBClassifier",
+    "MLPClassifier",
+    "BaggingClassifier"
+  ],
+  "regressor_models": [
+    "Lasso",
+    "Ridge",
+    "ElasticNet",
+    "RandomForestRegressor",
+    "GradientBoostingRegressor",
+    "AdaBoostRegressor",
+    "KNeighborsRegressor",
+    "XGBRegressor"
+  ]
+}

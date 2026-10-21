@@ -1,0 +1,100 @@
+
+CELL 1
+Profile: smoke
+Artifacts: /Users/anishech/Projects/ML_Spotify/runs/20261021_135938_718078_smoke
+   Unnamed: 0                track_id                 artists  \
+0           0  5SuOikwiRyPMVoIQDJUgSV             Gen Hoshino   
+1           1  4qPNDBW1i3p13qLCt0Ki3A            Ben Woodward   
+2           2  1iJBSr7s7jYXzM8EGcbK5b  Ingrid Michaelson;ZAYN   
+3           3  6lfxq3CG4xtTiEg7opyCyx            Kina Grannis   
+4           4  5vjLSffimiIP26QG5WcN2K        Chord Overstreet   
+
+                                          album_name  \
+0                                             Comedy   
+1                                   Ghost (Acoustic)   
+2                                     To Begin Again   
+3  Crazy Rich Asians (Original Motion Picture Sou...   
+4                                            Hold On   
+
+                   track_name  popularity  duration_ms  explicit  \
+0                      Comedy          73       230666     False   
+1            Ghost - Acoustic          55       149610     False   
+2              To Begin Again          57       210826     False   
+3  Can't Help Falling In Love          71       201933     False   
+4                     Hold On          82       198853     False   
+
+   danceability  energy  ...  loudness  mode  speechiness  acousticness  \
+0         0.676  0.4610  ...    -6.746     0       0.1430        0.0322   
+1         0.420  0.1660  ...   -17.235     1       0.0763        0.9240   
+2         0.438  0.3590  ...    -9.734     1       0.0557        0.2100   
+3         0.266  0.0596  ...   -18.515     1       0.0363        0.9050   
+4         0.618  0.4430  ...    -9.681     1       0.0526        0.4690   
+
+   instrumentalness  liveness  valence    tempo  time_signature  track_genre  
+0          0.000001    0.3580    0.715   87.917               4     acoustic  
+1          0.000006    0.1010    0.267   77.489               4     acoustic  
+2          0.000000    0.1170    0.120   76.332               4     acoustic  
+3          0.000071    0.1320    0.143  181.740               3     acoustic  
+4          0.000000    0.0829    0.167  119.949               4     acoustic  
+
+[5 rows x 21 columns]
+
+CELL 3
+after_missing_values: 113999 rows
+after_dedup_track_id: 89740 rows
+after_dedup_artists_album_name_track_name: 89379 rows
+after_dedup_artists_track_name: 81343 rows
+after_dedup_album_name_track_name: 80279 rows
+after_speechiness: 79433 rows
+after_instrumentalness: 74203 rows
+after_liveness: 71945 rows
+after_nonzero_duration: 71945 rows
+Prepared 8000 modeling rows; 6400 train / 1600 holdout; hits 203 / 51
+                                                                                       value
+raw_rows                                                                              114000
+after_missing_values                                                                  113999
+after_dedup_track_id                                                                   89740
+after_dedup_artists_album_name_track_name                                              89379
+after_dedup_artists_track_name                                                         81343
+after_dedup_album_name_track_name                                                      80279
+after_speechiness                                                                      79433
+after_instrumentalness                                                                 74203
+after_liveness                                                                         71945
+after_nonzero_duration                                                                 71945
+cleaned_rows                                                                           71945
+modeling_rows                                                                           8000
+train_rows                                                                              6400
+test_rows                                                                               1600
+modeling_hits                                                                            254
+train_hits                                                                               203
+test_hits                                                                                 51
+source_sha256                              0789cc80067f3daa754ecdf15cdbab6fbaedc0a5fd5263...
+split_sha256                               076543547df1983446c1797016090a555f0354beaf9055...
+matches_original_processed_values                                                       True
+
+CELL 4
+Training shape: (6400, 16) Holdout shape: (1600, 16)
+        duration_ms  explicit  danceability  energy  key  loudness  mode  \
+row_id                                                                     
+63           222146         0         0.705   0.347    2    -8.249     1   
+104          199019         0         0.728   0.266    8    -7.322     1   
+114          212386         0         0.418   0.790    4    -6.599     0   
+152          249120         0         0.636   0.625   11    -7.895     1   
+165          216853         0         0.606   0.540    7    -6.271     0   
+
+        speechiness  acousticness  instrumentalness  liveness  valence  \
+row_id                                                                   
+63           0.0301        0.6740          0.000000     0.120    0.360   
+104          0.0293        0.8720          0.000010     0.114    0.307   
+114          0.0506        0.0284          0.000010     0.117    0.197   
+152          0.0277        0.2220          0.000053     0.119    0.342   
+165          0.0339        0.1820          0.000144     0.144    0.249   
+
+          tempo  time_signature track_genre  popularity  
+row_id                                                   
+63       80.057               4    acoustic          64  
+104     115.189               4    acoustic          60  
+114     175.975               4    acoustic          53  
+152      93.931               4    acoustic          56  
+165      79.952               4    acoustic          55  
+<IPython.core.display.Image object>

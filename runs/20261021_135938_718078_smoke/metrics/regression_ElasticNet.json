@@ -1,0 +1,28 @@
+{
+  "model": "ElasticNet",
+  "best_parameters": {
+    "model__tol": 0.01,
+    "model__max_iter": 5000,
+    "model__l1_ratio": 0.7999999999999999,
+    "model__alpha": 0.000145082877849594
+  },
+  "cv_selection_metric": "neg_rmse",
+  "cv_selection_score": -15.677364240217312,
+  "train": {
+    "rows": 6400,
+    "mae": 10.908461219850146,
+    "rmse": 15.313558395834406,
+    "r2": 0.39227231448705635,
+    "within_5_percent": 37.390625
+  },
+  "test": {
+    "rows": 1600,
+    "mae": 11.188433634576551,
+    "rmse": 15.509924664978595,
+    "r2": 0.36133470138753887,
+    "within_5_percent": 36.0
+  },
+  "seconds": 0.03591854099795455,
+  "candidates": 2,
+  "pca_components": 13
+}

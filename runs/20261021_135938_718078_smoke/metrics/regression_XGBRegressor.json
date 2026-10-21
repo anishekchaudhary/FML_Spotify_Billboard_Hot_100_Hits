@@ -1,0 +1,32 @@
+{
+  "model": "XGBRegressor",
+  "best_parameters": {
+    "model__subsample": 0.6,
+    "model__reg_lambda": 1,
+    "model__reg_alpha": 1.0,
+    "model__n_estimators": 30,
+    "model__max_depth": 4,
+    "model__learning_rate": 0.01,
+    "model__gamma": 0,
+    "model__colsample_bytree": 0.6
+  },
+  "cv_selection_metric": "neg_rmse",
+  "cv_selection_score": -18.767454147338867,
+  "train": {
+    "rows": 6400,
+    "mae": 15.366464614868164,
+    "rmse": 18.657144751889792,
+    "r2": 0.09791558980941772,
+    "within_5_percent": 17.25
+  },
+  "test": {
+    "rows": 1600,
+    "mae": 15.357359886169434,
+    "rmse": 18.560046101216905,
+    "r2": 0.08544039726257324,
+    "within_5_percent": 17.9375
+  },
+  "seconds": 0.10601920800399967,
+  "candidates": 2,
+  "pca_components": 13
+}

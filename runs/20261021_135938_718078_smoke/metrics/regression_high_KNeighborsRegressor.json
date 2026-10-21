@@ -1,0 +1,27 @@
+{
+  "model": "KNeighborsRegressor",
+  "best_parameters": {
+    "model__weights": "distance",
+    "model__n_neighbors": 15,
+    "model__metric": "euclidean"
+  },
+  "cv_selection_metric": "neg_rmse",
+  "cv_selection_score": -4.6477758066561785,
+  "train": {
+    "rows": 203,
+    "mae": 1.9145120879395277,
+    "rmse": 3.015150834622105,
+    "r2": 0.5999848766133348,
+    "within_5_percent": 93.59605911330048
+  },
+  "test": {
+    "rows": 51,
+    "mae": 3.0098734541285785,
+    "rmse": 3.9395541261650564,
+    "r2": 0.07226177742986528,
+    "within_5_percent": 82.35294117647058
+  },
+  "seconds": 0.023728667001705617,
+  "candidates": 2,
+  "pca_components": 13
+}

@@ -1,0 +1,36 @@
+{
+  "rows": 1600,
+  "actual_hits": 51,
+  "predicted_hits": 201,
+  "accuracy": 0.89375,
+  "balanced_accuracy": 0.8503145609438094,
+  "hit_precision": 0.20398009950248755,
+  "hit_recall": 0.803921568627451,
+  "hit_f1": 0.3253968253968254,
+  "confusion_matrix": [
+    [
+      1389,
+      160
+    ],
+    [
+      10,
+      41
+    ]
+  ],
+  "average_precision": 0.2482557858716623,
+  "roc_auc": 0.9001126596539197,
+  "shortlist_regression": {
+    "rows": 201,
+    "mae": 28.148268362468336,
+    "rmse": 38.4921767675666,
+    "r2": -1.0831664971697457,
+    "within_5_percent": 17.91044776119403
+  },
+  "shortlist_mean_baseline": {
+    "rows": 201,
+    "mae": 28.4354091610911,
+    "rmse": 38.50364369088886,
+    "r2": -1.0844078438834805,
+    "within_5_percent": 18.407960199004975
+  }
+}

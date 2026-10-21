@@ -1,0 +1,27 @@
+{
+  "model": "AdaBoostRegressor",
+  "best_parameters": {
+    "model__n_estimators": 250,
+    "model__loss": "exponential",
+    "model__learning_rate": 0.01
+  },
+  "cv_selection_metric": "neg_rmse",
+  "cv_selection_score": -4.570754806888444,
+  "train": {
+    "rows": 1825,
+    "mae": 3.4935272911271937,
+    "rmse": 4.401705781850277,
+    "r2": 0.18479098647127423,
+    "within_5_percent": 80.10958904109589
+  },
+  "test": {
+    "rows": 456,
+    "mae": 3.566259817015947,
+    "rmse": 4.34898303663437,
+    "r2": 0.1253817431946318,
+    "within_5_percent": 80.04385964912281
+  },
+  "seconds": 9.355899792004493,
+  "candidates": 30,
+  "pca_components": 13
+}

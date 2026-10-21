@@ -1,0 +1,9 @@
+
+CELL 1
+Profile: full
+Artifacts: /Users/anishech/Projects/ML_Spotify/runs/20261021_140544_769703_full
+Training class counts:
+popularity
+False    55731
+True      1825
+Name: count, dtype: int64

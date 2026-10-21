@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+# Keep experiment reports and metrics, but exclude trained binaries and caches.
+runs/**/models/
+runs/**/runtime/
+.DS_Store

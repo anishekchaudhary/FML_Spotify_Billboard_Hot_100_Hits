@@ -1,0 +1,31 @@
+{
+  "model": "GradientBoostingRegressor",
+  "best_parameters": {
+    "model__subsample": 0.6,
+    "model__n_estimators": 30,
+    "model__min_samples_split": 10,
+    "model__min_samples_leaf": 2,
+    "model__max_features": null,
+    "model__max_depth": 4,
+    "model__learning_rate": 0.005
+  },
+  "cv_selection_metric": "neg_rmse",
+  "cv_selection_score": -4.663930454521121,
+  "train": {
+    "rows": 203,
+    "mae": 3.5375792137878017,
+    "rmse": 4.563666627238666,
+    "r2": 0.08359774475618642,
+    "within_5_percent": 84.23645320197043
+  },
+  "test": {
+    "rows": 51,
+    "mae": 3.2650470513006074,
+    "rmse": 4.053314901605246,
+    "r2": 0.017908398607580756,
+    "within_5_percent": 84.31372549019608
+  },
+  "seconds": 0.061000874993624166,
+  "candidates": 2,
+  "pca_components": 13
+}

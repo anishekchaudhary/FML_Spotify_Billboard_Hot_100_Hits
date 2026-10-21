@@ -1,0 +1,158 @@
+[
+  {
+    "stage": "classification",
+    "model": "LogisticRegression",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "classification",
+    "model": "DecisionTreeClassifier",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "classification",
+    "model": "RandomForestClassifier",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "classification",
+    "model": "SVC",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "classification",
+    "model": "KNeighborsClassifier",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "classification",
+    "model": "GaussianNB",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "classification",
+    "model": "GradientBoostingClassifier",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "classification",
+    "model": "XGBClassifier",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "classification",
+    "model": "MLPClassifier",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "classification",
+    "model": "BaggingClassifier",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression",
+    "model": "Lasso",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression",
+    "model": "Ridge",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression",
+    "model": "ElasticNet",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression",
+    "model": "RandomForestRegressor",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression",
+    "model": "GradientBoostingRegressor",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression",
+    "model": "AdaBoostRegressor",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression",
+    "model": "KNeighborsRegressor",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression",
+    "model": "XGBRegressor",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression_high",
+    "model": "Lasso",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression_high",
+    "model": "Ridge",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression_high",
+    "model": "ElasticNet",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression_high",
+    "model": "RandomForestRegressor",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression_high",
+    "model": "GradientBoostingRegressor",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression_high",
+    "model": "AdaBoostRegressor",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression_high",
+    "model": "KNeighborsRegressor",
+    "candidates": 2,
+    "fits_including_refit": 5
+  },
+  {
+    "stage": "regression_high",
+    "model": "XGBRegressor",
+    "candidates": 2,
+    "fits_including_refit": 5
+  }
+]

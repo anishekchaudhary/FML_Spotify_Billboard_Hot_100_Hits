@@ -1,0 +1,27 @@
+{
+  "model": "Ridge",
+  "best_parameters": {
+    "model__tol": 0.0001,
+    "model__max_iter": 1000,
+    "model__alpha": 0.572236765935022
+  },
+  "cv_selection_metric": "neg_rmse",
+  "cv_selection_score": -4.447047569243603,
+  "train": {
+    "rows": 1825,
+    "mae": 3.3211046664411645,
+    "rmse": 4.290855988944099,
+    "r2": 0.2253334023466076,
+    "within_5_percent": 79.45205479452055
+  },
+  "test": {
+    "rows": 456,
+    "mae": 3.259327123814504,
+    "rmse": 4.043791145411581,
+    "r2": 0.24382808160821967,
+    "within_5_percent": 82.23684210526315
+  },
+  "seconds": 0.14632812498894054,
+  "candidates": 30,
+  "pca_components": 13
+}

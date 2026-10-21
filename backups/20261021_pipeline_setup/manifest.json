@@ -1,0 +1,29 @@
+{
+  "created_before_existing_file_edits": true,
+  "purpose": "Backups of the original notebooks and README. Only README is edited; automated execution uses corrected copies in pipeline_notebooks/.",
+  "sha256": {
+    "README.md": "e8b6a0024fda84ef00aad35a14c3b2ffd575836123220749a472a57a6eb01d73",
+    "classification_model.ipynb": "496310d078e3e417466eb06dce7d7266ce5b2b0509cac2d2d53ef18ae078289c",
+    "combined_pipeline.ipynb": "7a790ca8a93354e1cbfada704e63f084845d2338908e6f07328f1a2573b55441",
+    "data_processing.ipynb": "7560ad7081a3a1903486b902d08869d4b4bde5f77835e4fec3abef2dfc084094",
+    "regression_70to100_model.ipynb": "56838c8dba51b683be288611360e34f83fc91f04494d3db01afad769b92cd931",
+    "regression_model.ipynb": "2bc2b11fefbfd21710394be51bec0eb938a4ca98a468ccee313533075abb602b"
+  },
+  "original_search_budgets_per_family": {
+    "classification": 600,
+    "regression": 3000,
+    "regression_high": 1500,
+    "combined_classifier": 1500
+  },
+  "changes": [
+    "README: replace the historical write-up with current setup, commands, execution flow and evaluation notes.",
+    "Root notebooks: retained unchanged, with copies also preserved here.",
+    "Corrected notebook copies: execute modular helpers with run-scoped outputs and logging.",
+    "Shared stratified holdout and real cross-validation replace training-on-training parameter selection.",
+    "Fold-local cross-fitted genre encoding, scaling and PCA are persisted with each estimator.",
+    "Combined stage reuses the CV-selected classifier and loads a complete high-popularity regression pipeline.",
+    "Class weighting where supported and hit-class F1 replace overall accuracy as classifier selection criteria.",
+    "Invalid empty voting estimator and unsupported parameter combinations are removed.",
+    "Full profile uses all data with a practical 30-candidate budget; original_budget retains original search counts with corrected evaluation."
+  ]
+}

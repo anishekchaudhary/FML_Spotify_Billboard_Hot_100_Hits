@@ -1,0 +1,55 @@
+{
+  "model": "GaussianNB",
+  "best_parameters": {
+    "model__var_smoothing": 7.742636826811278e-09
+  },
+  "cv_selection_metric": "hit_f1",
+  "cv_selection_score": 0.24781771789247503,
+  "train": {
+    "rows": 6400,
+    "actual_hits": 203,
+    "predicted_hits": 294,
+    "accuracy": 0.94890625,
+    "balanced_accuracy": 0.6924966076863824,
+    "hit_precision": 0.2891156462585034,
+    "hit_recall": 0.4187192118226601,
+    "hit_f1": 0.3420523138832998,
+    "confusion_matrix": [
+      [
+        5988,
+        209
+      ],
+      [
+        118,
+        85
+      ]
+    ],
+    "average_precision": 0.2669009461752576,
+    "roc_auc": 0.8925059877216928
+  },
+  "test": {
+    "rows": 1600,
+    "actual_hits": 51,
+    "predicted_hits": 70,
+    "accuracy": 0.950625,
+    "balanced_accuracy": 0.6900656970341397,
+    "hit_precision": 0.3,
+    "hit_recall": 0.4117647058823529,
+    "hit_f1": 0.34710743801652894,
+    "confusion_matrix": [
+      [
+        1500,
+        49
+      ],
+      [
+        30,
+        21
+      ]
+    ],
+    "average_precision": 0.2561789910144434,
+    "roc_auc": 0.9090115064747655
+  },
+  "seconds": 0.06350220899912529,
+  "candidates": 2,
+  "pca_components": 13
+}

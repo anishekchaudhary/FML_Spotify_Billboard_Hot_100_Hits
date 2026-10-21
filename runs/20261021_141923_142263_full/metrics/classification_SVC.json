@@ -1,0 +1,57 @@
+{
+  "model": "SVC",
+  "best_parameters": {
+    "model__kernel": "linear",
+    "model__gamma": "scale",
+    "model__C": 0.1
+  },
+  "cv_selection_metric": "hit_f1",
+  "cv_selection_score": 0.2877211092654752,
+  "train": {
+    "rows": 57556,
+    "actual_hits": 1825,
+    "predicted_hits": 6834,
+    "accuracy": 0.8937903954409618,
+    "balanced_accuracy": 0.7988756804641081,
+    "hit_precision": 0.18627450980392157,
+    "hit_recall": 0.6975342465753425,
+    "hit_f1": 0.2940293336412981,
+    "confusion_matrix": [
+      [
+        50170,
+        5561
+      ],
+      [
+        552,
+        1273
+      ]
+    ],
+    "average_precision": 0.2579787920180292,
+    "roc_auc": 0.9105393840225171
+  },
+  "test": {
+    "rows": 14389,
+    "actual_hits": 456,
+    "predicted_hits": 1738,
+    "accuracy": 0.8882479671971645,
+    "balanced_accuracy": 0.7694166222813188,
+    "hit_precision": 0.16858457997698503,
+    "hit_recall": 0.6425438596491229,
+    "hit_f1": 0.2670920692798541,
+    "confusion_matrix": [
+      [
+        12488,
+        1445
+      ],
+      [
+        163,
+        293
+      ]
+    ],
+    "average_precision": 0.22739608703350375,
+    "roc_auc": 0.8985775125569611
+  },
+  "seconds": 2897.344128249999,
+  "candidates": 30,
+  "pca_components": 13
+}

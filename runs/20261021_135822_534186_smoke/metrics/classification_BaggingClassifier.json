@@ -1,0 +1,59 @@
+{
+  "model": "BaggingClassifier",
+  "best_parameters": {
+    "model__n_estimators": 10,
+    "model__max_samples": 0.7,
+    "model__max_features": 0.7,
+    "model__bootstrap_features": false,
+    "model__bootstrap": false
+  },
+  "cv_selection_metric": "hit_f1",
+  "cv_selection_score": 0.06356356356356356,
+  "train": {
+    "rows": 6400,
+    "actual_hits": 203,
+    "predicted_hits": 68,
+    "accuracy": 0.97859375,
+    "balanced_accuracy": 0.6649439463398387,
+    "hit_precision": 0.9852941176470589,
+    "hit_recall": 0.33004926108374383,
+    "hit_f1": 0.4944649446494465,
+    "confusion_matrix": [
+      [
+        6196,
+        1
+      ],
+      [
+        136,
+        67
+      ]
+    ],
+    "average_precision": 0.7328380112577719,
+    "roc_auc": 0.9611960657906138
+  },
+  "test": {
+    "rows": 1600,
+    "actual_hits": 51,
+    "predicted_hits": 5,
+    "accuracy": 0.965,
+    "balanced_accuracy": 0.4983860555196901,
+    "hit_precision": 0.0,
+    "hit_recall": 0.0,
+    "hit_f1": 0.0,
+    "confusion_matrix": [
+      [
+        1544,
+        5
+      ],
+      [
+        51,
+        0
+      ]
+    ],
+    "average_precision": 0.11635546669683619,
+    "roc_auc": 0.7985480828871252
+  },
+  "seconds": 0.4491817920061294,
+  "candidates": 2,
+  "pca_components": 13
+}

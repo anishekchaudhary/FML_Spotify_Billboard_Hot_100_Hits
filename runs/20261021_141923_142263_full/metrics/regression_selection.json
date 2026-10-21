@@ -1,0 +1,15 @@
+{
+  "model": "XGBRegressor",
+  "metric": "neg_rmse",
+  "cv_score": -15.619061470031738,
+  "selected_using": "training cross-validation only",
+  "train_rows": 57556,
+  "holdout_rows": 14389,
+  "baseline": {
+    "rows": 14389,
+    "mae": 16.27409928620687,
+    "rmse": 19.61459640612845,
+    "r2": -6.106898014346385e-05,
+    "within_5_percent": 16.199874904440893
+  }
+}

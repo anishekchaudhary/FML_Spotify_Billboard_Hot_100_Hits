@@ -1,0 +1,74 @@
+2026-10-21 13:58:03,124 Run directory: /Users/anishech/Projects/ML_Spotify/runs/20261021_135803_121739_smoke
+2026-10-21 13:58:09,068 Matplotlib is building the font cache; this may take a moment.
+2026-10-21 13:58:13,678 Verified 13 dependencies in /Users/anishech/Projects/ML_Spotify/.venv/bin/python
+2026-10-21 13:58:13,824 Search budget: 130 model fits, 2 folds, 2 workers; sample_rows=8000
+2026-10-21 13:58:13,844 START NOTEBOOK pipeline_notebooks/data_processing.ipynb
+2026-10-21 13:58:13,852 [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_client/manager.py", line 107, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_client/manager.py", line 528, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_client/manager.py", line 493, in _async_pre_start_kernel
+    kw = await self.provisioner.pre_launch(**kw)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_client/provisioning/local_provisioner.py", line 216, in pre_launch
+    km.shell_port = lpc.find_available_port(km.ip)
+                    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_client/connect.py", line 755, in find_available_port
+    tmp_sock.bind((ip, 0))
+    ~~~~~~~~~~~~~^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted
+2026-10-21 13:58:13,858 Pipeline stopped: [Errno 1] Operation not permitted
+Traceback (most recent call last):
+  File "/Users/anishech/Projects/ML_Spotify/run_pipeline.py", line 215, in main
+    client.execute(cwd=str(ROOT), env=env, stdout=kernel_output, stderr=subprocess.STDOUT)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/base_events.py", line 720, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/nbclient/client.py", line 693, in async_execute
+    async with self.async_setup_kernel(**kwargs):
+               ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/contextlib.py", line 214, in __aenter__
+    return await anext(self.gen)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/nbclient/client.py", line 648, in async_setup_kernel
+    await self.async_start_new_kernel(**kwargs)
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/nbclient/client.py", line 550, in async_start_new_kernel
+    await ensure_async(self.km.start_kernel(extra_arguments=self.extra_arguments, **kwargs))
+                       ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_core/utils/__init__.py", line 171, in wrapped
+    return _runner_map[name].run(inner)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_core/utils/__init__.py", line 128, in run
+    return fut.result(None)
+           ~~~~~~~~~~^^^^^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 454, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 396, in __get_result
+    raise self._exception
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_client/manager.py", line 116, in wrapper
+    raise e
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_client/manager.py", line 107, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_client/manager.py", line 528, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_client/manager.py", line 493, in _async_pre_start_kernel
+    kw = await self.provisioner.pre_launch(**kw)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_client/provisioning/local_provisioner.py", line 216, in pre_launch
+    km.shell_port = lpc.find_available_port(km.ip)
+                    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/jupyter_client/connect.py", line 755, in find_available_port
+    tmp_sock.bind((ip, 0))
+    ~~~~~~~~~~~~~^^^^^^^^^
+PermissionError: [Errno 1] Operation not permitted

@@ -1,0 +1,48 @@
+{
+  "status": "interrupted",
+  "started_at": "2026-10-21T14:04:22.253747+05:30",
+  "profile": "full",
+  "run_dir": "/Users/anishech/Projects/ML_Spotify/runs/20261021_140422_252069_full",
+  "config_source": "/Users/anishech/Projects/ML_Spotify/configs/full.json",
+  "config": {
+    "profile": "full",
+    "description": "All cleaned rows and all valid model families; 30 candidates per family, five-fold validation.",
+    "seed": 42,
+    "sample_rows": null,
+    "test_size": 0.2,
+    "hit_threshold": 70,
+    "cv_folds": 5,
+    "n_jobs": 2,
+    "native_threads": 1,
+    "classification_iterations": 30,
+    "regression_iterations": 30,
+    "high_regression_iterations": 30,
+    "cell_timeout_seconds": -1,
+    "classifier_models": [
+      "LogisticRegression",
+      "DecisionTreeClassifier",
+      "RandomForestClassifier",
+      "SVC",
+      "KNeighborsClassifier",
+      "GaussianNB",
+      "GradientBoostingClassifier",
+      "XGBClassifier",
+      "MLPClassifier",
+      "BaggingClassifier"
+    ],
+    "regressor_models": [
+      "Lasso",
+      "Ridge",
+      "ElasticNet",
+      "RandomForestRegressor",
+      "GradientBoostingRegressor",
+      "AdaBoostRegressor",
+      "KNeighborsRegressor",
+      "XGBRegressor"
+    ]
+  },
+  "stages": [],
+  "source_sha256": {},
+  "finished_at": "2026-10-21T14:04:22.677444+05:30",
+  "seconds": 0.42355454200151144
+}

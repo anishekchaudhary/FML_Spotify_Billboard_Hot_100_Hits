@@ -1,0 +1,49 @@
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[CV] END ....................................model__C=0.0001; total time=   0.0s
+[CV] END ....................................model__C=0.0001; total time=   0.0s
+[CV] END ..........................model__C=1438.44988828766; total time=   0.0s
+[CV] END ..........................model__C=1438.44988828766; total time=   0.0s
+[CV] END model__criterion=entropy, model__max_depth=5, model__max_features=None, model__min_samples_leaf=2, model__min_samples_split=10; total time=   0.0s
+[CV] END model__criterion=entropy, model__max_depth=5, model__max_features=None, model__min_samples_leaf=2, model__min_samples_split=10; total time=   0.0s
+[CV] END model__criterion=gini, model__max_depth=5, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.0s
+[CV] END model__criterion=gini, model__max_depth=5, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.0s
+[CV] END model__max_depth=5, model__max_features=sqrt, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=30; total time=   0.1s
+[CV] END model__max_depth=5, model__max_features=sqrt, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=30; total time=   0.1s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=30; total time=   0.1s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=30; total time=   0.1s
+[CV] END .model__C=100, model__gamma=auto, model__kernel=rbf; total time=   0.1s
+[CV] END .model__C=100, model__gamma=auto, model__kernel=rbf; total time=   0.1s
+[CV] END model__C=1, model__gamma=auto, model__kernel=sigmoid; total time=   0.2s
+[CV] END model__C=1, model__gamma=auto, model__kernel=sigmoid; total time=   0.2s
+[CV] END model__metric=minkowski, model__n_neighbors=9, model__weights=distance; total time=   0.1s
+[CV] END model__metric=minkowski, model__n_neighbors=9, model__weights=distance; total time=   0.1s
+[CV] END model__metric=manhattan, model__n_neighbors=7, model__weights=distance; total time=   0.2s
+[CV] END model__metric=manhattan, model__n_neighbors=7, model__weights=distance; total time=   0.2s
+[CV] END ..........model__var_smoothing=0.012915496650148827; total time=   0.0s
+[CV] END ..........model__var_smoothing=0.012915496650148827; total time=   0.0s
+[CV] END .........model__var_smoothing=7.742636826811278e-09; total time=   0.0s
+[CV] END .........model__var_smoothing=7.742636826811278e-09; total time=   0.0s
+[CV] END model__learning_rate=0.001, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=30, model__subsample=0.6; total time=   0.2s
+[CV] END model__learning_rate=0.001, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=30, model__subsample=0.6; total time=   0.2s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=30, model__subsample=0.6; total time=   0.1s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=30, model__subsample=0.6; total time=   0.1s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.1, model__learning_rate=0.2, model__max_depth=4, model__n_estimators=50, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.0s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.1, model__learning_rate=0.2, model__max_depth=4, model__n_estimators=50, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.0s
+[CV] END model__colsample_bytree=1.0, model__gamma=0, model__learning_rate=0.1, model__max_depth=4, model__n_estimators=50, model__reg_alpha=0.5, model__reg_lambda=1, model__subsample=0.8; total time=   0.0s
+[CV] END model__colsample_bytree=1.0, model__gamma=0, model__learning_rate=0.1, model__max_depth=4, model__n_estimators=50, model__reg_alpha=0.5, model__reg_lambda=1, model__subsample=0.8; total time=   0.0s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (100) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(30,), model__solver=adam; total time=   0.2s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (100) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(30,), model__solver=adam; total time=   0.2s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (100) reached and the optimization hasn't converged yet.
+  warnings.warn(
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (100) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(30,), model__solver=adam; total time=   0.2s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(30,), model__solver=adam; total time=   0.2s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=10; total time=   0.1s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=10; total time=   0.1s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=10; total time=   0.1s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=10; total time=   0.1s

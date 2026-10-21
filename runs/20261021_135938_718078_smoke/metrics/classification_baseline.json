@@ -1,0 +1,22 @@
+{
+  "rows": 1600,
+  "actual_hits": 51,
+  "predicted_hits": 0,
+  "accuracy": 0.968125,
+  "balanced_accuracy": 0.5,
+  "hit_precision": 0.0,
+  "hit_recall": 0.0,
+  "hit_f1": 0.0,
+  "confusion_matrix": [
+    [
+      1549,
+      0
+    ],
+    [
+      51,
+      0
+    ]
+  ],
+  "average_precision": 0.031875,
+  "roc_auc": 0.5
+}

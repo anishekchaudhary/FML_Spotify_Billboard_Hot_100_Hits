@@ -1,0 +1,17 @@
+2026-10-21 13:58:45,864 [regression] START Lasso: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:58:46,796 [regression] DONE Lasso: CV neg_rmse=-15.6789; holdout {'rows': 1600, 'mae': 11.204622219316034, 'rmse': 15.511162476107353, 'r2': 0.3612327565261533, 'within_5_percent': 35.6875}; 0.9s
+2026-10-21 13:58:46,796 [regression] START Ridge: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:58:46,837 [regression] DONE Ridge: CV neg_rmse=-15.6774; holdout {'rows': 1600, 'mae': 11.188314099654285, 'rmse': 15.509923131283461, 'r2': 0.3613348276960584, 'within_5_percent': 36.0}; 0.0s
+2026-10-21 13:58:46,837 [regression] START ElasticNet: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:58:46,875 [regression] DONE ElasticNet: CV neg_rmse=-15.6774; holdout {'rows': 1600, 'mae': 11.188433634576551, 'rmse': 15.509924664978595, 'r2': 0.36133470138753887, 'within_5_percent': 36.0}; 0.0s
+2026-10-21 13:58:46,875 [regression] START RandomForestRegressor: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:58:47,312 [regression] DONE RandomForestRegressor: CV neg_rmse=-16.2744; holdout {'rows': 1600, 'mae': 12.053663365570674, 'rmse': 15.86172137282167, 'r2': 0.33203366240273535, 'within_5_percent': 27.500000000000004}; 0.4s
+2026-10-21 13:58:47,313 [regression] START GradientBoostingRegressor: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:58:47,716 [regression] DONE GradientBoostingRegressor: CV neg_rmse=-16.1109; holdout {'rows': 1600, 'mae': 11.659119515653986, 'rmse': 15.678919393357447, 'r2': 0.34734120050839323, 'within_5_percent': 30.9375}; 0.4s
+2026-10-21 13:58:47,716 [regression] START AdaBoostRegressor: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:58:49,123 [regression] DONE AdaBoostRegressor: CV neg_rmse=-17.2548; holdout {'rows': 1600, 'mae': 13.832452198354396, 'rmse': 17.24557077803264, 'r2': 0.2103964564616405, 'within_5_percent': 20.75}; 1.4s
+2026-10-21 13:58:49,123 [regression] START KNeighborsRegressor: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:58:49,526 [regression] DONE KNeighborsRegressor: CV neg_rmse=-16.6930; holdout {'rows': 1600, 'mae': 12.381809199014333, 'rmse': 16.093165617406438, 'r2': 0.3123983590830739, 'within_5_percent': 27.375}; 0.4s
+2026-10-21 13:58:49,527 [regression] START XGBRegressor: 2 candidates x 2 folds + refit; train=6400 holdout=1600
+2026-10-21 13:58:49,624 [regression] DONE XGBRegressor: CV neg_rmse=-18.7675; holdout {'rows': 1600, 'mae': 15.357359886169434, 'rmse': 18.560046101216905, 'r2': 0.08544039726257324, 'within_5_percent': 17.9375}; 0.1s
+2026-10-21 13:58:49,671 [regression] Selected Ridge using neg_rmse from training folds only

@@ -1,0 +1,104 @@
+{
+  "status": "completed",
+  "started_at": "2026-10-21T13:59:38.719725+05:30",
+  "profile": "smoke",
+  "run_dir": "/Users/anishech/Projects/ML_Spotify/runs/20261021_135938_718078_smoke",
+  "config_source": "/Users/anishech/Projects/ML_Spotify/configs/smoke.json",
+  "config": {
+    "profile": "smoke",
+    "description": "Small end-to-end verification; not a full-data experiment.",
+    "seed": 42,
+    "sample_rows": 8000,
+    "test_size": 0.2,
+    "hit_threshold": 70,
+    "cv_folds": 2,
+    "n_jobs": 2,
+    "native_threads": 1,
+    "classification_iterations": 2,
+    "regression_iterations": 2,
+    "high_regression_iterations": 2,
+    "cell_timeout_seconds": 3600,
+    "classifier_models": [
+      "LogisticRegression",
+      "DecisionTreeClassifier",
+      "RandomForestClassifier",
+      "SVC",
+      "KNeighborsClassifier",
+      "GaussianNB",
+      "GradientBoostingClassifier",
+      "XGBClassifier",
+      "MLPClassifier",
+      "BaggingClassifier"
+    ],
+    "regressor_models": [
+      "Lasso",
+      "Ridge",
+      "ElasticNet",
+      "RandomForestRegressor",
+      "GradientBoostingRegressor",
+      "AdaBoostRegressor",
+      "KNeighborsRegressor",
+      "XGBRegressor"
+    ]
+  },
+  "stages": [
+    {
+      "stage": "data_processing",
+      "notebook": "pipeline_notebooks/data_processing.ipynb",
+      "status": "completed",
+      "started_at": "2026-10-21T13:59:49.135518+05:30",
+      "finished_at": "2026-10-21T13:59:51.692558+05:30",
+      "seconds": 2.557255708001321
+    },
+    {
+      "stage": "classification",
+      "notebook": "pipeline_notebooks/classification_model.ipynb",
+      "status": "completed",
+      "started_at": "2026-10-21T13:59:51.692818+05:30",
+      "finished_at": "2026-10-21T14:00:01.358531+05:30",
+      "seconds": 9.666546209002263
+    },
+    {
+      "stage": "regression",
+      "notebook": "pipeline_notebooks/regression_model.ipynb",
+      "status": "completed",
+      "started_at": "2026-10-21T14:00:01.358931+05:30",
+      "finished_at": "2026-10-21T14:00:09.328670+05:30",
+      "seconds": 7.970000458000868
+    },
+    {
+      "stage": "regression_high",
+      "notebook": "pipeline_notebooks/regression_70to100_model.ipynb",
+      "status": "completed",
+      "started_at": "2026-10-21T14:00:09.329073+05:30",
+      "finished_at": "2026-10-21T14:00:14.986006+05:30",
+      "seconds": 5.65690087499388
+    },
+    {
+      "stage": "combined",
+      "notebook": "pipeline_notebooks/combined_pipeline.ipynb",
+      "status": "completed",
+      "started_at": "2026-10-21T14:00:14.986406+05:30",
+      "finished_at": "2026-10-21T14:00:16.863697+05:30",
+      "seconds": 1.87708987500082
+    }
+  ],
+  "source_sha256": {
+    "pipeline_notebooks/data_processing.ipynb": "0b84e541cf0a051d2302d8ae309550d8cb7c6f4bae6a68477a121c4099be706a",
+    "pipeline_notebooks/classification_model.ipynb": "35e7009cf23fb79a5c0111d73db59ea7375bb1ce1b5436f793bd87a49cc9899c",
+    "pipeline_notebooks/regression_model.ipynb": "32c7cf080da1bd8923c6e2cb832e32ad1af6ea5533e9617170be16b1e40be2f4",
+    "pipeline_notebooks/regression_70to100_model.ipynb": "df2e37eabd2b6942500883630ba8fc2710f470e658b6acd901ff8a01f537f425",
+    "pipeline_notebooks/combined_pipeline.ipynb": "f5a71eeefd5550ddd8dec21cdf9ecb5af90e23164dee630f990cb3e0c20c47d9",
+    "pipeline_lib.py": "e5d15ee8cb36cd4f73906945cbe5da7403f339e47d987a00a44e9bcc689284b8",
+    "pipeline_models.py": "c77db6c17757057e55fd179a5846b153831de2972d61b2cbd5f70db323c9e571",
+    "run_pipeline.py": "65fbc8d8d6cdbce5e1df6ded1b6f268854d098aa030613071f9c6747a9907813",
+    "requirements.txt": "b0e053d6de05b061d6e4026c00be4c119ba7ea2171afda895b7917c0470bc4b8",
+    "requirements.lock.txt": "ba73e4240cc5c0ee7cff03203ce7c57046ed8892af9b3c6fd91f2d7f339f62d7"
+  },
+  "input_sha256": {
+    "spotify_tracks_dataset.csv": "0789cc80067f3daa754ecdf15cdbab6fbaedc0a5fd52631e0d09d0665a576936",
+    "spotify_tracks_dataset_processed.csv": "c179bf7f618a0cde71d785001b467e755a9238d44ce6f4d07d7530b14c2103f6"
+  },
+  "finished_at": "2026-10-21T14:00:16.876952+05:30",
+  "seconds": 38.16165954199823
+}

@@ -1,0 +1,652 @@
+row_id,actual_popularity,predicted_popularity,hit_score,track_id,artists,album_name,track_name
+17776,14,81.68141607000115,0.677530167023013,3Xgc0P2nr8h4qkCN8eiK25,Five Star Hotel,Machine Girl / Five Star Hotel,Blister
+20727,0,80.97329241564749,0.9999897904467896,3ym8ZuRQtZ7rSEbXkT3eJE,Ty Dolla $ign;Jhené Aiko;Mustard,20's R'n'B,By Yourself
+81668,84,80.78249400864391,0.9969446271564388,1XGmzt0PVuFgQYYnV2It7A,Maroon 5;Wiz Khalifa,Overexposed Track By Track,Payphone
+68951,83,80.74270395427473,0.9987438974222295,35wvL50xvKpCHEJPxLOLPI,Bad Bunny,X 100PRE,Si Estuviésemos Juntos
+68692,49,80.6941955392049,0.9990147733660774,1qkVJlyVaLZbwolRZmc17i,Kevin Martes 13;Pablo Chill-E,Perco Con Mari,Perco Con Mari
+20600,83,80.62798675475776,0.9999971584483993,6XO8RlYuJCiI0v3IA48FeJ,Marshmello;Juice WRLD,Bye Bye,Bye Bye
+81882,73,80.61700824183967,0.9857998630916425,4TgxFMOn5yoESW6zCidCXL,Jawsh 685;Jason Derulo;BTS,Savage Love (Laxed - Siren Beat) [BTS Remix],Savage Love (Laxed – Siren Beat) [BTS Remix]
+81146,70,80.59275534334287,0.9979215575590106,6PO6EnP2QoP4vN27KmKvrj,Prem Dhillon,No Lookin' Back,Nah They Can’t
+81207,86,80.58277181952761,0.9753695832816257,4iJyoBOLtHqaGxP12qzhQI,Justin Bieber;Daniel Caesar;Giveon,Justice,Peaches (feat. Daniel Caesar & Giveon)
+20669,0,80.5639954157319,0.9999048327470952,2puCdLnS6sKRdbEabw4bjP,Wiz Khalifa,Ghetto Superstar - New Rap Classics,Bad Ass Bitches
+68835,40,80.52739067546831,0.9963529884717556,2mFfut7uFV9zEwAcIZIw0B,Julianno Sosa,L.O.V.E.,Te Vas
+81460,83,80.5083207544831,0.993805276432812,4jPy3l0RUwlUI9T5XHBW2m,24kGoldn;iann dior,El Dorado,Mood (feat. iann dior)
+68979,39,80.49681078372281,0.9968458579197793,5Gv6kUJV6yukwNfK8XikRp,El Futuro Fuera De Orbita;Pablo Chill-E,"Peine Caracol, Vol. 2","Peine Caracol, Vol. 2"
+68682,0,80.45096829782695,0.9979824282844194,0AoSsEotQdgFalXKUuwv3y,"Gotay ""El Autentiko"";Ele A El Dominio",Perreo Tenebroso Vol. 4,Yo Me La Robé
+68928,39,80.3591506550474,0.9918129750066701,4hSHbagV828laWkMeG9bcr,Neo Pistea;0-600;CLUB HATS,Medusa,Medusa
+68674,80,80.31414529648727,0.9989867296748016,5B60XFKzm8WsJTdVyt4u4I,Myke Towers,Luces De Neón,Luces De Neón
+20650,75,80.2847413909,0.9999978992091418,1i36kkhmhBxf4lYJscg5zK,Bazzi,COSMIC,Fantasy
+68616,49,80.1689133582036,0.9863470242531741,2iHjPGTXFJECERi5oucgWQ,Harry Nach,Moods,Poppy
+68734,74,80.16205765511037,0.9967521404135833,4Xtlw8oXkIOvzV7crUBKeZ,Daddy Yankee,Barrio Fino En Directo,Rompe
+81956,86,80.06515451982797,0.9616597827649559,2tGvwE8GcFKwNdAXMnlbfl,Olivia Rodrigo,SOUR,happier
+68817,41,80.06452555130977,0.9933956670868254,1JDOFpGNaLnAd9uCEkgm7S,Drago200;Ak4:20,INMORTALES,MAYBACH
+91269,0,80.06030563781398,0.9996485468970167,7GIe4NWkPMwWuAQBJACzTn,AJR,Arbeitsmusik Herbst/Winter 2022/2023,I Won't
+20915,78,80.04365377544725,0.9999964700166569,4kV4N9D1iKVxx1KLvtTpjS,Ariana Grande,"thank u, next","break up with your girlfriend, i'm bored"
+68942,39,80.01432721177272,0.9793618540321625,13dOCMI6S2yLVvmC3CgDW5,Julianno Sosa;Keylon;Ak4:20,No Saen,El Extendo
+20259,77,80.00369579190924,0.9999974157422568,5ln5yQdUywVbf8HhFsOcd6,Halsey,hopeless fountain kingdom (Deluxe),Walls Could Talk
+20700,83,80.00135884562847,0.9999980215728033,60ynsPSSKe6O3sfwRnIBRf,Doja Cat,Hot Pink,Streets
+81669,67,79.93029987367454,0.9671657605545086,5QyOjKJhR1iyF0DHQM2IvW,QARAN;Badshah,Veere Di Wedding (Original Motion Picture Soundtrack),Tareefan
+81362,69,79.8666227851944,0.9719635074488006,0biCSADTAblvLTLtJz4pXO,Vishal-Shekhar;Arijit Singh;Jaideep Sahni,Befikre,Nashe Si Chadh Gayi
+51444,0,79.86214002585072,0.6815690452678675,3mfsGLEmKF6sWTqFQzZ4aF,Jack Harlow,Hip Hop Slow Jamz,I'd Do Anything to Make You Smile
+68921,61,79.857341548479,0.9895081765014091,2hDe0Ls5mVqs1XJqv7sbcM,Anuel AA;Enrique Iglesias,Emmanuel,Fútbol & Rumba (feat. Enrique Iglesias)
+68924,39,79.85548880741719,0.9922162076952967,3CqFFDWFGlbeLEyIJChjzj,Harry Nach,Moods,Overdose
+81568,67,79.84203642666596,0.9794691348551877,5fXslGZPI5Cco6PKHzlSL3,Jasmine Sandlas;Garry Sandhu;Tanishk Bagchi;Intense,"Illegal Weapon 2.0 (From ""Street Dancer 3D"")","Illegal Weapon 2.0 (From ""Street Dancer 3D"")"
+68877,40,79.83361189731566,0.9965933953105255,6CXNaNAwb4E59DJr1M4tcd,Neo Pistea;0-600;C.R.O;Mike Southside;Coqeéin Montana,Tumbando El Club,Tumbando El Club
+20588,0,79.83152946795227,0.9999697254379265,27g5jb8SH4CZrPWZFVmq97,Cardi B;Bad Bunny;J Balvin,Today's Party Hits,I Like It
+81438,68,79.82138493398585,0.9732795381016767,4qIMmEjV8gaEsfZML9LALx,Vishal Chandrashekhar;Anirudh Ravichander;Shashaa Tirupati,"Bodhai Kaname (From ""Oh Manapenne"")","Bodhai Kaname - From ""Oh Manapenne"""
+68676,48,79.8134520949025,0.998768086837715,0YeKrUyR42hO4U4oCFyguF,Balbi El Chamako;Forest;Bayron Fire,La Vida Es Bela,Todo Bene
+81456,79,79.80941016496267,0.9509936674048215,0Aqi7ArnBrGblW5T6p2jmD,Trevor Daniel,Nicotine,Falling
+68932,39,79.7952801391246,0.9839814679250188,7JK8Z5ETSuzCaEW2SkQhV4,Carlitos Junior;Ak4:20,Vivo Como Quiero,Vivo Como Quiero
+81702,88,79.75547850079907,0.9635249722160935,4ZtFanR9U6ndgddUvNcjcG,Olivia Rodrigo,SOUR,good 4 u
+20616,0,79.75124518764407,0.9998253616575078,0eDT6epFSSnpIttu29yblP,Megan Thee Stallion;Latto,Energy Hip Hop,Budget
+68906,79,79.72264971571423,0.9773551296137075,05bfbizlM5AX6Mf1RRyMho,Nio Garcia;J Balvin;Bad Bunny,AM Remix,AM Remix
+81354,88,79.71918141859935,0.9270196535371464,3rmo8F54jFF8OgYsqTxm5d,Ed Sheeran,=,Bad Habits
+81276,1,79.68306179051976,0.9751728830383966,0E25sMDvRSgBT2uTBhYlEn,Justin Bieber;Usher,Rockin' Around The Christmas Tree 2022,The Christmas Song (Chestnuts Roasting On An Open Fire)
+68971,83,79.67434808107903,0.9626144903209245,0wihfILRNOwE2156Shezc8,Bad Bunny,Un Verano Sin Ti,Agosto
+68729,85,79.62986491923292,0.9944401603383467,5fhcuVxuBWfgNXGuyAtLmr,Piso 21;Manuel Turizo,Los Cachos,Los Cachos
+81081,74,79.61374907079473,0.9834495045621319,5nsET7aVWXu017lsQjRFCV,Stebin Ben;Nilesh Ahuja;Kumaar,Thoda Thoda Pyaar,Thoda Thoda Pyaar
+20838,2,79.61275571379649,0.999979229307698,7Ifnxt3NpU9Ky2VhC1RDUi,DJ Snake;Selena Gomez;Ozuna;Cardi B,Fiesta portatil,Taki Taki
+91863,1,79.60119956488975,0.9999653037040529,0A3EiO7m1ZDEO9jSnKZ4r4,James Blunt,Holly Jolly Christmas,Wisemen
+68883,40,79.58580959266337,0.9760108093923415,4g6rYuGNEGe5mPVHcG0dQy,Ronald El Killa;Mackie;Kevin Roldan;Yomo;Jowell & Randy,"Gatita Loca (Remix) [feat. Mackie, Kevin Roldan, Yomo & Jowell & Randy]","Gatita Loca (Remix) [feat. Mackie, Kevin Roldan, Yomo & Jowell & Randy]"
+68955,35,79.58528809618912,0.980658928940236,2bpAc1gfwkDc8BYTbblAaf,J Balvin;Nicky Jam;French Montana,Musica Reggaeton,Ay Vamos - Remix
+20372,2,79.5840052496831,0.999998947984337,7e38sajG53PZsyKRDX8OAR,Bebe Rexha,US Pop 20s,Sabotage
+81769,66,79.5818655463078,0.953911828709549,0C6G3mqMjVcIgTWbK9nFIE,Tanishk Bagchi;Rashmi Virag;Zahrah S Khan,"Aafat (From ""Liger"")","Aafat (From ""Liger"")"
+68907,80,79.58029887843641,0.9775658730347798,2DEZmgHKAvm41k4J3R2E9Y,Bad Bunny;Jowell & Randy;Ñengo Flow,YHLQMDLG,Safaera
+81744,0,79.5782908666508,0.959010439480494,1qJ4p0TK46dVxY4nEHDGTb,Bruno Mars;R3HAB,Today's Party Hits,24K Magic - R3hab Remix
+91318,0,79.57046754186288,0.9999004390182241,3VkflrITuJJqaujM7jtOeh,Bryan Adams,Weihnachtslieder 2022,Merry Christmas
+68887,41,79.56285908787247,0.9929732641298442,1H4XsStlZ7hcSrQgDZqFFp,Kevin Martes 13,Inmortal,Otro Planeta
+81129,0,79.5418653978394,0.9816791799210587,3HoQtJWvaadVDZPgQevKIh,The Weeknd,Autumn Vibes 2022,Take My Breath - Single Version
+20204,3,79.51609038155462,0.9999969187637673,3IPpVTudk50Hj4VThfdzBP,Sia,Merry Christmas,Snowman
+81260,70,79.49688466997483,0.9740619446273788,5zfRl79umXWvKoA7p4KEPa,Tanishk Bagchi;Udit Narayan;Alka Yagnik,"Tip Tip (From ""Sooryavanshi"")","Tip Tip (From ""Sooryavanshi"")"
+20190,0,79.48976399228295,0.9999986942542235,7oBxxv6C5ttINeFHzOVwS4,Lady Gaga,Halloween 2022,Bad Romance
+20431,73,79.4876371995727,0.9999848582281802,0KoiMHhqKLoL4xM54rcWYY,DJ Snake;Selena Gomez;Ozuna;Cardi B,Carte Blanche,"Taki Taki (feat. Selena Gomez, Ozuna & Cardi B)"
+68784,42,79.46474308231384,0.9868849307756616,6jM9zDolSTqAmvBziZBifG,Ecko;Omar Varela,No Le Bajo,No Le Bajo
+68708,76,79.4602701248126,0.9936784962374171,7mWFF4gPADjTQjC97CgFVt,Ozuna;Daddy Yankee;J Balvin;Farruko;Anuel AA,"Baila Baila Baila (Remix) [feat. Farruko, Anuel Aa]",Baila Baila Baila - Remix
+81140,71,79.45608757193418,0.9585825218226756,6qZyM6JV8ohLC4S2EL5sFh,Sachet Tandon;Nikhita Gandhi;Madhubanti Bagchi;Sachin-Jigar,Shiddat,Barbaadiyan
+81137,85,79.45516242565081,0.9823850783487152,1u8c2t2Cy7UBoG4ArRcF5g,Taylor Swift,1989 (Deluxe),Blank Space
+68728,54,79.45284755943393,0.9914482867451536,2wQBzAZdsaqDBbtwBk5MhA,DJ Nelson;Jose De Las Heras;Alejandro Armes;Babywine;Alberto Stylee,PAPI (feat. Babywine & Alberto Stylee),PAPI (feat. Babywine & Alberto Stylee)
+81315,1,79.43579411023397,0.9603957235537294,12KqDRZ0KkpLPwxd54Zz4F,Justin Bieber;Boyz II Men,All I want For Christmas Is Music,Fa La La
+20453,78,79.4329516355385,0.9999955620746975,3DmW6y7wTEYHJZlLo1r6XJ,Becky G,Shower,Shower
+68701,87,79.43278622498907,0.9895778665302629,4gzsuuZypVbxs0Af1LSZyB,Tainy;Bad Bunny;Julieta Venegas,Lo Siento BB:/ (with Bad Bunny & Julieta Venegas),Lo Siento BB:/ (with Bad Bunny & Julieta Venegas)
+81202,70,79.4255620245144,0.986772547564637,4roFMBSQp7W4fYVxKMmhA5,Mitraz,Junoon,Junoon
+20015,79,79.41219619139781,0.999997929746965,08bNPGLD8AhKpnnERrAc6G,Marshmello;Anne-Marie,FRIENDS,FRIENDS
+68824,84,79.39078585378111,0.9882703557502369,2NMjggapJcXXM7WccGEBUO,Bad Bunny,Un Verano Sin Ti,Enséñame a Bailar
+20156,76,79.390467944747,0.9999304174716787,44ONERBHALxftQNWq6dmyd,Ariana Grande;Nicki Minaj,Dangerous Woman,Side To Side
+68826,43,79.37280826387509,0.9935069612914311,3GIRzF4WLdmjaqgoFFsfXV,LIT killah,Una Vez Mas,Una Vez Mas
+20500,58,79.36881986047202,0.9999959422849694,62UAFVREdTssSevwa5jqhF,Mike Posner;Seeb,"At Night, Alone. (Expanded Edition)",I Took A Pill In Ibiza - Seeb Remix
+51136,0,79.3651835874372,0.5233701933527131,1JWWwXFfNKi6ioDZOaa9jX,Future;Lil Uzi Vert,Tic Tac - Just Rap,Tic Tac
+51435,0,79.36426454881564,0.5840086241077361,20Nm2cPyMiIStyDuZEh4DP,Jack Harlow,Walk in the Park Rap,WALK IN THE PARK
+81199,70,79.36009162901351,0.9493919278964212,2n9ylYiF7urpXo36qBwr3g,Stebin Ben,Mera Dil Bhi Kitna Pagal Hai (Recreated Version),Mera Dil Bhi Kitna Pagal Hai - Recreated Version
+51637,1,79.34441616567997,0.7531578962128354,3u0UC2O76OTzrYpioBUQiN,Kodak Black,Rap Geek,Save You
+68675,0,79.32385706780889,0.9813949517268676,2wp7OUgPvFipU9fHGjNEcr,Jerry Di,Reggaeton Mix Perreito,El Diablo
+68811,75,79.3113153613129,0.9796638712865419,1m69ELEgE6k5ZWsap40ozt,Ozuna,Odisea,Se Preparó
+51359,68,79.28423878635027,0.8186582907601079,4OUAXw3SXI7bUiNtKC7ErW,Badshah;J Balvin;Tainy,Voodoo (with J Balvin & Tainy),Voodoo (with J Balvin & Tainy)
+51336,0,79.26764321846596,0.8172788850087227,4sAgnJgFJjhG8wNfqc1tlj,Gunna;Chlöe,Hip Hop Slow Jamz,you & me
+68706,76,79.25854969317436,0.9747341050693837,35UUpTmrcFXNIVIN26ujXl,Sech;Daddy Yankee;J Balvin;ROSALÍA;Farruko,Relación (Remix),Relación - Remix
+20009,84,79.24424971542159,0.9998285352495622,6ocbgoVGwYJhOv1GgI9NsF,Ariana Grande,"thank u, next",7 rings
+51134,2,79.2405159226565,0.699421218303045,0nsZBSzz5WG7onOtEL5mqj,Lil Baby,Drippy Drippy,Emotionally Scarred
+51753,82,79.23830460940174,0.7521563762895195,7ycWLEP1GsNjVvcjawXz3z,A$AP Rocky;Skepta,TESTING,Praise The Lord (Da Shine) (feat. Skepta)
+91768,48,79.2353705823757,0.999826745502042,4Tt6GiWS2V9sQjZjS2xjp2,Andy Grammer,Magazines Or Novels,"Honey, I'm Good."
+20356,76,79.23507576211635,0.9999826308981169,2qG81jL9UIP54uS8gYyP4k,Lauv;BTS,~how i'm feeling~,Who (feat. BTS)
+68834,41,79.22451477349826,0.9920183051781553,3ihLb6d7mWwOtFt4yaxCQu,Jairo Vera;ITHAN NY,Una Glock,Una Glock
+68841,41,79.222340723093,0.9857263378649738,5B2UaRBssL6Am4LukpZ5I3,Julianno Sosa,Otro Dia,Otro Dia
+20289,0,79.16687241888785,0.9999937825595759,5cZgalqgsWDGlsTTCxpi1x,Charlie Puth;David Guetta,EDM Hits,Attention - David Guetta Remix
+68903,82,79.15680573974012,0.9820926311079555,41wtwzCZkXwpnakmwJ239F,Bad Bunny,YHLQMDLG,Si Veo a Tu Mamá
+81482,67,79.15399116891949,0.9696946198013277,7fec0UcxeHVe6kHIez2GSs,Vivek - Mervin,Orasaadha (Madras Gig),Orasaadha - Madras Gig
+20558,79,79.14893074752827,0.9999851786382354,26wLOs3ZuHJa2Ihhx6QIE6,5 Seconds of Summer,13 Reasons Why (Season 3),Teeth
+81418,45,79.14790305275363,0.9274404543236964,6sOC569sksrnsrpSIihTtn,Tanishk Bagchi;Zahrah S Khan;Dj Aqeel,Aafat (Remix By DJ Aqeel) [brah],"Aafat (From ""Liger"") - Remix By DJ Aqeel"
+20688,0,79.13354860135192,0.9999903461899651,61tnfFfea71XruDZadOUmu,Wiz Khalifa,Rap Ice,Still Wiz
+81500,88,79.1237411560591,0.9692677602582075,2Ch7LmS7r2Gy2kc64wv3Bz,The Weeknd,Starboy,Die For You
+20949,0,79.11341967433067,0.9999810037829869,18XA6zBzc8shI011scLk5k,Ne-Yo,Almorzando solo,Let Me Love You (Until You Learn To Love Yourself)
+91926,0,79.1066542114228,0.9998897543585892,7qH7pjTmQTOsnDN8IYP4jy,Christina Perri;Addal,Happy Commute,burning gold - Addal Remix
+20656,0,79.10628693475482,0.9997459963038577,5jGbxKNLOEWZoOmVpcYbJO,Wiz Khalifa,Hip Hop Vibes,Memory Lane
+20922,67,79.09984740424983,0.9999892381649109,67O8CWXxPsfz8orZVGMQwf,K-391;Alan Walker;Ahrix,End of Time,End of Time
+81147,71,79.09257474797039,0.9402286939018353,2VrSkfinwUSNc7uAXiL0FA,ShaSings;Xtreeemit,Let Me Down Slowly / Mai Dhoondhne Ko Zamaney / Kabhi Jo Badal Barsey (Medley),Let Me Down Slowly / Mai Dhoondhne Ko Zamaney / Kabhi Jo Badal Barsey (Medley)
+68798,44,79.08878279362445,0.9902893168870357,6SxDyZv0icnCfTS9WBaa4j,Golpe a Golpe,El Bien y el Mal,La Chinita de los Ojos Cafés
+68655,83,79.08824251325767,0.987945692649004,6TsVhM8qIkWN5cJVDIVbbz,Wisin & Yandel;ROSALÍA,La Última Misión,Besos Moja2
+68948,39,79.07874465657636,0.9846288265257928,5VgsXmsfGIBOqq0imAv4y1,31 Minutos,Arwrarwrirwrarwro (Banda Sonora Original de la Cuarta Temporada),"Drácula, Calígula, Tarántula - Coágula Espátulo"
+91970,1,79.07208646077586,0.9999554473885727,0ERQd3bFJvmuU1ofB3EYPz,a-ha,Planet 80's,Stay On These Roads
+81520,66,79.06057847520607,0.97185220795463,4Vrcjv4sJDfxvhaj1uWqr0,Joshua Aaron,Munbe Vaa,Munbe Vaa
+68844,42,79.05803474896076,0.9599068896614468,0jdpEZOn94AYksJhzRUA1N,Julianno Sosa,L.O.V.E. 2,Estrellita
+68633,49,79.05745597258151,0.978811833244397,3MWGKFL4mRTeaksWhbEngH,Flex;Mr. Saik,Perreo de Ayer,Dime Si Te Vas Con Él
+51650,83,79.0504690642847,0.5594382711111319,0fX4oNGBWO3dSGUZcVdVV2,Kendrick Lamar,Mr. Morale & The Big Steppers,N95
+81942,65,79.04004412368738,0.8632201444945264,7AHKnQ6XB5l7GL4pTJWLZn,Santhosh Dhayanidhi;Rakshita Suresh,Kutty Pattas,Kutty Pattas
+51847,0,79.03683837630096,0.5110649520565311,6esWpLeWER7pR9XLFmAE8Q,Lizzo;DaBaby,Totally Rap,Truth Hurts - DaBaby Remix
+20482,3,79.03164600203625,0.9999935239159665,1QuEakfDCo0mHPBN02KYQ7,Kim Petras,Halloween Songs | Witches Hour,Massacre
+20005,84,79.02929973964089,0.999996460611339,0lYBSQXN6rCTvUZvg9S0lU,DJ Snake;Justin Bieber,Encore,Let Me Love You
+68882,40,79.0286097541877,0.9861011666599125,6NGNWixLd0Qzl5ssOigXJt,Benny Benni;Endo;Darkiel;Juanka,Ella Me Cela (Remix),Ella Me Cela (Remix)
+81255,68,79.0193295001259,0.9215983160704356,1ZaeaGLhFSckG8sv1y7AWk,Harrdy Sandhu,Kya Baat Ay,Kya Baat Ay
+81267,0,79.00810987840059,0.9608604368673764,1dqe1m4c2ynDGRctTV4Cj8,Justin Bieber,Die For You,We’re In This Together
+91106,81,78.9992477570573,0.9997617492003478,6i0V12jOa3mr6uu4WYhUBr,Twenty One Pilots,Heathens,Heathens
+20501,80,78.99159527568408,0.9999927576032698,09IStsImFySgyp0pIQdqAc,Zedd;Maren Morris;Grey,The Middle,The Middle
+20904,56,78.98859989886931,0.9999843794869903,1gt8YXWknKt4sRNZ6SirVW,Marshmello;Pritam,BIBA,BIBA
+20795,0,78.9773118525286,0.999995572352571,5itzMvVywRJScC9DUyHpzZ,Jason Derulo,Good Enough - Easy Pop,It Girl
+81667,67,78.9721126909038,0.816901849732143,5ACacHdqtOjENeTgh4qfmy,Vicky,Top Notch Gabru,Top Notch Gabru
+20164,4,78.9592010422913,0.9999900764599496,5LHnaiB8E3x95ZbYFmOUfk,Lady Gaga,OO's Music Grandi Successi,Paparazzi
+81309,69,78.95756943898252,0.9835859876634738,0mJTAdmY8olbGQjopDYff3,Dhvani Bhanushali;Nikhil D'Souza;Tanishk Bagchi,Vaaste,Vaaste
+81993,64,78.95386268625865,0.9531991068333655,6R4KHRnMXQEZtb1qXoNX1e,Vishal Chandrashekhar;Yazin Nizar,Sita Ramam (Telugu) (Extended Version) [Original Motion Picture Soundtrack],Eppudo Ninnu
+20294,0,78.94890910208379,0.9999654381154782,1WrMD6on4zuCXVrYp5o8io,Selena Gomez,Queda poco para la PAES,Bad Liar
+68742,46,78.93982484965106,0.971116560318606,05y79YGqS94EQe0v29lHIo,Kevin Martes 13,Inmortal,Soñando - Remastered
+68996,38,78.93974196667945,0.929026479282993,6JB23R70qctQH0h4FGGlEV,31 Minutos;Pepelota,31 Minutos Gira Mundial (En Vivo),"Señora, Devuélvame la Pelota - En Vivo"
+68831,44,78.93796540823762,0.9904396287968563,1aZReheYIMalvxMShvPzvg,Kinky,Fierrro,Instintos Animales
+91016,81,78.93750434390851,0.9996026866491923,6Qn5zhYkTa37e91HC1D7lb,Imagine Dragons,Evolve,Whatever It Takes
+20003,83,78.93706385983481,0.9999924313836815,48QmG1dfvMuYLxMPt7KSRA,Sean Paul;Dua Lipa,Mad Love The Prequel,No Lie
+20923,0,78.93633363315713,0.9999963907969349,15OwisPfzn1zVzz2NpEhKp,Alesso;Sentinel,EDM Gaming Music Autumn/Winter 2022,Only You
+20703,78,78.92634564484472,0.9999880430071263,3ebXMykcMXOcLeJ9xZ17XH,Martin Garrix;Dua Lipa,Scared to Be Lonely,Scared to Be Lonely
+20804,76,78.89725769404788,0.9999920416828574,6lknMmJZALXxx7emwwZWLX,Madonna;Sickick,Frozen,Frozen
+81370,68,78.89554150828674,0.9608211116558251,1GzgV0pRSUbenz25xWV2s8,Payal Dev;Badshah,Tauba (feat. Badshah),Tauba (feat. Badshah)
+20820,0,78.88958397510122,0.9999984409453692,5029vpQu4KlJp0Kqobuc01,DJ Snake;Bipolar Sunshine,Mientras hago aromaterapia,Middle
+81748,1,78.88890347974203,0.9817310611170956,6iH0uLBUSL8vcyiL8W9cRe,Coldplay,Merry Christmas,Christmas Lights
+20629,4,78.88026904255486,0.9999496501883772,6zVYlwTqj7D7bRAfalOZg0,Ava Max,I'm Blue - Hits of 2022,Million Dollar Baby
+68694,0,78.8735632201564,0.9016894704265691,6TO7OzSCGJ1YP6OSXvxgVO,"Franco ""El Gorilla""",Perreo Tenebroso Vol. 5,Psiquiatrica Loca
+91103,82,78.87016777616581,0.9997199700409891,2GiJYvgVaD2HtM8GqD9EgQ,BØRNS,Dopamine,Electric Love
+20322,0,78.86998026489172,0.9999870332611255,1wUKpuIo1b8FsLZTC2xB9c,Shawn Mendes;Tainy,pov: it's 2021,Summer Of Love
+91151,83,78.86123482236934,0.9997477729359993,6JIC3hbC28JZKZ8AlAqX8h,Elton John;Dua Lipa;PNAU,The Lockdown Sessions,Cold Heart - PNAU Remix
+81249,2,78.86014860013823,0.8534985465473129,66tlNiBE1g0a2IJgAkCIId,Ed Sheeran,Human - Best Adult Pop Tunes,The Joker and the Queen
+81461,66,78.85635229281533,0.9693068101908053,6Xh1mVYnEauD71lkhLfAz2,JERRY;Devilo,She's The One,She's The One
+68837,41,78.84793194551048,0.9604756931089031,2gKszD1ri5gGONhTuwil9A,31 Minutos,"31 Minutos, Ratoncitos",Mr. Guantecillo - Hermanos Computadores de Paine
+20628,2,78.84351375607017,0.9999753016853042,3sGmuJB7VYSPoFYjpldx8a,Ava Max,Good Enough - Easy Pop,Who's Laughing Now
+68774,43,78.84318131626068,0.9821603427916353,1ygGL7bqbGaduDaKHIvKBh,Young Cister,LO MAS XULO DE TU INSTA,Casi Amor De Verano
+68985,40,78.84171044357545,0.9928170914650819,2T4MdkWnLclxXciWMQDNLB,Kinky,Barracuda,Marcha Atrás (Viaje a la Semilla)
+20309,0,78.83902504142749,0.9999703391226822,0tkxzOtc2gvIueuXNFLyfZ,Bebe Rexha;Pink Sweat$;Lunay,20's R'n'B,On the Go
+81038,78,78.83830459032835,0.9644188876512615,2rOnSn2piaqLAlYjtfUBlY,Tanishk Bagchi;Jubin Nautiyal;Asees Kaur,"Raataan Lambiyan (From ""Shershaah"")","Raataan Lambiyan (From ""Shershaah"")"
+51600,81,78.83699414126005,0.733782830729909,1fewSx2d5KIZ04wsooEBOz,Metro Boomin;Gunna,NOT ALL HEROES WEAR CAPES (Deluxe),Space Cadet (feat. Gunna)
+68797,42,78.8293684364833,0.9706968849142943,2hok5u09EI3Pl3PGf7j8nk,31 Minutos,Arwrarwrirwrarwro (Banda Sonora Original de la Cuarta Temporada),El Huerfadrino - Percy Mamani
+68963,76,78.8243114736174,0.9336932576309196,5y7DaS3jAc9eZzcSOoUIwU,Ozuna;J Balvin;Chencho Corleone,Enoc,Una Locura
+91283,0,78.82008133433068,0.9998549870038583,09DBu6VDEuHlHii5zeDLEY,Bastille,Emo Christmas 2022,Merry Xmas Everybody - For Nest Audio Sessions
+20067,82,78.81751526776613,0.9999831633377516,2BgEsaKNfHUdlh97KmvFyo,Anne-Marie,Speak Your Mind (Deluxe),2002
+68858,69,78.81082554303596,0.9750059683764969,3umS4y3uQDkqekNjVpiRUs,Nicky Jam,Fénix,El Amante
+68957,70,78.80522547866892,0.9598077716197472,4FvJysAX0y4TfHE9CIprrx,DELLAFUENTE;Rvfv,K alegría,K alegría
+20030,87,78.78079416932877,0.9999616598350725,0xzI1KAr0Yd9tv8jlIk3sn,benny blanco;BTS;Snoop Dogg,Bad Decisions (with BTS & Snoop Dogg),Bad Decisions (with BTS & Snoop Dogg)
+91156,0,78.77952969979361,0.99978504055746,76LN6cEeRkx4UmrqyrEybS,Panic! At The Disco,Happy Pop Vibes,Local God
+51441,0,78.77289595094919,0.7234054281346125,45ffClKkj594CkU0naaLrM,Jack Harlow;Big Sean,New Rap Icons,Way Out
+20288,1,78.76745294715728,0.9999780255704234,0CKEZAdYUJh3w749lTIvz2,Charlie Puth;Selena Gomez;Hazey Eyes,Refresh - Pop To Cool Down,We Don't Talk Anymore - Hazey Eyes Remix
+20039,1,78.76618012571613,0.9999876538427069,6arE1lr4B2jsrWP1GBIkYH,David Guetta;MistaJam;John Newman,Upbeat 20's,If You Really Love Me (How Will I Know)
+68686,0,78.75365864633594,0.9885929322867658,50zpoWMidTPVoCjBBNMfMP,Farina,Perreo Tenebroso Vol. 1,El Problema
+91810,0,78.74543494110758,0.9997334144118294,5X5Dcmfb2nXFInfXQ7P5GD,The Goo Goo Dolls,La Fine dell'Estate,Iris
+81422,87,78.74342766647982,0.9736583221793191,7qEHsqek33rTcFNT9PFqLf,Lewis Capaldi,Divinely Uninspired To A Hellish Extent,Someone You Loved
+68779,43,78.74225060803396,0.9907039417074737,0gLw9CHggtOhY5RVzU6Gsi,Endo y Lele,Las Armas Secretas,Contogo Me Fugo
+20596,0,78.74055733139849,0.999918021190423,3mMwmaDw0Z5W0zVgfyA43J,Black Eyed Peas,Almorzando solo,Pump It
+20714,70,78.73532159140396,0.999995782720099,4jp4Z02kzzg8gK0NmDGgml,K-391;Alan Walker;Tungevaag;Mangoo,Play,Play
+51711,57,78.71511884387002,0.6739397075421698,6YtlaPxgVWZHO7OB1atIEf,MC STAN,Kahan Par Hai,Kahan Par Hai
+20608,0,78.69294402877208,0.999994213574639,7iEKJR7VqhgmOD6KTVR9v0,Ava Max,Christmas Time,Christmas Without You
+20553,81,78.67669412550156,0.9999091052990217,0laYHRpNTS6i8FXdupHkJ4,Selena Gomez & The Scene,When The Sun Goes Down,Love You Like A Love Song
+81825,66,78.67215936346113,0.8393827860355008,2TcRvzS7C22LePsokUOHnn,Prashant Katheriya,Dreams Revisited (Short Version),Jiske Aane Se Mukammal
+81925,63,78.671367007265,0.944069784110379,1f660M0jwz7F4qlDjTSLmO,Karan Randhawa,Phulkari,Phulkari
+68666,77,78.6690584480252,0.934712738912906,2mzDRrBn6M6rWX4bGzd1uQ,Chimbala,Feliz,Feliz
+20054,82,78.6684810678117,0.999993034233444,2m6Ko3CY1qXNNja8AlugNc,Troye Sivan,Angel Baby,Angel Baby
+20391,0,78.66585278339856,0.99996525328589,4FS977E3rYz6LRtsX4Fu1p,Selena Gomez;Myke Towers,Perreo Tenebroso Vol. 5,Dámelo To’
+91769,2,78.66104479467144,0.9993036511974067,5kUC2hxjPoTsF5t7rL0E3s,Christina Perri,Country Christmas Time,i'll be home for christmas
+20707,81,78.64864972973197,0.9999297519497478,3PfIrDoz19wz7qK7tYeu62,Dua Lipa,Future Nostalgia,Don't Start Now
+20910,87,78.64823962073247,0.9999704818172264,3w3y8KPTfNeOKPiqUTakBh,Bruno Mars,Unorthodox Jukebox,Locked out of Heaven
+91672,0,78.6470759121393,0.9990630982885279,65EReuqyiXH0WMIaeFEIlX,Rod Stewart,80's,Baby Jane
+20189,0,78.63783686951976,0.9999798540706745,5Qyu0SLOpSyn4yKercAsUc,Lady Gaga,pov: it's 2020,Stupid Love
+68807,66,78.6245958775348,0.948404820307574,62o8KoI44JfN7aYxgTnPvh,Maluma,Mala Mía,Mala Mía
+81513,67,78.62005993758993,0.8538503990663423,3dBlOhEY4xdQB2Ge4NzULx,Madhur Sharma,Tere Jeya Hor Disda (LoFi),Tere Jeya Hor Disda (LoFi)
+81627,66,78.60820493058175,0.7019752494521666,5S1102uVOmaQhwKcKGtLmO,Akhil Sachdeva,Broken But Beautiful Season 3,Mere Liye
+20160,80,78.6013055073125,0.9999831158063811,3zkWCteF82vJwv0hRLba76,Shawn Mendes,Handwritten,Stitches
+20134,0,78.59735450424955,0.9999828472634062,1kSjuuFakqNTQK63pzDTin,Bruno Mars;PARTYNEXTDOOR,Happy Commute,That's What I Like - PARTYNEXTDOOR Remix
+20802,69,78.58886619769626,0.9999962142969601,5xdVqHtFS0eLuNp4Z8Wbpa,Selena Gomez;A$AP Rocky,Revival (Deluxe),Good For You
+51324,0,78.58744416642553,0.6709149901594365,6MT5BRtVm18LrgqSrLnJuG,Gunna,"#Multiverse, If the Multiverse Is Real",Banking on Me
+20930,1,78.58581300686551,0.9999866300828327,0IisV7eMWcmIPd46AFWbwh,Flo Rida;Sage The Gemini;Lookas,Pushin P - Top Rap,GDFR
+91139,0,78.57986094261157,0.9998728226217011,7hQf6Dc0Ld5xIAFGk0NfBk,Fleetwood Mac,Maintain Your Mojo,Go Your Own Way - 2018 Remaster
+81034,75,78.57862407790604,0.9608005757427998,58ynJq9eLLDChA3GNFJcDL,Akhil Sachdeva;Mansheel Gujral,"Channa Ve (From ""Bhoot - Part One: The Haunted Ship"")",Channa Ve
+20011,83,78.57594526624916,0.9999497498665972,5cF0dROlMOK5uNZtivgu50,Charlie Puth,Voicenotes,Attention
+20056,83,78.5699461270227,0.9999892648696727,2dpaYNEQHiRxtZbfNsse99,Marshmello;Bastille,Happier,Happier
+81967,65,78.56508185916874,0.834385567631039,1ax8ZuwRVkSdzzsIqyCNWQ,Sonu Nigam;Sabri Brothers,Main Hoon Na,Tumse Milke Dil Ka
+68695,0,78.55882880050518,0.9320791831435458,5yvTF0bpT4JazX5GhF1uwl,Hector & Tito;Víctor Manuelle,Halloween 2022 Perreo Vol. 1,Ay Amor - Reggaeton
+20209,0,78.55028375786047,0.999993963733214,40z4EMfyGwTp5Tk48mu7Os,Charlie Puth,Music for Rainy Days,One Call Away
+20801,68,78.5431841652972,0.9999822718200544,2cEmWBBlCfR9wWrY9JmTyt,ZAYN,Icarus Falls,Let Me
+20149,0,78.54180394681929,0.9999691790527216,3bRDwPweJL0BAvh4EfpG9u,Bruno Mars;Sultan;Shepard,10's Dance Classics,Locked Out of Heaven - Sultan and Ned Shepard Remix
+81172,71,78.53783578891256,0.9376826180322736,0zuqABAUKs8WLVq8vCmfst,Priya Saraiya;Divya Kumar,ABCD 2,Sun Saathiya
+68810,69,78.5336213306595,0.8815794757927481,6Ges5C2IE738iJh4HyQizQ,J Balvin,La Familia B Sides,Ay Vamos
+91039,0,78.5335369507359,0.9997959524900463,4vd1W48zEl9sw8Np26LT6p,Imagine Dragons,Autumn Vibes 2022,On Top Of The World
+20006,82,78.53246698699625,0.9999950952859415,3afkJSKX0EAMsJXTZnDXXJ,Troye Sivan,Strawberries & Cigarettes,Strawberries & Cigarettes
+91511,82,78.52565913777188,0.9995786317097444,4HlFJV71xXKIGcU3kRyttv,Train,"Save Me, San Francisco (Golden Gate Edition)","Hey, Soul Sister"
+68770,77,78.51018022541352,0.886753031382257,0TkIQ2I48rz4kpk1XpfyHq,Rvfv;Rels B,NASTU,Mi Luz (ft. Rels B)
+20128,79,78.4839516851435,0.9999543361875832,4QtiVmuA88tPQiCOHZuQ5b,Sofía Reyes;Jason Derulo;De La Ghetto,"1, 2, 3 (feat. Jason Derulo & De La Ghetto)","1, 2, 3 (feat. Jason Derulo & De La Ghetto)"
+20626,0,78.48253659905168,0.9999903665345898,5fvESB5vBG8Rs3bYkNrbQX,Robin Schulz;Tom Walker,Back to School!,Sun Will Shine
+20536,1,78.4793799846112,0.999992576227475,6j1yDGV547WxP9NZQ44pUd,Avicii,Autopilot,Wake Me Up - Radio Edit
+56510,68,78.47562562236158,0.5304769548069287,77o1HdXHm1hLd7Ebe9ygd0,Bea Miller,THAT BITCH,THAT BITCH
+81797,0,78.468433065607,0.9713900688805478,6fBMKVPDNNdnKzaW4Hvu2M,Coldplay,Coffee Moment,Everyday Life
+20751,76,78.45653523446055,0.9999794452273328,6uBhi9gBXWjanegOb2Phh0,Zedd;Alessia Cara,Stay,Stay
+20102,82,78.44605528257568,0.9999939199872955,161DnLWsx1i3u1JT05lzqU,Bruno Mars,Doo-Wops & Hooligans,Talking to the Moon
+20594,0,78.44481527325296,0.9999669640063759,6FNR3CddkzolYzctA2CY6b,Sean Paul,Dance Dance Dance,She Doesn't Mind - Gregori Klosman Remix
+20174,2,78.43738299245672,0.999936118182444,1LopXP0KP6Cu4SlRYcwPU7,Lady Gaga,Del gusto de mamá,"Eh, Eh (Nothing Else I Can Say)"
+57993,76,78.43601003972881,0.5169158094112278,0zMAvsQmaQ4DGsmXtKixpn,Mother Mother,O My Heart,Burning Pile
+91298,2,78.43242478695774,0.99987914996387,2DfbcpMNUvXHfCTXKPbYsh,The Police,80s Bangers Vol. 1,Roxanne - Remastered 2003
+68843,41,78.42638409589932,0.9711235721514551,2PbMeWMDjNnhWuvIRKLAaV,Jairo Vera;Vishoko;Dylan el Menor;Benjita Montana,Pepon X Siempre,Pepon X Siempre
+81898,6,78.41252106742394,0.971535521152361,5rLVwM5DvEWm1mFyUU32y4,Lana Del Rey,Halloween & Alternative,Born To Die
+20213,11,78.41206646490748,0.9999878412179094,2HJvS1fhaJbPxI9gT0mPjb,Lady Gaga,Pop & Halloween,Bloody Mary
+20173,0,78.41206646490748,0.9999878412179094,3M9OqhV8v0k83RAQihjJwi,Lady Gaga,TOKYO - HALLOWEEN -,ブラッディー・マリー
+51218,63,78.40771303410914,0.6724060967950005,7xHG6LdShPMXeL5SllDprP,King,The Carnival,IICONIC
+91984,0,78.40636339413139,0.9992286736936729,7wgKBMq7Mf8GuWrtTKFzzp,a-ha;Kygo,Summer Music Festival Hits,Take On Me - Kygo Remix
+68699,48,78.3901453024763,0.9120312960227168,6jdJcoVXmjpOCZbBS4fVSn,Chiquitines TV,"Chiquitinestv, Vol. 2",A la Rorro Niño
+91134,2,78.37960922492617,0.9995175286421986,3QO2QeKbBQgx1ZTezCThPX,Fleetwood Mac,Planet 80's,Big Love - 2018 Remaster
+20840,0,78.35495637268667,0.9999738018914023,28PuptP3GRGgIM1Faz1fzL,DJ Snake;J Balvin;Ozuna;Nicky Jam;Natti Natasha;Darell;Sech,Perreo Tenebroso Vol. 4,Loco Contigo - REMIX
+20635,4,78.33590740948361,0.9999149900703429,1rQ6RruR3K2lcAMmN0Kuyb,Black Eyed Peas,OO's Music Grandi Successi,My Humps
+81811,65,78.33509103595304,0.9470423510563318,0YxzH0SUc10Vw4yLFqU06I,Saaj Bhatt,Halki Si Barsaat,Halki Si Barsaat
+20805,74,78.33407313407115,0.9999924643741519,4zRZAmBQP8vhNPf9i9opXt,Why Don't We,8 Letters,8 Letters
+81895,65,78.33279813994628,0.8500679605663253,1PMyULgDs4FZNhFi7MPw8n,Siddharth Slathia,Haare Haare Hum To Dil Se Haare (Unplugged Version),Haare Haare Hum To Dil Se Haare - Unplugged Version
+20019,71,78.329320415994,0.9999085817493367,0EH7sgeiFqDa3eS7ieW2zs,Akon;Hamsika Iyer,Ra-One,Chammak Challo
+81391,68,78.32769867893501,0.9570819294258353,1AzNN19lPYC68iacrbWL8X,Darbuka Siva;Sid Sriram,"Mudhal Nee Mudivum Nee Title Track (From ""Mudhal Nee Mudivum Nee"")","Mudhal Nee Mudivum Nee Title Track (From ""Mudhal Nee Mudivum Nee"")"
+91778,0,78.32730921392209,0.9990273174395163,6guvPOlxqTnKyBTcwmKcH8,John Lennon;Yoko Ono;Wiener Sängerknaben;WienerWunderAllerlei;Gerald Wirth,Klassische Weihnachtsmusik,Happy Christmas (War Is Over)
+81961,64,78.31844037286989,0.9746854660343348,6TFESXMfJJWwccviaxGAMa,Akhil Sachdeva;Mansheel Gujral,Badrinath Ki Dulhania,Humsafar
+20960,70,78.3161675917766,0.9999533393124266,33KJ2xFYONOlIYDBg6wPx8,HRVY,Talk To Ya - EP,Personal
+68621,50,78.31255071267503,0.7584420878241184,6sLjhkPpWeysV55XaaYE7e,Tony Dize;Plan B;Don Omar,Perreo De Halloween Vol. 2,Solos - Remix
+81807,66,78.30657200064688,0.748527852748441,5mnvugwfFYnJm9zuyGkgqF,Asim Azhar;Zenab Fatimah Sultan,"Ghalat Fehmi (From ""Superstar"")","Ghalat Fehmi - From ""Superstar"""
+91812,0,78.30374468331034,0.9999423403933182,50nSJ4OU2clW8rUnVDEKrC,Christina Perri,Music for Rainy Days,Jar of Hearts
+68986,39,78.29400966930862,0.857742102962568,75d4J4UvsrSYpFCHb9h4gW,Golpe a Golpe;Yelsid,Más Lunáticos,A Lo Moderno
+20781,5,78.29163842596748,0.9999034100818198,6tgXEYkOJjKHMqPKZrChAN,Jason Derulo,Upbeat 20's,Slidin'
+20450,76,78.29071452144123,0.9999065706430107,4xigPf2sigSPmuFH3qCelB,Sia;Diplo;Labrinth;LSD,"LABRINTH, SIA & DIPLO PRESENT... LSD","Genius (feat. Sia, Diplo, and Labrinth)"
+68947,39,78.28452410893254,0.975280294674641,2Q7JT7o5Zx1avAOV2dLDkj,Canticuénticos,Algo Que Decirte,"Ya Va, Ya Voy"
+20071,1,78.28178058193666,0.9999217602973779,5xhs3I7Rnbli2emfWl2O5L,Dua Lipa;DaBaby,All Bops,Levitating
+20421,67,78.26872005180785,0.9998280778484401,0I3FXz5RssOlMNI0FmPAkc,Charlie Puth,CHARLIE,There’s A First Time For Everything
+20113,80,78.24909470748075,0.999976461206342,1i1fxkWeaMmKEB4T7zqbzK,The Chainsmokers;Daya,Don't Let Me Down,Don't Let Me Down
+20794,0,78.2258801329048,0.9999607180892954,6X0ND6OAWhS4Ueo3gEt8Lu,Jason Derulo;Snoop Dogg,Pop Station,Wiggle
+20002,73,78.2242633841492,0.9998798596731224,5nCthAh3jt4xKuLJAifAaR,Katy Perry,Harleys In Hawaii,Harleys In Hawaii
+68840,42,78.22355852437556,0.9675598783876719,7ntJVBC11rBSPyGowYV1qz,Canticuénticos,A Cocochito,"¡Qué Suerte, Qué Risa!"
+81400,84,78.20819200040667,0.9734502515286884,50kpGaPAhYJ3sGmk6vplg0,Justin Bieber,Purpose (Deluxe),Love Yourself
+81414,68,78.20221362459392,0.8256169228771584,208sMwgVcaFt2mT79Df1KG,Vishal Mishra;Rahul Sipligunj;M. M. Keeravani,"Naacho Naacho (From ""Rrr"")","Naacho Naacho (From ""Rrr"")"
+20585,2,78.19929424410401,0.9999786044268092,58yspqPHi2W7bPfyuQ8HsP,Sean Paul;Sia,Fiesta portatil,Dynamite
+20010,83,78.19554738717567,0.9999895975023371,2P91MQbaiQOfbiz9VqhqKQ,Lauv,I met you when I was 18. (the playlist),I Like Me Better
+20572,0,78.19029579784316,0.9980137715901278,4L95oRzU2nqOZTauCNbD11,Sean Paul;Arif Cooper,Arif Cooper Presents: Up & Live Riddim (2022 Remastered),Midas Touch (2022 Remastered)
+31662,73,78.15343526199206,0.995004790618166,6Se3x9ANMLv0dCDsjGmEjh,blackbear,digital druglord,do re mi
+81383,68,78.15104999679338,0.8517154487552725,6JUQViD0hLXlvWXCV4uUF8,Manan Bhardwaj,Shiddat,Chitta
+103203,74,78.14483762441523,0.8173278667843253,5IUtvfNvOyVYZUa6AJFrnP,Ty Dolla $ign;Post Malone,Featuring Ty Dolla $ign,Spicy (feat. Post Malone)
+51446,0,78.14144937770301,0.5258181854632512,7ItTtfj4WQHe4SKNM22QFT,Jack Harlow;Pooh Shiesty,New Grooves,SUVs (Black on Black)
+20876,0,78.11092445317833,0.9996700032292163,095guSCGTmugqLwBwlHZH7,Becky Hill,Coffee Chill,Losing
+91609,77,78.06734783243806,0.9996727554879271,7pKfPomDEeI4TPT6EOYjn9,John Lennon,Imagine,Imagine - Remastered 2010
+91673,2,78.0670122597211,0.9997539828310346,0HXnNR8t6ckKrZPQxtUdeV,Rod Stewart,Session Acoustique,Sailing
+51327,62,78.06610626549188,0.5326978706254645,6RVmuLStrBGHGJ0CJhRh0U,Kahlon,Gucci di Sole,Gucci di Sole
+20602,84,78.06255446116626,0.9999786999835798,02VBYrHfVwfEWXk5DXyf0T,Bruno Mars;Anderson .Paak;Silk Sonic,An Evening With Silk Sonic,Leave The Door Open
+20116,0,78.06255446116626,0.9999786999835798,1Fym4wXCqQDGSOdBPqKv9c,Bruno Mars;Anderson .Paak;Silk Sonic,On Chill - Rap & RnB,Leave the Door Open
+91690,0,78.04915378671491,0.9967249854659287,4JQUCvC3XuCJw2pGRBEQEz,Rod Stewart;CeeLo Green;Trombone Shorty,Rockin' Around The Christmas Tree 2022,"Merry Christmas, Baby"
+91688,0,78.043919282667,0.9994127798410671,4Ma1qNM1X6iz4s3rKBTmRw,Rod Stewart,Fiesta temática 70s,You Wear It Well
+20143,1,78.03689759274764,0.9999735516306633,0DMgXXS27oK9z8clKWU0Ok,Sam Smith,Best Road Trip Pop Tunes,Time After Time - Live At Abbey Road Studios
+20028,86,78.03621730985361,0.9995928706740633,7JJmb5XwzOO8jgpou264Ml,Shawn Mendes,Illuminate (Deluxe),There's Nothing Holdin' Me Back
+20841,0,77.98805550849654,0.9999413789680062,0ooaQGSWjhcuhsDQHrnL7t,Anne-Marie,Holly Jolly Christmas,Think of Christmas
+91770,0,77.9756935789546,0.9998696413435844,1wC1QmgIXk53Dv9VDKkrCw,Christina Perri,Sad Girls,the lonely
+20456,66,77.96377518491613,0.9995505689147648,0Ts1lnK3lYa2dwE2orDJc5,Charlie Puth,CHARLIE,I Don’t Think That I Like Her
+51053,68,77.95773660797848,0.5045770185278516,65c6VCikt7f5sAS1heoYQC,Bohemia;Sidhu Moose Wala,Same Beef,Same Beef
+30606,69,77.94949141223807,0.5274217462297289,6iC7vapdKp0XlKhxOkp8QJ,Tiësto;Sevenn;Gucci Mane,BOOM,BOOM
+91785,0,77.94796728769168,0.9991911898536229,1mKn5hUaKv6R4DSLB3i4Z2,Annie Lennox,Christmas Vibes But Not Christmas Songs,In The Bleak Midwinter
+20296,0,77.93477609411967,0.9999876458748856,5ovEfOe05rFS4ly9gi3AIR,Sia;Initial Talk,Dance Dance Dance,Together - Initial Talk Remix
+56069,83,77.9328289332384,0.9585728787123453,4pt5fDVTg5GhEvEtlz9dKk,Måneskin,Teatro d'ira - Vol. I,I WANNA BE YOUR SLAVE
+91708,0,77.89028112773114,0.9991044148160366,4Fs8Ae2PYNKQJnZmqSsKuw,Jaymes Young,Low-Key Hits,Habits of My Heart
+3005,81,77.87289133178284,0.8503863168352309,07MDkzWARZaLEdKxo6yArG,THE ANXIETY;WILLOW;Tyler Cole,THE ANXIETY,Meet Me At Our Spot
+20461,2,77.85548491932775,0.9997608900148537,35cGkoZHj3mcUYa1kVjFOh,Burna Boy,Good Vibes,On the Low
+20272,1,77.77673551484826,0.9998479237529805,62HtXdPVSIAy4V87eEmZqi,Charlie Puth,Give You Love - Cozy Hits,Light Switch - Acoustic
+3307,66,77.72264033145724,0.7985667822907329,68UU9oaQtMDnh6PRlW842H,Princess Nokia,Everything Sucks,I Like Him
+91624,0,77.71441755323283,0.9995068489999879,3Qx4d8pZPhakg3xllKSp9w,Rod Stewart;Ella Fitzgerald;Chris Botti,Calm Christmas,What Are You Doing New Year's Eve?
+51608,59,77.68860388868052,0.8431980640187129,2KJUr9U6a3balnh1W7hDwZ,Sidhu Moose Wala;Sunny Malton,Issa Jatt,Issa Jatt
+56758,67,77.68063372969654,0.8519584560044746,1xSmjB0t19q4CSJ0X0ymGB,Claire Rosinkranz,Frankenstein,Frankenstein
+3004,86,77.67654662331958,0.8081742811090769,4fouWK6XVHhzl78KzQ1UjL,GAYLE,abcdefu,abcdefu
+91631,0,77.64868068935267,0.9995628177790702,0YzjbFKOZu0oUu8dSC4k7u,Rod Stewart,Best Christmas Songs 2022,Have Yourself A Merry Little Christmas
+51766,56,77.64420422326216,0.8865697015079952,0MRg2bzlVhGQTi4ecu792k,Ajey Nagar (CarryMinati);Wily Frenzy,Vardaan,Vardaan
+2414,66,77.6303135736902,0.5570555752464611,4AXAS26dUVTnCnubySfkbv,Arrested Youth,Sobville (Episode I),The Kid I Used to Know
+20463,0,77.60995118671805,0.9991692751323294,66tPJue1SdDqvK9ifs6H3t,Burna Boy;Stormzy,Sundown Rap,Real Life
+103960,53,77.591038795441,0.6737611611455665,7z73QkaTu6kkyq3KxF9oCJ,Lithe,Out Of Touch,Blue Pills
+56983,73,77.59089333847882,0.928694877683312,3bTzAFtvHyDWJcIyTQijGO,Sir Chloe,Party Favors,Michelle
+3222,0,77.57398278693918,0.6642587160599337,5gI0Acwuv7iBUxbgtlDFk4,Freddie Gibbs;Moneybagg Yo,Walk - Fresh Rap Flow,Too Much
+56336,79,77.55658419318071,0.9890490867572692,45ROR8UMn60YEVQnDy0uVF,Cavetown,Animal Kingdom,Juliet
+3857,56,77.52384677742046,0.5793408493500791,3Nsxlv9JESIFfOBbupIKOc,Will Joseph Cook;chloe moriondo,Be Around Me (feat. chloe moriondo),Be Around Me (feat. chloe moriondo)
+30936,62,77.49292655240633,0.5125852395812958,3qd1eI1GA0FwC3VHcxHhDC,Imanbek;KDDK;KIDDO;Wiz Khalifa,Ordinary Life (KDDK Phonk Remix),Ordinary Life - KDDK Phonk Remix
+56920,63,77.48124603339907,0.8065550309744982,252G7yirQ4pXj6ZD4T9R2W,FINNEAS,"Mona Lisa, Mona Lisa","Mona Lisa, Mona Lisa"
+3231,3,77.47789183205786,0.7891153181937287,4MiLgByToEVhuGwc6MrSIX,Breaking Benjamin,Halloween Metal Nights,Blood
+56679,73,77.47589017605247,0.8681046277166189,43pulC9QdGwabXUtVHYnjY,Maisie Peters,Not Another Rockstar,Not Another Rockstar
+103052,3,77.38377844279738,0.6890501281241286,7isX5iRmOjoqrTLAwQ9GFJ,Omar Apollo,Refresh - Pop To Cool Down,Killing Me
+20449,0,77.37706458450252,0.9999876835507328,4aFEI0dqQcF0w5fg8qiadd,Avicii;Reeva & Black,10's Dance Classics,Last Dance - Reeva & Black Dub Mix
+2165,0,77.3504464364108,0.6475104816813514,4U1WGnRxI57j3Ebi9A3HtD,Marilyn Manson,TOKYO - HALLOWEEN -,アイ・プット・ア・スペル・オン・ユー
+103073,0,77.3471851689975,0.6530088952558777,5m7gI8rbuh61cGb3J23HiY,Omar Apollo,Hits Hits Hits,Tamagotchi
+56863,66,77.34603186628885,0.9564561721770699,6L1V0LvpXBJ7QptKuLUj3v,awfultune,redesign,redesign
+56161,78,77.31197331564974,0.8093358802937548,3aauaXWRgwCMoykMbI0Jq1,Two Feet,A 20 Something Fuck,I Feel Like I'm Drowning
+56919,44,77.2588522168663,0.8159695101900722,1XsYFNdIsiFLt7qbQPsUKN,Rohit John Chettri,Bistarai,Bistarai
+56420,68,77.25120573422085,0.9035668431383557,5MG69A9XyXDbBbeOxdR3Tl,Claire Rosinkranz,don’t miss me,don't miss me
+56285,0,77.22762717621782,0.9324357062070792,0P2nclWCd2joWuHQGqof4V,Lucky Daye,Best R&B Tunes,"Running Blind - From ""Liberated / Music For the Movement Vol. 3"""
+56382,72,77.14863200137104,0.8183621592934613,76YSWx6L6FNsuaP6GWBb8P,Labrinth;Zendaya,Imagination & the Misfit Kid,All For Us
+53401,75,77.12514343284428,0.9551952776270621,7lAK3oHbfEnvUQWosrMMpR,Travis Scott,ASTROWORLD,YOSEMITE
+31531,69,77.08981294177329,0.9844025487023256,25gacl0dFF9HTclx7Ug7xC,Valley,Last Birthday,Like 1999
+56939,71,77.07756668075717,0.6949492341000459,6A2itXgDf96XHp9qR6oyPN,Cavetown,Cavetown,Meteor Shower
+56267,57,77.04205901394012,0.9279901753750288,11BUFxLtMAVUtJaTnNK8Ey,JVKE;ILLENIUM;NURKO,golden hour (ILLENIUM & NURKO Remix),golden hour - ILLENIUM & NURKO Remix
+56683,78,77.0419939430476,0.8806326887696058,5411TEB6tlzvuF5A4oyldr,Mitski,Bury Me At Makeout Creek,Francis Forever
+103803,57,77.03602419611136,0.7403994709953864,52yTpTfOqRHXyn0lyQgwr3,Darci,Rose Petals,Rose Petals
+56681,61,77.02450346332981,0.7751111121726395,0cHLxojmTlaQwG9hxJW3l9,Jake Scott;Josie Dunne,TWENTYTWENTY,CWJBHN
+31500,69,77.01707995898215,0.9934319938269001,0mHGftgYtmpH4y17T3VZ2E,blackbear,@ my worst,@ my worst
+56709,66,76.98618259261751,0.7574159253540258,2zsWRxMcUdGjj8TnWkVKw0,Zella Day,Kicker,Hypnotic
+2702,59,76.97461519315307,0.8328604288113967,49clMzwHdKb5f0awEH99pg,The 1975,"I like it when you sleep, for you are so beautiful yet so unaware of it",A Change Of Heart
+56701,50,76.93066229354382,0.8611427635396345,59hkyI30Y03Zei8ITME2mz,Taha G;Maanu,Dou Pal,Dou Pal
+31008,81,76.92943121796722,0.9877013481824443,3SErMoIKdRELto2OspGs5L,blackbear,dead,idfc
+30320,0,76.92620267026847,0.6582930569367655,0TNarhIeerCvP5d7W29wXU,Topic;A7S;Lil Baby,pov: it's 2020,Why Do You Lie To Me
+56509,48,76.91716821190015,0.9143513676929554,4cEJA5kwefCilT3N800oar,Axix,Ghar Gaun,Mero Prem
+2861,66,76.91383711969344,0.81629666770143,7cpC2EuFMexgy392K13RZb,Red Hot Chili Peppers,Return of the Dream Canteen,Fake as Fu@k
+31205,73,76.90521615658517,0.9919750426592654,5nkkVqGi9YgFOwdbn4BYFM,Alan Walker;Trevor Daniel,Extremes,Extremes
+31349,2,76.90490967078655,0.9893570120441564,3krIviFWLeyjPTxqT6eaPL,Charli XCX;Tiësto,House Anthems,Break the Rules - Tiësto Remix
+57704,73,76.89473635441757,0.6428292080252486,2mlGPkAx4kwF8Df0GlScsC,Jack Stauber,Pop Food,Buttercup
+56950,72,76.88901758686418,0.7470588460312462,5mIOsPuQdXchVY0jB5NO9Q,Clairo,4EVER,4EVER
+3885,0,76.88680573410153,0.7031728871707864,4h9oLGyXoSN83H4wPGg3Rh,Holly Humberstone,Best Alternative Pop Tunes,Please Don't Leave Just Yet
+103462,55,76.8754727268652,0.5459484992293342,6Vuop297JbIfCVbHHmRQD2,Aaryan Shah;Zacari,Renegade (feat. Zacari) [Remix],Renegade (feat. Zacari) - Remix
+56189,63,76.87105198864036,0.756155330926063,5NVkktUlAylhk7f0t63eth,Sunwoojunga,Extraordinary Attorney Woo (Original Television Soundtrack) Pt. 2,Beyond My Dreams
+31758,69,76.86697768334297,0.7582358624279552,6cjSh516BbrNUs213jDAGm,benny blanco;Juice WRLD,Graduation (with Juice WRLD),Graduation (with Juice WRLD)
+56739,0,76.85965666311313,0.671028477412932,3PDnFFQkMyFOb6sanuvlNC,Hayley Kiyoko,Hits Hits Hits,sugar at the bottom
+56879,0,76.85609087896252,0.8381941424958159,54iBx9ljqees6R2noSh0Yk,Whethan;Oliver Tree,The State of Pop,Freefall
+56604,69,76.83908140959984,0.8451543488252948,5TzpCPx20n4hELdE9Vw6ZQ,Tim Atlas,Courtside,Courtside
+53404,0,76.82378111128834,0.838448850190067,6EzWKhqPcFtGKLFmE6Qpxs,Anne-Marie;The Wild;Aitch,PSYCHO (feat. Aitch) [The Wild Remix],PSYCHO (feat. Aitch) - The Wild Remix
+3513,0,76.82179985623546,0.7183609730837238,2kVgaOMMn0RpD1sM0Bt0eh,Baby Tate,Hip Hop & R'n'B,Yasss Queen
+56712,80,76.8136759217592,0.8844052116615161,6QeYSvYqYUsfBzsApbjDHO,TV Girl,Who Really Cares,Cigarettes out the Window
+56448,0,76.80317924723542,0.8557089009166541,1SRgxDKsqy9FiCVQp1DE4I,Maisie Peters;James Bay,Human - Best Adult Pop Tunes,"Funeral (From ""Trying: Season 2"")"
+31882,57,76.79601835543596,0.985112547440434,460WMeltK2dxce4qhcaCF7,TYSM,Normal No More,Normal No More
+56626,41,76.78948404485574,0.88483600306809,0ke4LdLYRcNHY03nlYyN47,The Local Train,Aalas Ka Pedh,Kaisey Jiyun - Acoustic
+31704,66,76.78290091940931,0.9801546854609204,6Zc5f20q7sOe1IC1c1jQvZ,Halsey;Juice WRLD,Without Me (with Juice WRLD),Without Me (with Juice WRLD)
+51781,57,76.77974302806426,0.746558075418874,1JxGjonVZMfWUxorsVLYQQ,Sidhu Moose Wala,Moosetape,Pind Hood Damn Good (RMG Intro)
+56930,0,76.77967265126239,0.7834041326064332,69gZrzHziUnf90fzYi2LLM,Lyn Lapid,Frühstücksmusik Herbst/Winter 2022/2023,The Outsider
+56847,0,76.7736889540925,0.8774380338296847,5APQOJFtqvpRAQY9YuXz5U,Echosmith,Good Enough - Easy Pop,Tell Her You Love Her
+2052,73,76.76726060957465,0.6985140004619786,4m0q0xQ2BNl9SCAGKyfiGZ,The 1975,"I like it when you sleep, for you are so beautiful yet so unaware of it",Somebody Else
+56891,1,76.72061892563114,0.8418795233622387,7kaDPACbIylIaRgVjsv0Mc,Cesare Cremonini,10's Music Grandi Successi,Lost In The Weekend
+56843,0,76.7119182362776,0.871615678793622,25U9U1ELUmaVOhDGX6nNzM,Briston Maroney,Indie Chill Out,Deep Sea Diver
+56391,0,76.70615965522119,0.8605930812878965,2WncD1WUkjOeZz3FcbpP8b,salem ilese,Santa Claus Is Coming To Town,Marry Christmas
+56752,45,76.7015548467725,0.7001963649312358,3vwp8b7pKnqbxdfnGF63Bf,Rishi Rich;Jay Sean;Juggy D,Me Against Myself,Dance With You - Original Version
+56383,83,76.70115716649956,0.7847482310993308,63WuQOXohQIxOxIFA2K7bR,Måneskin,SUPERMODEL,SUPERMODEL
+103510,0,76.69850804155718,0.5077544386371374,2lrDBWfoEu6ETysJba9ppS,Faith Evans;The Notorious B.I.G.,R'n'B Studying,Legacy
+56813,59,76.69170438612791,0.7865261959147779,6MDtS6MzlIzGUjbC1rapa4,Slot Machine,Free Fall (Theme From KinnPorsche The Series),Free Fall (Theme From KinnPorsche The Series)
+56191,0,76.6899555319391,0.7659813309659504,2oZsDq0pwp9yLgHGoI2Y5F,Wallows;Clairo,Low-Key Hits,Are You Bored Yet?
+56599,0,76.68214241355432,0.8218555968652645,0W0nliaK7CIiQPPnHn4szJ,Caloncho,Alternativo diferente latino,Brillo Mio
+56931,66,76.65721381987795,0.7417819251735382,6Xve7pWqzW6CQV8mlXzpBe,Lostboycrow,Valleyheart,Strawberry Sunscreen
+56217,75,76.65382221991227,0.6747972665001967,6FfLg6FFqhCsrFOaHIGkg0,JAWNY,For Abby,Honeypie
+31550,65,76.63328567143029,0.9587787907553632,7cflqPPi3zWfLFRRBTWeh6,Jeremy Zucker;blackbear,idle,talk is overrated
+53826,65,76.63136704767464,0.8169939579848262,6qUabsNxudatEFedWGHoDh,Travis Scott;Future;Young Thug;M.I.A.,"FRANCHISE (feat. Future, Young Thug & M.I.A.) [REMIX]","FRANCHISE (feat. Future, Young Thug & M.I.A.) - REMIX"
+31651,72,76.62667538104996,0.980557695189319,6gpcs5eMhJwax4mIfKDYQk,Calvin Harris;Frank Ocean;Migos,Slide (feat. Frank Ocean & Migos),Slide (feat. Frank Ocean & Migos)
+31300,70,76.60712960414006,0.9833361394914599,7lozLnUfzcgEpMMVQI7yhA,Bazzi,COSMIC,Why
+56211,62,76.60296786849463,0.6090424194319188,3pXVWgkWybiGchdKGYDgdl,Glass Animals;iann dior,Heat Waves (with iann dior),Heat Waves (with iann dior)
+56100,80,76.59998242724726,0.8109587064455636,6FYfhKknpt05Om6YPcEYAg,girl in red,we fell in love in october / forget her,we fell in love in october
+56894,0,76.59842758709281,0.7657077624762733,6vU5ut1aSP8NCM3lTNB5Td,Cesare Cremonini,Tutti in piscina Canzoni per bambini,Buon Viaggio (Share The Love)
+56988,0,76.58868803181674,0.929844080312289,07HXQhYntFEupdfad0KYxr,Amber Mark,Autumn Vibe,Worth It
+56002,63,76.58094664631955,0.8028869917886489,0mAswKg3RCbmXAV4KYTUxM,Hasan Raheem;Abdullah Kasumbi,Aisay Kaisay,Aisay Kaisay
+31207,74,76.57992060889835,0.9809037177305578,5v6qYImm5k36GHlFxdEZyv,Ashe;Niall Horan,Ashlyn,Moral of the Story (feat. Niall Horan) - Bonus Track
+53553,70,76.57633146906633,0.770027052572138,4jVBIpuOiMj1crqd8LoCrJ,Travis Scott;Young Thug;M.I.A.,FRANCHISE (feat. Young Thug & M.I.A.),FRANCHISE (feat. Young Thug & M.I.A.)
+3504,71,76.55722978608607,0.50700510112516,1YlulsUKDduOmC7WxvXYPW,Ruel,Free Time,Painkiller
+65059,78,76.53022649551082,0.9794117304914404,6Ho58vQUjGnBU9m8Z6uNcv,BLACKPINK,BORN PINK,Tally
+56389,0,76.52984210952181,0.6819966434520484,1SbdzlF3NT2E26FYBGKQTx,salem ilese,Pop Christmas 2022,Thank You Note
+31652,76,76.5267425091038,0.956854232701579,5t3Vk8bRKylx4fjj7qlbib,Billie Eilish,bitches broken hearts,bitches broken hearts
+3159,0,76.4944357271048,0.5385710957198439,5KqmpRieVH3WGO1D9kcVzQ,GAYLE,Pop Hits Now,ur just horny
+56565,65,76.477493739665,0.7048054759661583,4iddJAOsc6U0hJ3krSJAKn,Labrinth,Euphoria (Original Score from the HBO Series),Nate Growing Up
+56972,63,76.47380369191237,0.6901227536551038,4xb8JHIN56xixSl6vkSPjm,Kailee Morgue,Siren,Siren
+51356,58,76.46982967867547,0.8242850144473812,1zPlQih67ZvC3Xp6c2dxUI,Arivu,Prince (Tamil),Who Am I ?
+56764,66,76.45628573685975,0.778419861858321,5a7NdkF09AfD0H607eiOkX,Ellie Goulding,Delirium (Deluxe),On My Mind
+56754,45,76.45021363079363,0.7259566522086791,79GohGFwMgoQrvDXGHi42x,The Elements,Sapana Ko Mayalu,Sapana Ko Mayalu
+56628,42,76.44874577262114,0.6014376682055272,27ZsuHbyeM7K5kz6JihjWK,Dhinesh Nagarajan,"Arimugam Illaiya (From ""Kadhalikkiren"")","Arimugam Illaiya - From ""Kadhalikkiren"""
+37648,45,76.41832998488711,0.6787352556873504,5o592RqGm4wuhfCGlxNtuR,MC Hariel;Mc Lele JP;MC Neguinho do Kaxeta,Avisa que é o Funk,Favela Pede Paz
+56910,39,76.41616746307145,0.5019007163813088,6TJnUcx629j1lZaToObldz,SanGan;Hiphop Tamizha,Weightu,Weightu
+31918,73,76.40910647802012,0.8985239658665435,0GTPmh5G40joBg93vcSQNq,Alok;Ilkay Sencan;Tove Lo,Don't Say Goodbye (feat. Tove Lo),Don't Say Goodbye (feat. Tove Lo)
+56335,2,76.38525859165695,0.8308766129646438,2Mos9d5rH50MfweI0T9QZs,Sub Urban;BENEE,Internet Sensations,UH OH!
+31688,68,76.37111398206171,0.9775833801844102,23KVefoON2iEz1dh940quQ,Ellise,Chaotic,911
+56902,42,76.37032380136523,0.8489708534628718,5F3vGwldN4pLHUNyBR2JjU,Albatross,Atti Bhayo,Nischal
+3725,0,76.35722193304055,0.5884648134985776,1kNq9snS5B7Dju47zvK1ub,Lil' Kim;Lil' Cease,Rap Geek,Crush On You - Remix
+56806,43,76.3354429648049,0.769895964172812,1xujCcuUmdlnvWABZXwqC2,Sajjan Raj Vaidya,Pahaar,Pahaar
+31260,70,76.32759317896338,0.973650018812181,09PGubKAMryhOWv1LHpCYz,Lauv;Anne-Marie,~how i'm feeling~,"fuck, i'm lonely (with Anne-Marie)"
+53800,70,76.2998470679623,0.9452995792479872,20MuVazoNMv6xjKPnRFOxG,Travis Scott,ASTROWORLD,WAKE UP
+56719,0,76.287752885228,0.6118299797290091,2RotDMmg3PeoEFLiqsXUS7,Sara Kays,Coffee Moment,When You Look at Me
+56995,0,76.28759134817325,0.7329741456085883,4DTGLPQPkto00HaMxlGLZm,MisterWives,All Out Alternative,3 small words
+56146,2,76.27472031002992,0.7478283266821868,1SPRmWXXsYC873W0owPzDw,Cavetown,New Pop Classics,Grocery Store
+56817,39,76.26733479358559,0.5046093339304673,1EVzIY3Clxdq3yXRskKZtn,Nikhil D'Souza,Boss,Har Kisi Ko
+31645,0,76.23062368225797,0.8001287794214811,0vvKVl5nawPkgrBrCNJQNh,Cali Y El Dandee;Shaggy,Carrete con besties,Lumbra
+56720,0,76.2193245548907,0.7780231430097648,2fvv4tLHhTfIRuahGrlohs,Sara Kays,All That Really Matters - Just Hits,Watching TV
+56178,69,76.19706591957798,0.5611133889743509,7uo2L5FAja3pWIBa3HJVeC,Zeph,scared of everything,could you love me while i hate myself
+3722,76,76.19619596003838,0.5879884372582324,3RAFcUBrCNaboRXoP3S5t1,Slipknot,All Hope Is Gone (10th Anniversary),Psychosocial
+31901,77,76.19180822857122,0.9135726848625211,5N5k9nd479b1xpDZ4usjrg,Calvin Harris;Sam Smith;Jessie Reyez,Promises (with Sam Smith),Promises (with Sam Smith)
+37983,42,76.19127690287894,0.5710174748065657,6pzLXs0Nd5gmfkXIFEOnpw,MC Cebezinho,Falador,Falador
+31309,0,76.18659739476765,0.948175928435535,49aoOZzUdoUoMBbfG0KEJw,Bazzi,Music for Rainy Days,Beautiful
+103201,80,76.18476366850136,0.593310722040906,7eqoqGkKwgOaWNNHx90uEZ,Frank Ocean,Blonde,Nights
+56676,41,76.13843275305862,0.6119384490482235,1D1MqwKUhbDpbXk3COnqP1,Sanah Moidutty;Prakash Alex,"Eadanin Madhu (From ""Varayan"")","Eadanin Madhu - From ""Varayan"""
+56965,38,76.13732895320301,0.6924849550550427,3YJhk1j7I3JGekpNKVf0Jn,Thaikkudam Bridge,Navarasam,Urumbu
+31947,1,76.13559995684489,0.8411072723800227,3PZut6IxVN6OBwVxkZGgqc,Set It Off,Slowed + Reverbed: Chill,Skeleton - Slowed & Reverb
+31464,73,76.1322816859164,0.9901701591737749,4x5YzxjrF9wvIIXJV7TveC,Ashe;FINNEAS,Ashlyn,Till Forever Falls Apart
+51161,65,76.13184487343516,0.6756463949535804,51hrri99KuNwhALxbRRJnq,The Landers,Rule Over (Putt Jattan Dey),Rule Over (Putt Jattan Dey)
+56953,42,76.12973925067492,0.8171026020062605,2KkUDV8NN0sCWQoMVJSalG,The Elements,Putali,Putali
+31928,68,76.106621178529,0.8925066150322735,1GkHyypTFkUf0QQKwYoXH4,benny blanco;Marshmello;Vance Joy,You (with Marshmello & Vance Joy),You (with Marshmello & Vance Joy)
+31665,64,76.10354270351661,0.9438557425818024,5FNS5Vj69AhRGJWjhrAd01,AJ Mitchell;Ava Max,Slow Dance (feat. Ava Max),Slow Dance (feat. Ava Max)
+31514,71,76.09411945969232,0.9342655202022958,3uc8AGNL0KbvISIrjnfRvN,Lauv;LANY,~how i'm feeling~,Mean It
+31404,61,76.07811979826793,0.8849904024467846,7m97u5zpSWqkDjN4uwY2LP,Greyson Chance,portraits,shut up
+65683,67,76.05204258039642,0.8308027507700549,1fNwwml8UcKvhfM6YEVIRh,j-hope,Jack In The Box,What if…
+3505,42,76.04507303099257,0.6236614279258932,07rz54LA3Y2lagmY0DnChZ,Linkin Park,A Thousand Suns,Iridescent
+56564,42,76.03072949714986,0.7945375666613488,78vh1SHHtT8MUZ2MUft4xG,Nikhil D'Souza,Haunted,You're So Beautiful
+65577,68,76.00360557789328,0.766298108626115,2On611HXKQAbaYkuc4NQAm,j-hope,Jack In The Box,Pandora's Box
+53780,74,76.00293289865547,0.7941976906681473,3Dzso9Q2WwupEclqgxBZht,Madism;MKJ;Felix Samuel,Pumped Up Kicks,Pumped Up Kicks
+31960,64,76.00279443091891,0.8588414347893651,7ltLi7CG003USSGYsSba9s,Alok;Sofi Tukker;INNA,It Don’t Matter - Spotify Singles,It Don’t Matter - Spotify Singles
+31234,1,75.99729051434753,0.9443296186778654,7pYMmSSlsSsrygkg63YJEb,Tove Lo,LUGNA HITS,I'm Coming
+31586,0,75.98992194354385,0.9569387654727909,567h66xwutP4POoTUCCuua,RÜFÜS DU SOL,"#Multiverse, If the Multiverse Is Real",On My Knees
+56029,74,75.98920689444427,0.6721135806711575,1K2RnVhm3eauKnA8PAcPu1,Glass Animals,Heat Waves (Expansion Pack),Heat Waves - Slowed
+31380,63,75.98733359448886,0.8985128938255886,0nrWZWkJM62ftQJSI8fDc0,Alan Walker;Sophia Somajo,Different World,Diamond Heart
+56125,54,75.98378670375945,0.5276345773546488,4iHcmWi4kGGNCEk44ZIXIc,Sajjan Raj Vaidya,Sasto Mutu,Sasto Mutu
+65221,76,75.97365388297115,0.7627311399248263,4XPXrcpyNr30Km6aPiflJy,Stray Kids,GO LIVE,God’s Menu
+56518,75,75.97198299234579,0.8067519010692432,6UFivO2zqqPFPoQYsEMuCc,Clairo,Immunity,Bags
+53351,79,75.97041159374105,0.6922760078278802,2cYqizR4lgvp4Qu6IQ3qGN,Travis Scott,ASTROWORLD,BUTTERFLY EFFECT
+3977,0,75.96993491404,0.5010948057368559,10tWekrcBpZ8Nh3vHZxYJY,Ravyn Lenae,The Look - R&B Feels,Venom
+31027,80,75.96969280021271,0.8727878808527495,698ItKASDavgwZ3WjaWjtz,Alan Walker,Different World,Faded
+65657,63,75.96960025751738,0.8393483479228463,1R6qeTvAvaxB7hydIYVIY8,MINO;ZICO,Show Me the Money 4 Episode 6,Okay Dokey
+3112,0,75.96074308684213,0.5433299655376989,6buVxRwPapLwrXwIsTiSfm,Disturbed,Metal,Hey You
+56609,40,75.95317966531971,0.6184511100479249,2qGFXgaIM0EJxrBe5mtnZM,NAALAYAK,Zakir (Acoustic),Zakir - Acoustic
+56675,41,75.95151116707706,0.6616153713832065,62HWUAEVA2H3COerlBY4FN,TJ Hickey;Bino Beats;Abstract,backseat (remix),backseat - remix
+31412,0,75.95057635285414,0.8882380340174164,5nmLyv44kBygz9RWHshhG6,Alessia Cara,Frühstücksmusik Herbst/Winter 2022/2023,Sweet Dream
+31313,3,75.94406057889682,0.9479233959048778,7MDtE1tjuPZAro0aPYRql4,Bazzi;Camila Cabello,Comme un lundi,Beautiful
+31457,60,75.9339997470775,0.8325180091877077,6Mcd2tlwSiqsnMC85DF4Ns,Calvin Harris;Dua Lipa,New Year's Eve - NYE 2018/2019,One Kiss
+56254,74,75.92426877644677,0.5388327736240552,0AjcdGri5vhJsmZnduCEqd,girl in red,October Passed Me By,October Passed Me By
+31284,0,75.91191504024441,0.8971845913658277,7KwdHcYzAIHdCXiTgDDWkZ,Charli XCX;Rina Sawayama,Pop Hits Now,Beg for You
+56700,68,75.9113734674081,0.6132810257097943,7pBrj5rt4SSxXwFKOyZfHR,Absofacto,Thousand Peaces,Dissolve
+31818,65,75.90959305415097,0.8942366624736002,23tJmuwvUOa2kTsOlNMWCS,Lauv,~how i'm feeling~ (the extras),Love Like That
+56032,61,75.90910439813062,0.6923585671687281,3vBojOn8Nz8gMQmIBeN00M,OAFF;Savera;Lothika;Ankur Tewari,"Gehraiyaan Title Track (From ""Gehraiyaan"")","Gehraiyaan Title Track (From ""Gehraiyaan"")"
+31357,79,75.89430762644794,0.8772790880066401,7MmG8p0F9N3C4AXdK6o6Eb,Calvin Harris;Ellie Goulding,Motion,Outside (feat. Ellie Goulding)
+53537,0,75.88285092606361,0.685167225190932,0ZvFYGbUkGXHThmN6Gnerr,Kungs;JHart,pov: it's 2020,Dopamine
+31312,63,75.87920557741681,0.8379181957467642,2sVcG5mresyV79qpYr3M1C,Alan Walker;K-391;Boy In Space,World Of Walker,Paradise
+31619,74,75.86526615015921,0.7949741145212348,5w7wuzMzsDer96KqxafeRK,Billie Eilish,dont smile at me,COPYCAT
+56707,39,75.85880859473168,0.5606351664744137,1iMeMx9wWD0YHvi0NKVegj,NAALAYAK,Naalayak EP,Bawra
+31372,1,75.83705651220582,0.9124410391741404,4pOV2fwhycAawv7aC7I6Cd,Bazzi,US Pop 20s,Miss America
+30162,67,75.83058835988348,0.7026524546622815,1QQ1Dx8dcLgWvUaY5fk84y,Zeus X Crona;Julius Dreisig,Invisible,Invisible
+53802,46,75.82440570290103,0.8691502888894745,6OzPP9Ax7YsgRWxDITRbRY,R3HAB;Mike Williams,The Wave,Lullaby
+31878,41,75.81367326650677,0.9256757074084901,6hF9F76wq0rpXxZxvmEA2e,Alan Walker,Faded (Lost Stories Remix),Faded - Lost Stories Remix
+31251,81,75.81122201426835,0.7524697994650345,41zXlQxzTi6cGAjpOXyLYH,Billie Eilish,dont smile at me,idontwannabeyouanymore
+71381,49,75.8090699536189,0.5081811588218774,5DO5JEUkxhtsMvaCX7ipGZ,DEHA INC.;Mertigo,PARDON K***,PARDON K***
+56056,73,75.79730010221162,0.6360412786888938,1ujxjsoNvh4XgS2fUNwkZ2,Beach House,Depression Cherry,Space Song
+3787,0,75.77875541489405,0.7499033932212836,6Wvzj0D4DXvqpzLhE2LTIN,Curren$y;August Alsina;Lil Wayne,Rap Geek,Bottom of the Bottle
+65259,74,75.77277873401104,0.5189450776657505,0LatE4S9UtCDwIdGQsFFKL,Stray Kids,NOEASY,"Red Lights (Bang Chan, Hyunjin)"
+65283,78,75.76902563310671,0.7337937795342114,2WoluqyWzsgRmFCeHeGlnm,ITZY,CHECKMATE,SNEAKERS
+31687,64,75.76175846984319,0.8561453642310177,2SPEg45ZaUFJCg9GwNmRvw,Cher Lloyd,None Of My Business,None Of My Business
+65627,48,75.76092518284088,0.5318166561536043,5yJMDVJnBTunI5UaIpXHQ6,Yuvan Shankar Raja;Ilaiyaraaja,Viruman (Bonus Track Version) [Original Motion Picture Soundtrack],Aagaasam - Ilaiyaraaja Version
+53772,61,75.75936792008919,0.8079979367615888,6TfeXwJihJRuBW3mFpib6J,CLMD;Tungevaag,DANCE,DANCE
+65655,67,75.74454327833612,0.6241805650095246,6c1QaQHdDhtFMfUkhueuXK,Red Velvet - IRENE & SEULGI,Monster - The 1st Mini Album,Monster
+31091,1,75.73759483415944,0.9063405533787198,20uFSAxK0ilztG3jr08XWf,Wisin & Yandel;Chris Brown;T-Pain,Regageton Para Niños,Algo Me Gusta De Ti
+31051,66,75.73606749067635,0.8610662693022333,6qrifdo7QINdPQr80IelGi,Rovalio;Abdul Hannan,Iraaday,Iraaday
+31633,1,75.73503262179241,0.8641068089003695,1Iixy8OeKBafmLCl3bVOGR,Ashnikko,US Pop 20s,Panic Attacks in Paradise
+65058,83,75.70094236946589,0.8213713900889361,296nXCOv97WJNRWzIBQnoj,LE SSERAFIM,FEARLESS,FEARLESS
+53625,71,75.69660932516533,0.7029519448950377,0MWiSBKm8Avs8iDIxcertp,Anne-Marie;Little Mix,Therapy,Kiss My (Uh Oh)
+31998,0,75.69243571629393,0.9262280248594928,3WDLiY9zgCqDLEdUqsPJTO,Chino & Nacho;Daddy Yankee,Esto No Se Le Dedica A Cualquiera,Andas En Mi Cabeza
+31386,0,75.681287878671,0.8979727356048257,2R789qQ3WNexbwgJpWReY1,Julia Michaels,Concierto en la ducha,Issues
+53061,77,75.66318944270559,0.6531018994987916,62aP9fBQKYKxi7PDXwcUAS,Surf Mesa;Emilee,ily (i love you baby) (feat. Emilee),ily (i love you baby) (feat. Emilee)
+56803,39,75.65295910348749,0.6813458692869963,1PvMhEinxD26qgSbyzdsh9,The Yellow Diary,Sajni,Sajni
+31126,0,75.65169875725914,0.8395541994999539,2ilLde312SB0ADAza3IbY6,Melanie Martinez,All Out Alternative,Soap
+31145,0,75.6397295825248,0.7376269964252502,12xEvLcLawXJUs4ANGYdxZ,"Wisin & Yandel;Franco ""El Gorilla"";Jayko",Halloween con perreito,Me Estas Tentando - Remix
+53380,0,75.63940421676404,0.7325531065900737,4k8XDEK1qII67HXtOpcl0G,Ella Henderson,The State of Pop,Friends
+53830,63,75.63542679599396,0.7778597989537178,1qRgEKIeSrMcS62Ji4g8VT,R3HAB;Jonas Blue;Ava Max;Kylie Cantrall,Sad Boy (feat. Ava Max & Kylie Cantrall),Sad Boy (feat. Ava Max & Kylie Cantrall)
+56275,51,75.63537267074655,0.668985553539711,3gEXozdAKhOArKGMfW0m5W,Sushant KC,Maya Ma (2018 Compilation),Muskurayera
+65846,62,75.62091951760887,0.6695039421515128,5nIjOnMbC0QDMrYFLGx0yV,BLACKPINK,BLACKPINK IN YOUR AREA (Japanese Version),BOOMBAYAH - Japanese Version
+53413,65,75.61250257465079,0.7778973234548074,01BC4Xj5tfsfV8DLDrma7q,Anne-Marie,Speak Your Mind (Deluxe),Ciao Adios
+56489,0,75.60777815802132,0.6336152802347848,6H7xgR4Dbw84G11vODwIH9,Maisie Peters,Coffee Moment,Feels Like This
+31685,72,75.60282638749392,0.9326058010529709,3SKzTIl9mW0DadTys9SFo3,Halsey,BADLANDS (Deluxe),Control
+65800,50,75.58742339057359,0.6994958066800565,2BWd1qRu8mc6H0HbDtn8Dr,PSY,VIP DJ,Gentleman
+31411,0,75.58452225364567,0.901099986685709,6Xq7q1vvdYRRUWSROJUbyn,Alessia Cara,Best Road Trip Pop Tunes,Shapeshifter
+31747,0,75.57550915403019,0.7680683425505438,6be4zs74UAntMkWpfdmwXt,Juan Magán;Luciana;Joey Montana;Jaume Berenguer,Perreo Tenebroso Vol. 2,Baila Conmigo - Remix
+65654,66,75.54768154766967,0.7936158059352357,2ujA6F1cpk3m8lsPE5aKua,EXO,THE WAR - The 4th Album,The Eve
+31889,60,75.5316286198984,0.9234627127192314,4Sp0jLZN8MgPnoGDufJS7N,Alan Walker;Sabrina Carpenter;Farruko;Da Tweekaz,On My Way (Da Tweekaz Remix),On My Way - Da Tweekaz Remix
+65375,69,75.53074081064129,0.8112108132052679,5C6A1WXVfKvBBQmaFFnBgs,BTS,Love Yourself 承 'Her',Best Of Me
+31659,45,75.53045787728195,0.6972329680727225,0MZ6NFEV7oQSDMzuXBVS5E,Sickflip;Ritviz;Seedhe Maut,Roshni,Roshni
+31520,65,75.52855030061049,0.9545134862671353,4vsAUbPb6q9FpC4AGBFdVh,Loote,lost,tomorrow tonight
+65735,70,75.52655294654811,0.7604399939739162,0OCDOcvQvozjsivREMojzx,Stray Kids,Mixtape : Time Out,Mixtape : Time Out
+31994,0,75.52335763628089,0.9121869482642793,67avyz2FqPWktHLm8cHFpT,Chino & Nacho;Daddy Yankee;Don Omar;Wisin,Perreo Tenebroso Vol. 1,Andas En Mi Cabeza - Remix
+56866,58,75.51732083650701,0.919799646900388,6cj1qZxN3I2OxvYMDlIsNN,Jake Scott,Year of the Sunflower,Like This
+65144,60,75.50804585657181,0.6773360618611466,7vR8sGqVg5HMEOEvECdzlQ,Yuvan Shankar Raja;Tanvi Shah,"Voice of Yuvanshankar Raja, Vol. 2","En Kadhal Solla (From ""Paiya"")"
+71601,65,75.50543367712777,0.5185150574239797,5OxclJsdFESni44YlpNpkR,Bring Me The Horizon,Parasite Eve,Parasite Eve
+71754,57,75.50329350272705,0.5825416744307246,3Hff4mCaUFKzrq05w78tEn,Clonnex,MEDIV Luff N Sip,Ya Lyublyu
+65038,65,75.4972565764225,0.6984350441925277,3FRLxtpSk9BxxnxdS6I4jq,Yuvan Shankar Raja;Tanvi Shah,Naan Mahaan Alla (Original Motion Picture Soundtrack),Iragai Poley
+30995,71,75.49685821765837,0.5343925120891375,1dt220OBbkTsYz1NLVKIaw,Gabry Ponte;R3HAB;Timmy Trumpet,Call Me (with R3HAB & Timmy Trumpet),Call Me (with R3HAB & Timmy Trumpet)
+65948,64,75.4911414913889,0.8761240074303223,1hlT8F0X27uf3fpOWawjbY,BTS,Wings,Intro: Boy Meets Evil
+31978,55,75.48834699319976,0.7671702158263347,3WMnYYRj4VmziUS9Fzey8p,Alan Walker;Ina Wroldsen,"Walkerverse, Pt. I",Blue
+65567,68,75.48114468876288,0.8277657261325699,3omvXShuRPM3zbDpWYqf5g,TWICE,MORE & MORE,MORE & MORE
+53603,78,75.47615345881978,0.7833771949362964,6OufwUcCqo81guU2jAlDVP,Shouse,Love Tonight,Love Tonight - Edit
+53977,74,75.46808807435576,0.778360831571177,0vR2rIVORmgeKiGIgNT0fV,Calvin Harris;Tom Grennan,By Your Side (feat. Tom Grennan),By Your Side (feat. Tom Grennan)
+65929,65,75.46738002464275,0.8536716898710837,0Vu5tjvXZX3qtzRiezxLi1,EVERGLOW,Return of The Girl,Pirate
+65215,80,75.45007022854763,0.7443170109318448,0IGUXY4JbK18bu9oD4mPIm,(G)I-DLE,I NEVER DIE,TOMBOY
+65967,66,75.4441681904447,0.8360341507611948,6SQUopvuZyrWYjYayxxSXl,Brave Girls,Rollin',Rollin'
+31166,60,75.44079872588509,0.8368294698577546,2WOuLxGqZmLH0lcx2a0czd,Consoul Trainin;Steven Aderinto;DuoViolins,Obsession,Obsession - Radio Edit
+54466,12,75.43358070607052,0.521258926983707,3cUaWoVYRo3dmKp8Ivi4N5,Bogdan Raczynski,Rave 'Till You Cry,307 33m15
+65871,44,75.42942732496074,0.8036518387370606,3ZVKzrWt3efdPVLmiYdr6M,Yuvan Shankar Raja;Ranjith Govind,Anjaan (Original Motion Picture Soundtrack),Bang Bang Bang
+31938,71,75.42914750339186,0.8172223769965021,4R8BdwRidxAWaYyFNU00P1,Ruelle,Up In Flames,War Of Hearts
+30944,57,75.42814531842009,0.6010518416855474,6nLEcwqpVNOGRGtnV2pElc,Arc North;Cour;Charlie Miller,Youngblood,Youngblood
+65211,72,75.42389352101476,0.8388635406634066,44tTqUi3xi7E28QLzHVdUA,TOMORROW X TOGETHER,The Chaos Chapter: FREEZE,Anti-Romantic
+31026,71,75.39393434272111,0.7428812698428584,52iLDrSoRtf9lcgFuLVfqE,Sasha Alex Sloan,Older,Older
+65362,66,75.39255403039098,0.8451641335773544,2ZMkjvuOQOD9HLplTDjbTA,JEON SOMI,XOXO,XOXO
+31072,63,75.392311972254,0.9293440604010004,7xlrdBdz8TGSo0COvLHymc,RANDALL,Wahran,Wahran
+65405,64,75.3922692026113,0.8347269714702296,4iJyTp1KwCeBKhf7h0SwsD,WINNER,FATE NUMBER FOR,REALLY REALLY
+31109,81,75.3893582555543,0.7198643656674872,21szgNA72iLwvBxHQLgwBh,Nessa Barrett,die first,die first
+65785,45,75.38890015165192,0.6345283421647202,6mCBXs5VNOS3OuiKrtyWxT,Yuvan Shankar Raja,Maanaadu (Original Motion Picture Soundtrack),Maanaadu Theme
+65980,64,75.3856723235448,0.791526446648569,3V375E3xldRPEEcIKiw83l,G-DRAGON;ROSÉ,One of a Kind,Without You (Feat. ROSE)
+65350,78,75.38333588961044,0.775084953390662,1dfsPqH09vnzUWEOsN98Ex,SEULGI,28 Reasons - The 1st Mini Album,28 Reasons
+31305,0,75.38094480708232,0.823707573331754,0dhVTBkpQiWpCnxWJECfFL,Bazzi,Coffee Moment,Dreams
+65806,68,75.35373372643407,0.6444070555431093,38rUIlTX93Aoif3WcY1wv6,ITZY,IT'z Different,DALLA DALLA
+65136,59,75.32522334338717,0.8035010892582934,1GtGDEADkaqavjo23YaSLl,Yuvan Shankar Raja,"Saachitale (From ""Love Today"")","Saachitale (From ""Love Today"")"
+65892,67,75.31944292097991,0.6663398632399404,6k67RdkVjTZj79c1cRz7IQ,ATEEZ,TREASURE EP.FIN: All To Action,WONDERLAND
+31261,82,75.31741535689494,0.7769730172520065,2Foc5Q5nqNiosCNqttzHof,Daft Punk;Pharrell Williams;Nile Rodgers,Get Lucky (feat. Pharrell Williams & Nile Rodgers) [Radio Edit],Get Lucky (feat. Pharrell Williams & Nile Rodgers) - Radio Edit
+65492,67,75.31157602143125,0.861159879415838,0TdWVbcerMAcvljXrl9gpG,BTS,BE,Stay
+71051,76,75.30532123661276,0.8546021737254459,4xDwCYhobDehSBGUmd5H6Y,The Plot In You,DISPOSE,FEEL NOTHING
+65926,63,75.30111978160413,0.7595881036355295,1ayaOin9hxCtyhg4UsBTpg,NCT 127,NCT #127 Neo Zone - The 2nd Album,Kick It
+53919,39,75.2954200327846,0.5767128228789596,3YEsLVAYGKjGHcdGQOpiAY,El Profesor;HUGEL,Bella Ciao [HUGEL Remix],Bella Ciao [HUGEL Remix]
+65782,70,75.28090917661125,0.7411490153605379,2FymmKBuog0loCuNXMwQID,SEVENTEEN,SEVENTEEN 8th Mini Album 'Your Choice',Ready to love
+53856,50,75.26479377794001,0.6747599092316597,3ZNOHVQAzLv7FhPYxlL31d,Demeter,Dope,Dope
+65656,67,75.26350877197962,0.8399983614628995,3LTwMQ9kkn5VVhP3jipBlR,BTS,Wings,Stigma
+65313,54,75.26107515923471,0.8400183110985224,3xPrsPOz6k3DvWCstjXDMu,Dhanush,Yaakkai (Original Motion Picture Soundtrack),Solli Tholaiyen Ma
+71661,71,75.25552254709814,0.704838474010966,2ib8fuTavdc48X6MjhE4Ft,Falling In Reverse,ZOMBIFIED,ZOMBIFIED
+10886,11,75.2547873363257,0.5176890111795103,3Ho7nxbvbH0zTA48uWP9VX,Noisia;Trolley Snatcha;Foreign Beggars,Never Say Die (Deluxe Edition),Contact - Trolley Snatcha Remix
+65339,53,75.25030930848703,0.7293543455554969,2kAZP4MIGCitpBHn358pgU,Yuvan Shankar Raja;Bhavatharini;Rizwan,"Meherezylaa (From ""Maanaadu"")","Meherezylaa - From ""Maanaadu"""
+31919,74,75.24692589802707,0.8049789325612359,4ak9GGe6afmi2HbxEjvhIC,Billie Eilish,Happier Than Ever,Male Fantasy
+65410,69,75.24622074204696,0.6458941835682578,2QZe2H1f03t5PJWEMg2Mbe,BTS,MAP OF THE SOUL : 7,UGH!
+31456,79,75.23902634635564,0.8401912702905059,7eB1V5LvAdxCc7brfGhRRo,Billie Eilish,dont smile at me,watch
+65823,70,75.23507593792345,0.7623047203021804,6Ib6RkvLBMD85bov85apSL,Stray Kids,NOEASY,DOMINO
+71312,59,75.21967524065575,0.7050422765588052,0bMOyiuk22fAKiwNoYsRYN,Bring Me The Horizon;Jeris Johnson,Can You Feel My Heart (Remix),Can You Feel My Heart - Remix
+31048,0,75.21929300930827,0.8962139065168907,5mvAPEp2FA2myWJAE1FYt3,Billie Eilish,Halloween Party 2022,you should see me in a crown
+65632,69,75.21356433373512,0.7779411093935991,4DYIDSMIB5y2UmZFv9fxeX,TWICE,Summer Nights,Dance The Night Away
+65624,47,75.20691822068403,0.8305215664385905,5MGdVJRHRfZ95yWQ2hCwRC,Yuvan Shankar Raja;Tanvi Shah;SUVI,Billa 2 (Original Motion Picture Soundtrack),Yedho Mayakkam
+65473,74,75.20538423789719,0.7677135145567554,3dbLT62Cvs46Ju7a8gpr36,aespa,Savage - The 1st Mini Album,Savage
+31142,1,75.20461502051313,0.7408844396932819,356ry72djzWnoIjOCrLS7h,Wisin & Yandel,Perreo en Halloween,Sexy Movimiento
+71853,64,75.20030168238789,0.8421090064560702,0hAIs32U2SmJcXymlcyF8h,Asking Alexandria,Asking Alexandria,Alone In A Room
+65310,74,75.19856720211276,0.8724059285465016,1Z8TPHiKeCUyClxV6WTTIf,TOMORROW X TOGETHER,The Chaos Chapter: FREEZE,0X1=LOVESONG (I Know I Love You) feat. Seori
+65989,55,75.19216333045394,0.7003685481175764,4k2iYdpCZYH3eQX2bVKOku,BLACKPINK,'BLACKPINK 2018 TOUR 'IN YOUR AREA' SEOUL - Live,DDU-DU DDU-DU (Live)
+65801,77,75.19179765780461,0.8867348501125026,3EMp20j5E42MxfFbsEsIvD,Jack Harlow;Drake,Come Home The Kids Miss You,Churchill Downs (feat. Drake)
+53569,0,75.18594763212224,0.7392260151642828,7aOy14i2bhauyZl4r3TcP2,Nathan Dawe;Ella Henderson,All That Really Matters - Just Hits,21 Reasons
+31952,69,75.18293626434627,0.8300600438003598,5Kq2GzvM6XE8zN4RAKKLSf,Madison Beer,Showed Me (How I Fell In Love With You),Showed Me (How I Fell In Love With You)
+65518,69,75.18138458723108,0.7162378358215081,3zmrdOtnOogqLllz26WLZ3,ATEEZ,ZERO : FEVER Part.3,Deja Vu
+65685,47,75.17978784933376,0.7963675955320905,675Akyln4LBrmze7Z0ydIO,Yuvan Shankar Raja;Ranjith Govind,Billa 2 (Original Motion Picture Soundtrack),Unakkulle Mirugam
+71976,61,75.17818304059696,0.6419784218999843,4VymMhILk4DSwghPkLUPVS,Avenged Sevenfold,Avenged Sevenfold,Critical Acclaim
+65621,63,75.16485498057516,0.6145608448085002,0x4cMbCLC6L7aJQs3EiPaZ,BTS,Dark & Wild,Look Here
+65341,71,75.16208092413412,0.7354468045074878,6O734u9qnz6B4gWMyszWhi,BTS,The Most Beautiful Moment in Life Pt.2,Silver Spoon
+65969,60,75.15249796348593,0.6911291055530252,4JWbH50WabthGhmtduR8b9,BTS;Sia,MAP OF THE SOUL : 7,ON (Feat. Sia)
+31204,69,75.14127073838536,0.8008979927714595,0Wc6cbF38a90b8wov9V63F,AJ Mitchell,Like Strangers Do,Like Strangers Do
+65736,46,75.1386507040022,0.7206250863452717,4qbH2EQ2d3cGqtIT8gIlhG,Yuvan Shankar Raja;Krishh;Suchitra,Mankatha (Original Motion Picture Soundtrack),Vaada Bin Laada
+65031,85,75.12253614655904,0.5877530515441483,10SRMwb9EuVS1K9rYsBfHQ,BTS,Proof,Yet To Come
+65011,85,75.12137544070764,0.7099649635633752,5QDLhrAOJJdNAmCTJ8xMyW,BTS,BE,Dynamite
+65501,50,75.1189889463846,0.7813350489081194,0Bph99neebTJZ6rsIhd0sN,Jubin Nautiyal;Palak Muchhal,Kaabil,Kaabil Hoon
+65180,72,75.10755186800444,0.8619202234756032,5MTGPkmiUuud9NkA0sl2nI,BTS,Love Yourself 轉 'Tear',Magic Shop
+65490,71,75.1000590455709,0.6132493699558079,24nK8tW7Pt3Inh2utttuoG,MAMAMOO,reality in BLACK,HIP
+65729,65,75.08151117587603,0.7702064275860393,6bSwpQYEguyMlkCoWiBt3Y,BTS,Love Yourself 結 'Answer',Trivia 承 : Love
+65535,0,75.07264386708077,0.7995454218885549,74thpRSaW8Yc2yFZgVHXNd,Dhanush;Arivu,Kollywood Party Anthem,"Polladha Ulagam (From ""Maaran"")"
+65280,55,75.07264386708077,0.7995454218885549,0CI3up9Rf5tZq5MxfJG2oB,Dhanush;Arivu;G. V. Prakash,"Polladha Ulagam (From ""Maaran"")","Polladha Ulagam (From ""Maaran"")"
+65335,71,75.0717009320756,0.8643905182673011,7DEKa5Z7Cl8s3Y7imb88OM,BTS;Steve Aoki,Love Yourself 轉 'Tear',The Truth Untold (feat. Steve Aoki)
+65303,73,75.06680776592954,0.7227895670269565,3ObPkJQAgjAhTwYvDhPrAW,TOMORROW X TOGETHER,minisode1 : Blue Hour,Blue Hour
+71766,52,75.05150094871773,0.7587810061100376,3Kj2M9gRU1Lwf5eiNjBtBp,Bloodywood,Rakshak,Gaddaar
+31156,80,75.05094141624211,0.817601961305569,7hDVYcQq6MxkdJGweuCtl9,Billie Eilish,dont smile at me,ocean eyes
+65073,76,75.04128970928886,0.8595517118257692,2j1fFjWHCI9KJSwcuYAOyF,BTS,You Never Walk Alone,Spring Day
+53975,56,75.03641167564487,0.6378580081672188,6THwtgImf1ZAR2w3iknjeS,Sigala;The Vamps,Brighter Days,We Don't Care
+65438,73,75.03423880644743,0.6239871848164351,1Rrj7KyS2R6SP9CQMDJW1w,SEVENTEEN,Love&Letter repackage album,VERY NICE
+65075,76,75.03234390084587,0.5969954511524547,4bZZVcgWWMWPBwzTTp642w,BTS,MAP OF THE SOUL : 7,Filter
+65996,42,75.02300003406629,0.6160493593645384,5kkgQsFJY5MVXChIfY0bl9,Yuvan Shankar Raja;KK;Sadhana Sargam,Dass,Sakka Podu
+65509,61,75.0209657588764,0.6992966707715877,1rLkzFZdokhx6Wcs80uvnw,BTS,Love Yourself 結 'Answer',Dimple
+65941,61,75.01687036609516,0.717498150319847,3V2fMXzPJLkIQyRgwOLgip,KIMSEJEONG,"Love, Maybe (A Business Proposal OST Bonus Track)","Love, Maybe (Acoustic Ver.)"
+65590,65,75.01137771869966,0.8649525595756817,29SjtKzBoJDgyIBusHylIS,BTS,Dark & Wild,War of Hormone
+65712,66,75.01002118363773,0.8589970339431352,0EmYZZ8OqeALedVhijSjsg,TOMORROW X TOGETHER,The Dream Chapter: STAR,CROWN
+31468,72,75.00672788982773,0.8808024848497521,0WHi11uzahqpEtPGYCW6oQ,Alec Benjamin,Narrated For You,If I Killed Someone For You
+65832,46,75.00323376176924,0.7992011924307465,1z0p8ODhL1aZFBengxPkZU,Vidyasagar;Udit Narayan;Shreya Ghoshal,Kuruvi (Original Motion Picture Soundtrack),Thaen Thaen Thaen
+65446,51,74.99521017129075,0.7879049731591946,4HBDcyTmazbfvNchzmKTC1,Yuvan Shankar Raja,Vai Raja Vai (Original Motion Picture Soundtrack),Pachchai Vanna
+65759,44,74.98098528489238,0.6530590225298635,5PURTIpVPE45Al5IV0QJOS,All Ok;Ashika Ranganath,Mallige Hoova,Mallige Hoova
+65433,51,74.96740885157358,0.7068654930216735,7AqdmyhxeYqwfwW52TTPdF,Yuvan Shankar Raja;Shankar Mahadevan,Billa (Original Motion Picture Soundtrack),Vethalaiya Potendi
+31828,65,74.9623398248651,0.6654028315010884,3u5bTqHMM1P34ZkbwzdckV,Lauv,I met you when I was 18. (the playlist),The Story Never Ends
+31990,1,74.95397152712404,0.5626970894998404,4JpToqFup6IoCO8oWFhzWh,St. Vincent,The Greatest Rock Tunes 2022,The Melting Of The Sun
+31690,0,74.95134138853163,0.7548714491650536,0beovTlPSpPYSYSTtY9Wpv,Chelsea Cutler;Noah Kahan,Autumn Vibe,Crazier Things
+65833,44,74.94463438464192,0.5904565628037408,1oUmQdyZJGKi8EZKvNrRZQ,Yuvan Shankar Raja;Karthik;Sunitha Sarathy,Awaara (Original Motion Picture Soundtrack),Chuttesai Chuttesai
+65153,69,74.9285181445963,0.9873400461397529,2WH4oy1SYppZrcdgKwSA0j,BTS;Lauv,Make It Right (feat. Lauv),Make It Right (feat. Lauv)
+65777,45,74.9270428878297,0.7446199691661946,0l8PtVLV2EZKSjMeFQUAyE,Yuvan Shankar Raja;Silambarasan TR;Earl;Suzi Q;SUVI,Silambattam (Original Motion Picture Soundtrack),Nallamdhana
+65668,69,74.92656099267373,0.7020437691431063,1WKLxJpDqkQ9x1qEDNutoX,NCT 127,2 Baddies - The 4th Album,2 Baddies
+65294,54,74.91859142688283,0.6881248321206432,7fGcPKzKiXAVL0mqesq4dT,Yuvan Shankar Raja;Karthik;Sunitha Sarathy,Paiya (Original Motion Picture Soundtrack),Suthudhe Suthudhe
+65607,46,74.91806954560279,0.7556417748631028,3rsWHSHxGSORjwEDqH9VH9,All Ok,Yaakinge,Yaakinge
+65014,36,74.91505073276933,0.7978545004896114,4bt0XG1MoZ1fkZ095X6WHC,Yuvan Shankar Raja;Dhanush,Naane Varuvean,Rendu Raaja
+65882,64,74.8936638267993,0.7688259106576563,5Z4aqpT39KpY8gbHoJWdou,MAMAMOO,RED MOON,Egotistic
+65182,72,74.89348898874569,0.8419150646050106,6L88EH68XwlaXwvChlTS41,BTS,Love Yourself 結 'Answer',Epiphany
+65311,75,74.88944290122694,0.6980271556886961,6T4o4xEh61CpgM9v4jG5DJ,Stray Kids,MAXIDENT,"3RACHA (Bang Chan, Changbin, HAN)"
+31130,3,74.88844343645546,0.6672695380515481,6g58dbXCMURHIjtYhbVzf3,Melanie Martinez,Break Up Songs,Dead to Me
+65214,58,74.8866604512633,0.8286788302266072,4ECasrEmA3NeiHQpinwZ2A,Jubin Nautiyal,Hare Krishna Hare Rama,Hare Krishna Hare Rama
+65936,44,74.88136650134707,0.645702721606174,2ZD3o9Lc8zMAT4KMXIMPqa,Ilaiyaraaja;Yuvan Shankar Raja,"Thattiputta (From ""Maamanithan"")","Thattiputta - From ""Maamanithan"""
+65562,48,74.87698072376148,0.5973250105710505,5UllzucVnT1jpCcpMdKktX,Vidyasagar;Unni Menon;Srivarthini,Alli Thantha Vaanam (Original Motion Picture Soundtrack),Kannalay Miya Miya
+65684,66,74.86757936529818,0.6795081364895944,7kyUapJyppdjzoAWB6XS14,BTS,You Never Walk Alone,Outro: Wings
+65856,65,74.8655285237333,0.7458093433678976,7nkp1uuSbKkoxMvEs8cSw0,PENTAGON,Positive,Shine
+105087,48,74.85169889476327,0.5237459388667325,3I6fpot5ZS5H5T5YDB67rQ,Timothy Infinite,Weekend in São Paulo,Salmon Benedict
+31116,75,74.84991820085747,0.5862203285339199,6ATgDc6e4sPn84hvJsAmPt,Olivia O'Brien,hate u love u,hate u love u
+65185,71,74.8388382859873,0.6011417269402914,3wQnyXNFXNUEOBt1pb4urq,BTS,The Most Beautiful Moment in Life Pt.1,I Need U
+65160,57,74.81368044814725,0.7808473762451396,7x5TjoSag3Q3EwLRyrlxrT,Adhvik;Puja Purad,Ninna Gungalli,Ninna Gungalli
+65503,70,74.78820679504764,0.6836598553936342,1MX0g22bQkr9HDVe37fLnN,BTS,Love Yourself 轉 'Tear',134340
+65771,45,74.75688916752478,0.6230195909681567,6ZiPlvGWMRVA2CB3A6iGod,Yuvan Shankar Raja,"Voice of Yuvanshankar Raja, Vol. 2","Kaadal Endral (From ""Goa"")"
+65474,50,74.7562284152034,0.5926313565694993,0RQhpA5lD1GyM7lO2tdmbO,Yuvan Shankar Raja;S.P. Charan,Awaara (Original Motion Picture Soundtrack),Yedho
+65247,56,74.74559642735986,0.7453583004276197,7pog5PPLDv7NcGO975f3EJ,Yuvan Shankar Raja;Muthu Sirpi,Viruman (Original Motion Picture Soundtrack),Vaanam Kidukidunga
+53493,1,74.73886198586658,0.8503129601224082,32qciHkfj70MyYL5OzqwTg,Elderbrook;Emmit Fenn,House Anthems,I'll Find My Way to You
+65279,55,74.73387461297244,0.5399723240728259,7s8UULMrFE2iq5dvHwzrNr,Yuvan Shankar Raja,Kambathu Ponnu,Kambathu Ponnu
+65788,45,74.72858102641133,0.6883923926101249,2f4x30AcgiQdVlMyY7ZvkY,Yuvan Shankar Raja;Andrea Jeremiah;Tanvi Shah;Ranjith Govind;Vinaita,Theeratha Vilayaatu Pillai (Original Motion Picture Soundtrack),Theeratha Vilaiyattu
+65533,49,74.71931811041384,0.7172868283962396,6TLV6M2ZYR450HacvZCXik,Yuvan Shankar Raja;Sanjith Hegde,Coffee With Kadhal (Original Motion Picture Soundtrack),Hi Hello
+65146,60,74.69559221310332,0.5220488623023195,3ysUkfcrFwvXweDt0cliH8,Vijay Antony;Sangeetha Rajeshwaran,Vedi (Original Motion Picture Soundtrack),Ichu Ichu
+65317,68,74.68821005938224,0.790084471053379,3hm4axDodp2jFEDohQfXxV,Henry,당신이 잠든 사이에 Pt. 2 Original Television Soundtrack,It's You
+65874,62,74.67262159796897,0.550010890889375,20MOKIGONywL5xIoB7RRAR,BLACKPINK,SQUARE TWO,WHISTLE - Acoustic Ver.
+65867,44,74.66700903877987,0.8506737155520013,0J4aNOziXZL7uuDmCVB6yV,Yuvan Shankar Raja,Peasu (Original Motion Picture Soundtrack),Vennira Iravugal
+65217,70,74.66496777598543,0.6057682888420036,7lrqvdivAYRGEiO8JFP31G,BTS;Halsey,MAP OF THE SOUL : 7,Boy With Luv (Feat. Halsey)
+31230,1,74.64733867152505,0.7580628645019938,7gQKyddnoJZ0ZsBPKhrP6n,Alec Benjamin,rainy day indie,Match in the Rain
+65353,53,74.6319323887711,0.7362145764101047,2RIFyeYTPMHesJsWPW2Z8v,Jubin Nautiyal,Kaabil,Kisi Se Pyar Ho Jaye
+65287,69,74.62600527774356,0.6464570351393573,6CdUgvL597jWmW4w8P5kHs,TAEYEON,My Voice - The 1st Album,Fine
+65080,62,74.6208377452358,0.5718061473099874,5pV61B6b5kcy1ysaPL8iON,Dhanush;Selvaraghavan,Mayakkam Enna,Kadhal Yen Kadhal
+65925,43,74.59968404811298,0.6583526827239592,7xceseyyaE9PY2A0VbYxuZ,Charan Raj;Sanjith Hegde,"Salaam Soldier (From ""James - Kannada"")","Salaam Soldier (From ""James - Kannada"")"
+65811,46,74.58909054842945,0.5206240694128591,4GhSwI5NSgEVKWbfmf8HyO,Dhanush;Anirudh Ravichander,Thiruchitrambalam (Original Motion Picture Soundtrack),Mayakkama Kalakkama
+65398,52,74.57188661147971,0.9414838413964094,6nQp6Nxx1SwpOkze3Jf1Wo,Yuvan Shankar Raja;Udit Narayan;Suchitra,Yaaradi Nee Mohini (Original Motion Picture Soundtrack),Nenjai Kasakki
+65674,48,74.54625289285777,0.7110395870393126,0LdJcUxGJywXLcxdXZ4wsb,Alka Yagnik;Kumar Sanu,Gupt (Original Motion Picture Soundtrack),Mere Khwabon Mein Tu
+65557,49,74.5428433582749,0.6392711376463021,4gkqGoKI311ayrtcvYaFTz,Jubin Nautiyal;Neeti Mohan,Romantic Hits By Jubin Nautiyal,"Bawara Mann (From ""Jolly Ll.B 2"")"
+65538,50,74.46879900962037,0.6749123640448957,1CWC107N5c6KkDRXvY2VtB,Alka Yagnik;Udit Narayan,Gadar Ek Prem Katha,Udja Kale Kawan - Marriage
+65199,57,74.44607859781686,0.582765131857104,5FRL2sxhLNlC1Ms86qajcq,Yuvan Shankar Raja,Semma Botha Aagathey (Original Motion Picture Soundtrack),Idhayathai Oru Nodi
+65309,55,74.43631090330283,0.7912218167081707,1s2BVgfna5AW7LCw9rf02r,Alka Yagnik;Udit Narayan,Taal (Original Motion Picture Soundtrack),Taal Se Taal
+65411,51,74.32505927531903,0.57741374528262,3UUY5QQuhs48YjWihSA0ha,All Ok;Arvind KP;Divya Urduga;Raghu Vine Store,Yaakinge 2,Yaakinge 2
+65193,58,74.31532390526735,0.6527885355577363,7j6Cb59M9yOq3aw4fmDzQj,Kamal Haasan;Shreya Ghoshal,Virumandi,Unna Vida
+65794,45,74.30716992091769,0.8563324840500319,2mCxqKPMzlbG4YkMTJObDf,Vijay Antony;MK Balaji;Sheba;Maya;Ramya,Ninaithale Inikkum (Original Motion Picture Soundtrack),Sexy Lady
+65207,57,74.2907038205179,0.5018253379988199,0lpDlWrV0Cw3eGGvPU6d3R,Jubin Nautiyal;Prakriti Kakar;Tanishk Bagchi;Anand-Milind,"Gazab Ka Hai Din (From ""Dil Juunglee"")","Gazab Ka Hai Din (From ""Dil Juunglee"")"
+65642,47,74.26051261718682,0.707779506204906,5pfCT1UcILp1HtgzS7EPpE,Yuvan Shankar Raja;Vijay Yesudas,Billa (Original Motion Picture Soundtrack),Seval Kodi
+65570,50,74.23940027121705,0.7809398373414744,6epkXOG46GPPYhsp1OQscE,Alka Yagnik;Udit Narayan;Kumar Sanu,Dil Ka Rishta (Original Motion Picture Soundtrack),Dil Ka Rishta
+65197,58,74.23825548621846,0.5078569999469527,3Bh8VEMG1ugQgDHsuxJkat,Madhusree;Naresh Iyer,Anbe Aaruyire (Original Motion Picture Soundtrack),Mayilrage
+65296,55,74.23825548621846,0.5078569999469527,0Ne4nzvVi5FQXwiYCkjUqX,Madhusree;Naresh Iyer,Youth Beats - Hits of A.R.Rahman and Yuvan Shankar Raja,"Mayilrage (From ""Ah…Aah"")"
+65493,50,74.22995574260261,0.6362663156051408,6XeJ4zrJoEGr3jbgO6duJl,Yuvan Shankar Raja;Sadhana Sargam,Baana Kaathadi (Original Motion Picture Soundtrack),En Nenjil
+65324,54,74.22722353319352,0.8401816176852809,0ogQLrVggiaPUbHmRX5LqY,Yuvan Shankar Raja;Sooraj Santhosh,My Playlist: Yuvanshankar Raja,"Kadhal Aasai (From ""Anjaan"")"
+65555,49,74.15714077515585,0.705556733396161,5RV8PjHniE101mZtug4Kpu,Alka Yagnik;Hariharan,Khamoshi- The Musical,Bahon Ke Darmiyan - Khamoshi - The Musical / Soundtrack Version
+65516,68,74.10581016172077,0.7579398728997228,1YO4xJXhh9A1Feg9k8xuy2,BTS,Love Yourself 轉 'Tear',Paradise
+31050,86,74.08711741686159,0.6590761631743853,3ZCTVFBt2Brf31RLEnCkWJ,Billie Eilish,everything i wanted,everything i wanted
+65261,55,74.06309766683549,0.5292541294046369,4u15uG99mpkGrOQDuQdhaU,Jubin Nautiyal;Prakriti Kakar,Barkhaa,Tu Itni Khoobsurat Hai - Reloaded
+65386,53,74.01295420919922,0.7339308098431631,60dbY1IYizdQQVhC4QTyEc,Jubin Nautiyal;Payal Dev,Dil Chahte Ho,Dil Chahte Ho
+65708,47,73.99789725486326,0.5024788772527353,6Rkl10M1hGj0bvN3TlQ3KI,Alka Yagnik;Kumar Sanu,Dil Hai Tumhaara (Original Motion Picture Soundtrack),Kasam Khake Kaho
+65344,53,73.97558144262612,0.5886948212180487,59SBaFrtyppqNhyzDpKx3j,Yuvan Shankar Raja;Silambarasan TR;T. Rajendar;Suchitra;Mahathi,Vallavan (Original Motion Picture Soundtrack),Ammadi Aathadi
+65839,45,73.96078334926949,0.8499837506628457,6HExlCnMKR4CdHfJE2aJmg,Yuvan Shankar Raja;Shankar Mahadevan,Silambattam (Original Motion Picture Soundtrack),Silambattam
+65748,46,73.92597946439413,0.6267843909871593,0Nd4TdihAUearvj37QMvjF,Ilaiyaraaja,Panakkaran (Original Motion Picture Soundtrack),Ullukulla Chakaravarthy
+65403,52,73.82620887315359,0.6662829713242616,3U4DN2lz0IPxewpymAS1ZK,Jubin Nautiyal;Payal Dev;Manoj Muntashir,Meri Mai,Meri Mai
+65298,55,73.808983257561,0.5335040150401841,6chviF7naWfxVOF91dkdqb,Vidyasagar;Krishnachandar;Sujatha,Pasumpon (Original Motion Picture Soundtrack),Thamarai Poovukum
+65661,48,73.69678479822281,0.6081791874193732,1x7T34ntvHETqgVeYVK2Jm,Alka Yagnik;Sonu Nigam,Lucky: No Time For Love,Chori Chori
+65575,49,73.52444383262907,0.6260130792698484,18i1q3iqyO87q0PwOWgw1C,Alka Yagnik;Kumar Sanu,Bollywood Melody Queen (Alka Yagnik),"Dil Kehta Hai (From ""Akele Hum Akele Tum"")"
+28278,45,73.35692413504115,0.9326025290581631,6ZI5UgjEGb82o1XaAZKLJ2,Hi I'm Ghost,Death Rail,Death Rail
+98699,22,72.91042100300538,0.7596452270322079,5qYO0VJvkRMuaVLrXZlV6H,Terrence Mann;Andrew Keenan-Bolger;Robert Lenzi;Carolee Carmello,Tuck Everlasting (Original Broadway Cast Recording),The Story of the Man in the Yellow Suit
+26677,20,70.43041821283013,0.570005256468262,3X5aVIW3if8xzOrkFE1Vco,The Dwarf Chorus,Snow White and the Seven Dwarfs (Original Motion Picture Soundtrack),Music in Your Soup

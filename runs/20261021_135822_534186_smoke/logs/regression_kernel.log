@@ -1,0 +1,33 @@
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+[CV] END model__alpha=0.03199267137797385, model__max_iter=5000, model__selection=random, model__tol=0.001; total time=   0.0s
+[CV] END model__alpha=0.03199267137797385, model__max_iter=5000, model__selection=random, model__tol=0.001; total time=   0.0s
+[CV] END model__alpha=0.1873817422860385, model__max_iter=1000, model__selection=cyclic, model__tol=0.001; total time=   0.0s
+[CV] END model__alpha=0.1873817422860385, model__max_iter=1000, model__selection=cyclic, model__tol=0.001; total time=   0.0s
+[CV] END model__alpha=0.0002782559402207126, model__max_iter=5000, model__tol=0.0001; total time=   0.0s
+[CV] END model__alpha=0.0002782559402207126, model__max_iter=5000, model__tol=0.0001; total time=   0.0s
+[CV] END model__alpha=0.008697490026177835, model__max_iter=5000, model__tol=0.0001; total time=   0.0s
+[CV] END model__alpha=0.008697490026177835, model__max_iter=5000, model__tol=0.0001; total time=   0.0s
+[CV] END model__alpha=0.3274549162877732, model__l1_ratio=0.7999999999999999, model__max_iter=1000, model__tol=0.0001; total time=   0.0s
+[CV] END model__alpha=0.3274549162877732, model__l1_ratio=0.7999999999999999, model__max_iter=1000, model__tol=0.0001; total time=   0.0s
+[CV] END model__alpha=0.000145082877849594, model__l1_ratio=0.7999999999999999, model__max_iter=5000, model__tol=0.01; total time=   0.0s
+[CV] END model__alpha=0.000145082877849594, model__l1_ratio=0.7999999999999999, model__max_iter=5000, model__tol=0.01; total time=   0.0s
+[CV] END model__max_depth=5, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=30; total time=   0.1s
+[CV] END model__max_depth=5, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=30; total time=   0.1s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=4, model__min_samples_split=2, model__n_estimators=30; total time=   0.1s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=4, model__min_samples_split=2, model__n_estimators=30; total time=   0.1s
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=30, model__subsample=1.0; total time=   0.1s
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=30, model__subsample=1.0; total time=   0.1s
+[CV] END model__learning_rate=0.005, model__max_depth=4, model__max_features=None, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=30, model__subsample=0.6; total time=   0.2s
+[CV] END model__learning_rate=0.005, model__max_depth=4, model__max_features=None, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=30, model__subsample=0.6; total time=   0.2s
+[CV] END model__learning_rate=0.1, model__loss=linear, model__n_estimators=50; total time=   0.3s
+[CV] END model__learning_rate=0.1, model__loss=linear, model__n_estimators=50; total time=   0.3s
+[CV] END model__learning_rate=0.01, model__loss=linear, model__n_estimators=50; total time=   0.3s
+[CV] END model__learning_rate=0.01, model__loss=linear, model__n_estimators=50; total time=   0.3s
+[CV] END model__metric=manhattan, model__n_neighbors=13, model__weights=distance; total time=   0.1s
+[CV] END model__metric=manhattan, model__n_neighbors=13, model__weights=distance; total time=   0.1s
+[CV] END model__metric=euclidean, model__n_neighbors=15, model__weights=distance; total time=   0.1s
+[CV] END model__metric=euclidean, model__n_neighbors=15, model__weights=distance; total time=   0.1s
+[CV] END model__colsample_bytree=0.7, model__gamma=0.3, model__learning_rate=0.005, model__max_depth=3, model__n_estimators=50, model__reg_alpha=0.1, model__reg_lambda=2.5, model__subsample=0.6; total time=   0.0s
+[CV] END model__colsample_bytree=0.7, model__gamma=0.3, model__learning_rate=0.005, model__max_depth=3, model__n_estimators=50, model__reg_alpha=0.1, model__reg_lambda=2.5, model__subsample=0.6; total time=   0.0s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=30, model__reg_alpha=1.0, model__reg_lambda=1, model__subsample=0.6; total time=   0.0s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=30, model__reg_alpha=1.0, model__reg_lambda=1, model__subsample=0.6; total time=   0.0s

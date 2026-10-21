@@ -1,0 +1,5 @@
+2026-10-21 14:00:18,790 Run directory: /Users/anishech/Projects/ML_Spotify/runs/20261021_140018_787381_full
+2026-10-21 14:00:24,626 Matplotlib is building the font cache; this may take a moment.
+2026-10-21 14:00:28,789 Verified 13 dependencies in /Users/anishech/Projects/ML_Spotify/.venv/bin/python
+2026-10-21 14:00:28,958 Search budget: 3746 model fits, 5 folds, 2 workers; sample_rows=all
+2026-10-21 14:00:28,959 Checks passed. No notebooks or model training executed.

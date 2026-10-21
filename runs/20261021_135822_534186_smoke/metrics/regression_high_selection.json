@@ -1,0 +1,15 @@
+{
+  "model": "ElasticNet",
+  "metric": "neg_rmse",
+  "cv_score": -4.5789044660826645,
+  "selected_using": "training cross-validation only",
+  "train_rows": 203,
+  "holdout_rows": 51,
+  "baseline": {
+    "rows": 51,
+    "mae": 3.28590746643485,
+    "rmse": 4.092910686739829,
+    "r2": -0.001372918526505007,
+    "within_5_percent": 88.23529411764706
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "model": "GradientBoostingClassifier",
+  "best_parameters": {
+    "model__subsample": 0.6,
+    "model__n_estimators": 30,
+    "model__min_samples_split": 5,
+    "model__min_samples_leaf": 2,
+    "model__max_depth": 3,
+    "model__learning_rate": 0.2
+  },
+  "cv_selection_metric": "hit_f1",
+  "cv_selection_score": 0.13683771380892784,
+  "train": {
+    "rows": 6400,
+    "actual_hits": 203,
+    "predicted_hits": 70,
+    "accuracy": 0.96828125,
+    "balanced_accuracy": 0.5833829494805607,
+    "hit_precision": 0.5,
+    "hit_recall": 0.1724137931034483,
+    "hit_f1": 0.2564102564102564,
+    "confusion_matrix": [
+      [
+        6162,
+        35
+      ],
+      [
+        168,
+        35
+      ]
+    ],
+    "average_precision": 0.3224698361965182,
+    "roc_auc": 0.9170188816931123
+  },
+  "test": {
+    "rows": 1600,
+    "actual_hits": 51,
+    "predicted_hits": 17,
+    "accuracy": 0.96125,
+    "balanced_accuracy": 0.5248927201610146,
+    "hit_precision": 0.17647058823529413,
+    "hit_recall": 0.058823529411764705,
+    "hit_f1": 0.08823529411764706,
+    "confusion_matrix": [
+      [
+        1535,
+        14
+      ],
+      [
+        48,
+        3
+      ]
+    ],
+    "average_precision": 0.1682381718718727,
+    "roc_auc": 0.8512133064975506
+  },
+  "seconds": 0.6096147919961368,
+  "candidates": 2,
+  "pca_components": 13
+}

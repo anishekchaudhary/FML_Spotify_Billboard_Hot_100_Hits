@@ -1,0 +1,1465 @@
+
+CELL 1
+Profile: full
+Artifacts: /Users/anishech/Projects/ML_Spotify/runs/20261021_141923_142263_full
+Training class counts:
+popularity
+False    55731
+True      1825
+Name: count, dtype: int64
+
+CELL 3
+START LogisticRegression: 20 candidates x 5 folds + refit; train=57556 holdout=14389
+Fitting 5 folds for each of 20 candidates, totalling 100 fits
+[CV] END ....................................model__C=0.0001; total time=   0.1s
+[CV] END ....................................model__C=0.0001; total time=   0.1s
+[CV] END ....................................model__C=0.0001; total time=   0.1s
+[CV] END ....................................model__C=0.0001; total time=   0.1s
+[CV] END ....................................model__C=0.0001; total time=   0.1s
+[CV] END ....................model__C=0.00026366508987303583; total time=   0.1s
+[CV] END ....................model__C=0.00026366508987303583; total time=   0.1s
+[CV] END ....................model__C=0.00026366508987303583; total time=   0.1s
+[CV] END ....................model__C=0.00026366508987303583; total time=   0.0s
+[CV] END ....................model__C=0.00026366508987303583; total time=   0.1s
+[CV] END .....................model__C=0.0006951927961775605; total time=   0.1s
+[CV] END .....................model__C=0.0006951927961775605; total time=   0.1s
+[CV] END .....................model__C=0.0006951927961775605; total time=   0.1s
+[CV] END .....................model__C=0.0006951927961775605; total time=   0.1s
+[CV] END .....................model__C=0.0006951927961775605; total time=   0.1s
+[CV] END .....................model__C=0.0018329807108324356; total time=   0.1s
+[CV] END .....................model__C=0.0018329807108324356; total time=   0.0s
+[CV] END .....................model__C=0.0018329807108324356; total time=   0.0s
+[CV] END .....................model__C=0.0018329807108324356; total time=   0.1s
+[CV] END .....................model__C=0.0018329807108324356; total time=   0.1s
+[CV] END ......................model__C=0.004832930238571752; total time=   0.1s
+[CV] END ......................model__C=0.004832930238571752; total time=   0.1s
+[CV] END ......................model__C=0.004832930238571752; total time=   0.1s
+[CV] END ......................model__C=0.004832930238571752; total time=   0.1s
+[CV] END ......................model__C=0.004832930238571752; total time=   0.1s
+[CV] END ......................model__C=0.012742749857031334; total time=   0.1s
+[CV] END ......................model__C=0.012742749857031334; total time=   0.1s
+[CV] END ......................model__C=0.012742749857031334; total time=   0.1s
+[CV] END ......................model__C=0.012742749857031334; total time=   0.1s
+[CV] END ......................model__C=0.012742749857031334; total time=   0.1s
+[CV] END .......................model__C=0.03359818286283781; total time=   0.1s
+[CV] END .......................model__C=0.03359818286283781; total time=   0.1s
+[CV] END .......................model__C=0.03359818286283781; total time=   0.1s
+[CV] END .......................model__C=0.03359818286283781; total time=   0.1s
+[CV] END .......................model__C=0.08858667904100823; total time=   0.1s
+[CV] END .......................model__C=0.08858667904100823; total time=   0.1s
+[CV] END .......................model__C=0.23357214690901212; total time=   0.1s
+[CV] END .......................model__C=0.23357214690901212; total time=   0.1s
+[CV] END .......................model__C=0.03359818286283781; total time=   0.1s
+[CV] END .......................model__C=0.23357214690901212; total time=   0.1s
+[CV] END .........................model__C=0.615848211066026; total time=   0.1s
+[CV] END .......................model__C=0.08858667904100823; total time=   0.1s
+[CV] END .......................model__C=0.08858667904100823; total time=   0.0s
+[CV] END .......................model__C=0.08858667904100823; total time=   0.1s
+[CV] END .......................model__C=0.23357214690901212; total time=   0.1s
+[CV] END .......................model__C=0.23357214690901212; total time=   0.1s
+[CV] END .........................model__C=0.615848211066026; total time=   0.0s
+[CV] END .........................model__C=0.615848211066026; total time=   0.1s
+[CV] END .........................model__C=0.615848211066026; total time=   0.1s
+[CV] END .........................model__C=1.623776739188721; total time=   0.1s
+[CV] END .........................model__C=4.281332398719396; total time=   0.1s
+[CV] END ........................model__C=11.288378916846883; total time=   0.1s
+[CV] END ........................model__C=11.288378916846883; total time=   0.1s
+[CV] END ........................model__C=29.763514416313132; total time=   0.1s
+[CV] END .........................model__C=78.47599703514607; total time=   0.0s
+[CV] END .........................model__C=0.615848211066026; total time=   0.1s
+[CV] END .........................model__C=1.623776739188721; total time=   0.1s
+[CV] END ..........................model__C=206.913808111479; total time=   0.1s
+[CV] END .........................model__C=4.281332398719396; total time=   0.0s
+[CV] END ........................model__C=11.288378916846883; total time=   0.1s
+[CV] END ........................model__C=29.763514416313132; total time=   0.0s
+[CV] END .........................model__C=1.623776739188721; total time=   0.0s
+[CV] END .........................model__C=78.47599703514607; total time=   0.1s
+[CV] END ........................model__C=29.763514416313132; total time=   0.1s
+[CV] END .........................model__C=1.623776739188721; total time=   0.1s
+[CV] END ..........................model__C=206.913808111479; total time=   0.1s
+[CV] END .........................model__C=4.281332398719396; total time=   0.1s
+[CV] END ........................model__C=11.288378916846883; total time=   0.1s
+[CV] END ........................model__C=29.763514416313132; total time=   0.1s
+[CV] END .........................model__C=78.47599703514607; total time=   0.1s
+[CV] END .........................model__C=1.623776739188721; total time=   0.1s
+[CV] END .........................model__C=78.47599703514607; total time=   0.1s
+[CV] END .........................model__C=4.281332398719396; total time=   0.1s
+[CV] END ..........................model__C=206.913808111479; total time=   0.1s
+[CV] END .........................model__C=4.281332398719396; total time=   0.1s
+[CV] END ........................model__C=11.288378916846883; total time=   0.1s
+[CV] END ........................model__C=29.763514416313132; total time=   0.0s
+[CV] END ..........................model__C=206.913808111479; total time=   0.1s
+[CV] END .........................model__C=78.47599703514607; total time=   0.1s
+[CV] END .........................model__C=545.5594781168514; total time=   0.1s
+[CV] END ..........................model__C=206.913808111479; total time=   0.1s
+[CV] END .........................model__C=545.5594781168514; total time=   0.1s
+[CV] END .........................model__C=545.5594781168514; total time=   0.1s
+[CV] END .........................model__C=545.5594781168514; total time=   0.1s
+[CV] END .........................model__C=545.5594781168514; total time=   0.1s
+[CV] END ..........................model__C=1438.44988828766; total time=   0.1s
+[CV] END ..........................model__C=1438.44988828766; total time=   0.1s
+[CV] END ..........................model__C=1438.44988828766; total time=   0.1s
+[CV] END ..........................model__C=1438.44988828766; total time=   0.1s
+[CV] END ..........................model__C=1438.44988828766; total time=   0.1s
+[CV] END .........................model__C=3792.690190732246; total time=   0.1s
+[CV] END .........................model__C=3792.690190732246; total time=   0.1s
+[CV] END .........................model__C=3792.690190732246; total time=   0.1s
+[CV] END .........................model__C=3792.690190732246; total time=   0.1s
+[CV] END .........................model__C=3792.690190732246; total time=   0.1s
+[CV] END ...................................model__C=10000.0; total time=   0.1s
+[CV] END ...................................model__C=10000.0; total time=   0.1s
+[CV] END ...................................model__C=10000.0; total time=   0.1s
+[CV] END ...................................model__C=10000.0; total time=   0.1s
+[CV] END ...................................model__C=10000.0; total time=   0.1s
+DONE LogisticRegression: CV hit_f1=0.2753; holdout {'rows': 14389, 'actual_hits': 456, 'predicted_hits': 1996, 'accuracy': 0.8732365001042462, 'balanced_accuracy': 0.783937949913181, 'hit_precision': 0.15731462925851702, 'hit_recall': 0.6885964912280702, 'hit_f1': 0.2561174551386623, 'confusion_matrix': [[12251, 1682], [142, 314]], 'average_precision': 0.22533952989267833, 'roc_auc': 0.8884957427840757}; 2.1s
+START DecisionTreeClassifier: 30 candidates x 5 folds + refit; train=57556 holdout=14389
+Fitting 5 folds for each of 30 candidates, totalling 150 fits
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=10; total time=   0.2s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=10; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=10; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=10; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=10; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.4s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.4s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.4s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=2; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.4s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.4s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.4s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=30, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.4s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.4s
+[CV] END model__criterion=gini, model__max_depth=None, model__max_features=None, model__min_samples_leaf=2, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.4s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.4s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.4s
+[CV] END model__criterion=gini, model__max_depth=30, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.4s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10; total time=   0.2s
+[CV] END model__criterion=gini, model__max_depth=None, model__max_features=None, model__min_samples_leaf=2, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=None, model__max_features=None, model__min_samples_leaf=2, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10; total time=   0.2s
+[CV] END model__criterion=gini, model__max_depth=None, model__max_features=None, model__min_samples_leaf=2, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=None, model__max_features=None, model__min_samples_leaf=2, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=gini, model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=gini, model__max_depth=20, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.4s
+[CV] END model__criterion=gini, model__max_depth=20, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.1s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=entropy, model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5; total time=   0.2s
+[CV] END model__criterion=gini, model__max_depth=20, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.4s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=entropy, model__max_depth=20, model__max_features=None, model__min_samples_leaf=5, model__min_samples_split=10; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=20, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.5s
+[CV] END model__criterion=gini, model__max_depth=20, model__max_features=None, model__min_samples_leaf=1, model__min_samples_split=2; total time=   0.4s
+DONE DecisionTreeClassifier: CV hit_f1=0.2491; holdout {'rows': 14389, 'actual_hits': 456, 'predicted_hits': 1557, 'accuracy': 0.8954062130794357, 'balanced_accuracy': 0.7317492800759524, 'hit_precision': 0.16313423249839434, 'hit_recall': 0.5570175438596491, 'hit_f1': 0.25235966219572775, 'confusion_matrix': [[12630, 1303], [202, 254]], 'average_precision': 0.11818292849395672, 'roc_auc': 0.7354340509279369}; 6.2s
+START RandomForestClassifier: 30 candidates x 5 folds + refit; train=57556 holdout=14389
+Fitting 5 folds for each of 30 candidates, totalling 150 fits
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300; total time=  17.2s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300; total time=  17.3s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300; total time=  17.5s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=100; total time=   7.1s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=100; total time=   7.4s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500; total time=  34.3s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500; total time=  34.5s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500; total time=  34.6s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500; total time=  34.8s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500; total time=  35.0s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300; total time=  18.1s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300; total time=  18.3s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=100; total time=   7.3s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=100; total time=   7.4s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=100; total time=   7.4s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=200; total time=  12.2s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=200; total time=  12.2s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=200; total time=  12.3s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300; total time=  21.4s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300; total time=  21.5s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300; total time=  21.6s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300; total time=  21.3s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300; total time=  21.7s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=100; total time=   6.2s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=200; total time=  12.4s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=200; total time=  12.4s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=100; total time=   6.3s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=100; total time=   6.2s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=100; total time=   6.3s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=100; total time=   6.3s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=300; total time=  22.5s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=300; total time=  22.8s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=300; total time=  22.5s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=300; total time=  22.5s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=300; total time=  22.7s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=300; total time=  19.8s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=300; total time=  20.1s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=300; total time=  20.2s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=300; total time=  20.4s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=300; total time=  20.4s
+[CV] END model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400; total time=  32.8s
+[CV] END model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400; total time=  32.8s
+[CV] END model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400; total time=  32.7s
+[CV] END model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400; total time=  33.2s
+[CV] END model__max_depth=30, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400; total time=  33.5s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300; total time=  21.3s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=500; total time=  40.8s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=500; total time=  41.3s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=500; total time=  40.9s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300; total time=  21.8s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300; total time=  21.6s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=500; total time=  41.6s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300; total time=  21.9s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=500; total time=  43.3s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300; total time=  21.9s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=500; total time=  42.5s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=500; total time=  43.1s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=500; total time=  42.8s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=500; total time=  42.9s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=500; total time=  43.2s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=500; total time=  44.1s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=500; total time=  43.7s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=500; total time=  44.5s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=500; total time=  44.3s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=500; total time=  44.4s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=500; total time=  42.8s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=200; total time=  16.6s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=500; total time=  42.9s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=500; total time=  42.4s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=200; total time=  16.7s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=200; total time=  16.5s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=200; total time=  16.6s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=200; total time=  16.7s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=500; total time=  42.1s
+[CV] END model__max_depth=20, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=500; total time=  41.8s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100; total time=   8.3s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100; total time=   8.2s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100; total time=   8.4s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400; total time=  33.8s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400; total time=  34.4s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400; total time=  34.0s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400; total time=  34.1s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400; total time=  34.4s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=200; total time=  16.7s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=200; total time=  16.9s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=200; total time=  16.8s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=100; total time=   8.3s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=500; total time=  41.4s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=500; total time=  42.2s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=500; total time=  41.6s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=200; total time=  16.8s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=200; total time=  16.8s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=500; total time=  42.0s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=500; total time=  42.3s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=100; total time=   8.2s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300; total time=  25.0s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300; total time=  25.2s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300; total time=  25.0s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300; total time=  25.1s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300; total time=  25.2s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500; total time=  42.3s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500; total time=  42.7s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500; total time=  43.4s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=400; total time=  28.6s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=400; total time=  28.7s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=400; total time=  28.6s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500; total time=  43.2s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500; total time=  43.2s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=300; total time=  25.3s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=400; total time=  28.3s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=100; total time=   8.2s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=400; total time=  28.4s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=300; total time=  25.5s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=300; total time=  25.2s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=100; total time=   8.2s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=100; total time=   8.4s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=300; total time=  25.5s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=100; total time=   8.3s
+[CV] END model__max_depth=30, model__max_features=sqrt, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=100; total time=   8.4s
+[CV] END model__max_depth=None, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=300; total time=  25.6s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=100; total time=   8.7s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=100; total time=   8.6s
+[CV] END model__max_depth=None, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=100; total time=   8.5s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=300; total time=  24.9s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=100; total time=   7.1s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=300; total time=  24.4s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=300; total time=  25.1s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=300; total time=  25.0s
+[CV] END model__max_depth=20, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=300; total time=  25.2s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=100; total time=   7.2s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=100; total time=   7.1s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=100; total time=   7.0s
+[CV] END model__max_depth=10, model__max_features=sqrt, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=100; total time=   6.9s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=400; total time=  24.6s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=400; total time=  24.6s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=400; total time=  24.8s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=400; total time=  24.7s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=400; total time=  24.5s
+DONE RandomForestClassifier: CV hit_f1=0.3176; holdout {'rows': 14389, 'actual_hits': 456, 'predicted_hits': 710, 'accuracy': 0.9439849885329071, 'balanced_accuracy': 0.6783488272824456, 'hit_precision': 0.2535211267605634, 'hit_recall': 0.39473684210526316, 'hit_f1': 0.30874785591766724, 'confusion_matrix': [[13403, 530], [276, 180]], 'average_precision': 0.22895604484816362, 'roc_auc': 0.8854621144298341}; 463.5s
+START SVC: 30 candidates x 5 folds + refit; train=57556 holdout=14389
+Fitting 5 folds for each of 30 candidates, totalling 150 fits
+[CV] END model__C=1, model__gamma=auto, model__kernel=sigmoid; total time=  26.0s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+[CV] END model__C=1, model__gamma=auto, model__kernel=sigmoid; total time=  38.5s
+[CV] END model__C=1, model__gamma=auto, model__kernel=sigmoid; total time=  38.9s
+[CV] END .model__C=100, model__gamma=auto, model__kernel=rbf; total time=  42.1s
+[CV] END .model__C=100, model__gamma=auto, model__kernel=rbf; total time=  42.6s
+[CV] END .model__C=100, model__gamma=auto, model__kernel=rbf; total time=  42.9s
+[CV] END .model__C=100, model__gamma=auto, model__kernel=rbf; total time=  43.6s
+[CV] END .model__C=100, model__gamma=auto, model__kernel=rbf; total time=  43.8s
+[CV] END model__C=1, model__gamma=auto, model__kernel=sigmoid; total time=  16.5s
+[CV] END model__C=1, model__gamma=auto, model__kernel=sigmoid; total time=  37.1s
+[CV] END .model__C=10, model__gamma=scale, model__kernel=rbf; total time=  28.6s
+[CV] END .model__C=10, model__gamma=scale, model__kernel=rbf; total time=  29.1s
+[CV] END .model__C=10, model__gamma=scale, model__kernel=rbf; total time=  28.8s
+[CV] END .model__C=10, model__gamma=scale, model__kernel=rbf; total time=  28.4s
+[CV] END .model__C=10, model__gamma=scale, model__kernel=rbf; total time=  30.0s
+[CV] END model__C=1, model__gamma=scale, model__kernel=linear; total time=  40.7s
+[CV] END model__C=1, model__gamma=scale, model__kernel=linear; total time=  41.2s
+[CV] END model__C=1, model__gamma=scale, model__kernel=linear; total time=  40.6s
+[CV] END model__C=1, model__gamma=scale, model__kernel=linear; total time=  43.5s
+[CV] END model__C=1, model__gamma=scale, model__kernel=linear; total time=  43.5s
+[CV] END ..model__C=1, model__gamma=scale, model__kernel=rbf; total time=  34.0s
+[CV] END ..model__C=1, model__gamma=scale, model__kernel=rbf; total time=  33.1s
+[CV] END ..model__C=1, model__gamma=scale, model__kernel=rbf; total time=  33.7s
+[CV] END ..model__C=1, model__gamma=scale, model__kernel=rbf; total time=  33.5s
+[CV] END ..model__C=1, model__gamma=scale, model__kernel=rbf; total time=  33.8s
+[CV] END model__C=100, model__gamma=auto, model__kernel=poly; total time= 6.4min
+[CV] END model__C=100, model__gamma=auto, model__kernel=poly; total time= 6.1min
+[CV] END model__C=100, model__gamma=auto, model__kernel=poly; total time= 6.6min
+[CV] END model__C=100, model__gamma=scale, model__kernel=rbf; total time=  54.3s
+[CV] END model__C=100, model__gamma=scale, model__kernel=rbf; total time=  51.3s
+[CV] END model__C=100, model__gamma=scale, model__kernel=rbf; total time=  50.9s
+[CV] END model__C=100, model__gamma=scale, model__kernel=rbf; total time=  46.9s
+[CV] END model__C=100, model__gamma=scale, model__kernel=rbf; total time=  48.1s
+[CV] END model__C=1, model__gamma=auto, model__kernel=linear; total time=  38.6s
+[CV] END model__C=100, model__gamma=auto, model__kernel=poly; total time= 5.3min
+[CV] END model__C=100, model__gamma=auto, model__kernel=poly; total time= 5.5min
+[CV] END model__C=1, model__gamma=auto, model__kernel=linear; total time=  38.1s
+[CV] END model__C=1, model__gamma=auto, model__kernel=linear; total time=  38.0s
+[CV] END model__C=1, model__gamma=auto, model__kernel=linear; total time=  41.0s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=linear; total time=  23.3s
+[CV] END model__C=1, model__gamma=auto, model__kernel=linear; total time=  40.9s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=linear; total time=  22.8s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=linear; total time=  22.3s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=linear; total time=  22.4s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=linear; total time=  22.9s
+[CV] END model__C=0.1, model__gamma=auto, model__kernel=linear; total time=  23.1s
+[CV] END model__C=0.1, model__gamma=auto, model__kernel=linear; total time=  22.9s
+[CV] END model__C=0.1, model__gamma=auto, model__kernel=linear; total time=  22.9s
+[CV] END model__C=0.1, model__gamma=auto, model__kernel=linear; total time=  22.6s
+[CV] END model__C=0.1, model__gamma=auto, model__kernel=linear; total time=  22.5s
+[CV] END model__C=10, model__gamma=scale, model__kernel=linear; total time= 2.6min
+[CV] END model__C=10, model__gamma=scale, model__kernel=linear; total time= 2.6min
+[CV] END model__C=10, model__gamma=scale, model__kernel=linear; total time= 2.7min
+[CV] END .model__C=0.1, model__gamma=auto, model__kernel=rbf; total time=  32.9s
+[CV] END model__C=100, model__gamma=scale, model__kernel=linear; total time=20.4min
+[CV] END model__C=100, model__gamma=scale, model__kernel=linear; total time=20.7min
+[CV] END .model__C=0.1, model__gamma=auto, model__kernel=rbf; total time=  32.6s
+[CV] END .model__C=0.1, model__gamma=auto, model__kernel=rbf; total time=  32.5s
+[CV] END .model__C=0.1, model__gamma=auto, model__kernel=rbf; total time=  30.6s
+[CV] END .model__C=0.1, model__gamma=auto, model__kernel=rbf; total time=  32.1s
+[CV] END model__C=100, model__gamma=scale, model__kernel=linear; total time=21.2min
+[CV] END model__C=100, model__gamma=scale, model__kernel=linear; total time=21.3min
+[CV] END ...model__C=1, model__gamma=auto, model__kernel=rbf; total time=  28.3s
+[CV] END ...model__C=1, model__gamma=auto, model__kernel=rbf; total time=  27.7s
+[CV] END ...model__C=1, model__gamma=auto, model__kernel=rbf; total time=  28.7s
+[CV] END ...model__C=1, model__gamma=auto, model__kernel=rbf; total time=  27.3s
+[CV] END ...model__C=1, model__gamma=auto, model__kernel=rbf; total time=  27.2s
+[CV] END model__C=10, model__gamma=scale, model__kernel=linear; total time= 2.7min
+[CV] END model__C=100, model__gamma=scale, model__kernel=linear; total time=22.1min
+[CV] END model__C=1, model__gamma=scale, model__kernel=sigmoid; total time=  38.2s
+[CV] END model__C=10, model__gamma=scale, model__kernel=linear; total time= 2.7min
+[CV] END model__C=1, model__gamma=scale, model__kernel=sigmoid; total time=  38.1s
+[CV] END model__C=1, model__gamma=scale, model__kernel=sigmoid; total time=  38.6s
+[CV] END model__C=1, model__gamma=scale, model__kernel=sigmoid; total time=  38.1s
+[CV] END model__C=1, model__gamma=scale, model__kernel=sigmoid; total time=  38.9s
+[CV] END model__C=10, model__gamma=auto, model__kernel=sigmoid; total time=  16.7s
+[CV] END model__C=10, model__gamma=auto, model__kernel=sigmoid; total time=  25.7s
+[CV] END model__C=10, model__gamma=auto, model__kernel=sigmoid; total time=  39.1s
+[CV] END model__C=10, model__gamma=auto, model__kernel=sigmoid; total time=  39.3s
+[CV] END model__C=10, model__gamma=auto, model__kernel=sigmoid; total time=  37.7s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=rbf; total time=  33.2s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=rbf; total time=  32.9s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=rbf; total time=  32.1s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=rbf; total time=  32.0s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=rbf; total time=  32.7s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=poly; total time=  22.6s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=poly; total time=  23.0s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=poly; total time=  23.7s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=poly; total time=  23.5s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=poly; total time=  23.8s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=sigmoid; total time=  18.7s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=sigmoid; total time=  44.4s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=sigmoid; total time=  48.0s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=sigmoid; total time=  43.6s
+[CV] END model__C=0.1, model__gamma=scale, model__kernel=sigmoid; total time=  31.1s
+[CV] END ..model__C=10, model__gamma=auto, model__kernel=rbf; total time=  30.4s
+[CV] END ..model__C=10, model__gamma=auto, model__kernel=rbf; total time=  29.5s
+[CV] END ..model__C=10, model__gamma=auto, model__kernel=rbf; total time=  30.4s
+[CV] END ..model__C=10, model__gamma=auto, model__kernel=rbf; total time=  29.7s
+[CV] END ..model__C=10, model__gamma=auto, model__kernel=rbf; total time=  29.1s
+[CV] END model__C=100, model__gamma=scale, model__kernel=sigmoid; total time=  25.8s
+[CV] END model__C=100, model__gamma=scale, model__kernel=sigmoid; total time=  41.7s
+[CV] END model__C=100, model__gamma=scale, model__kernel=sigmoid; total time=  29.1s
+[CV] END model__C=100, model__gamma=scale, model__kernel=sigmoid; total time=  16.9s
+[CV] END model__C=100, model__gamma=scale, model__kernel=sigmoid; total time=  38.1s
+[CV] END .model__C=10, model__gamma=auto, model__kernel=poly; total time=  52.9s
+[CV] END .model__C=10, model__gamma=auto, model__kernel=poly; total time=  51.5s
+[CV] END .model__C=10, model__gamma=auto, model__kernel=poly; total time=  50.2s
+[CV] END model__C=100, model__gamma=scale, model__kernel=poly; total time= 3.8min
+[CV] END model__C=100, model__gamma=scale, model__kernel=poly; total time= 4.1min
+[CV] END model__C=100, model__gamma=scale, model__kernel=poly; total time= 4.0min
+[CV] END model__C=100, model__gamma=scale, model__kernel=poly; total time= 4.0min
+[CV] END model__C=100, model__gamma=scale, model__kernel=poly; total time= 4.2min
+[CV] END model__C=100, model__gamma=auto, model__kernel=sigmoid; total time=  17.5s
+[CV] END .model__C=10, model__gamma=auto, model__kernel=poly; total time=  50.8s
+[CV] END model__C=10, model__gamma=scale, model__kernel=poly; total time=  45.5s
+[CV] END model__C=10, model__gamma=scale, model__kernel=poly; total time=  45.2s
+[CV] END .model__C=10, model__gamma=auto, model__kernel=poly; total time=  53.3s
+[CV] END model__C=10, model__gamma=scale, model__kernel=poly; total time=  41.9s
+[CV] END model__C=10, model__gamma=scale, model__kernel=poly; total time=  45.0s
+[CV] END model__C=10, model__gamma=scale, model__kernel=poly; total time=  45.0s
+[CV] END model__C=100, model__gamma=auto, model__kernel=sigmoid; total time=  16.7s
+[CV] END model__C=100, model__gamma=auto, model__kernel=sigmoid; total time=  18.8s
+[CV] END model__C=100, model__gamma=auto, model__kernel=sigmoid; total time=  39.7s
+[CV] END model__C=100, model__gamma=auto, model__kernel=sigmoid; total time=  41.1s
+[CV] END model__C=0.1, model__gamma=auto, model__kernel=sigmoid; total time=  18.0s
+[CV] END model__C=0.1, model__gamma=auto, model__kernel=sigmoid; total time=  29.7s
+[CV] END model__C=0.1, model__gamma=auto, model__kernel=sigmoid; total time=  44.0s
+[CV] END model__C=0.1, model__gamma=auto, model__kernel=sigmoid; total time=  41.3s
+[CV] END model__C=0.1, model__gamma=auto, model__kernel=sigmoid; total time=  44.5s
+[CV] END .model__C=1, model__gamma=scale, model__kernel=poly; total time=  23.7s
+[CV] END .model__C=1, model__gamma=scale, model__kernel=poly; total time=  23.7s
+[CV] END .model__C=1, model__gamma=scale, model__kernel=poly; total time=  23.8s
+[CV] END .model__C=1, model__gamma=scale, model__kernel=poly; total time=  23.4s
+[CV] END .model__C=1, model__gamma=scale, model__kernel=poly; total time=  23.2s
+[CV] END ..model__C=1, model__gamma=auto, model__kernel=poly; total time=  24.2s
+[CV] END ..model__C=1, model__gamma=auto, model__kernel=poly; total time=  24.3s
+[CV] END ..model__C=1, model__gamma=auto, model__kernel=poly; total time=  23.7s
+[CV] END ..model__C=1, model__gamma=auto, model__kernel=poly; total time=  22.8s
+[CV] END model__C=10, model__gamma=auto, model__kernel=linear; total time= 2.7min
+[CV] END model__C=10, model__gamma=auto, model__kernel=linear; total time= 2.6min
+[CV] END ..model__C=1, model__gamma=auto, model__kernel=poly; total time=  23.5s
+[CV] END model__C=10, model__gamma=auto, model__kernel=linear; total time= 2.7min
+[CV] END model__C=10, model__gamma=auto, model__kernel=linear; total time= 2.8min
+[CV] END model__C=10, model__gamma=auto, model__kernel=linear; total time= 2.8min
+[CV] END model__C=100, model__gamma=auto, model__kernel=linear; total time=15.3min
+[CV] END model__C=100, model__gamma=auto, model__kernel=linear; total time=15.3min
+[CV] END model__C=100, model__gamma=auto, model__kernel=linear; total time=15.6min
+[CV] END model__C=100, model__gamma=auto, model__kernel=linear; total time=15.9min
+[CV] END model__C=100, model__gamma=auto, model__kernel=linear; total time=16.4min
+DONE SVC: CV hit_f1=0.2877; holdout {'rows': 14389, 'actual_hits': 456, 'predicted_hits': 1738, 'accuracy': 0.8882479671971645, 'balanced_accuracy': 0.7694166222813188, 'hit_precision': 0.16858457997698503, 'hit_recall': 0.6425438596491229, 'hit_f1': 0.2670920692798541, 'confusion_matrix': [[12488, 1445], [163, 293]], 'average_precision': 0.22739608703350375, 'roc_auc': 0.8985775125569611}; 2897.3s
+START KNeighborsClassifier: 30 candidates x 5 folds + refit; train=57556 holdout=14389
+Fitting 5 folds for each of 30 candidates, totalling 150 fits
+[CV] END model__metric=euclidean, model__n_neighbors=3, model__weights=uniform; total time=   1.3s
+[CV] END model__metric=euclidean, model__n_neighbors=3, model__weights=uniform; total time=   1.3s
+[CV] END model__metric=euclidean, model__n_neighbors=3, model__weights=uniform; total time=   1.3s
+[CV] END model__metric=euclidean, model__n_neighbors=3, model__weights=uniform; total time=   1.4s
+[CV] END model__metric=euclidean, model__n_neighbors=3, model__weights=uniform; total time=   1.4s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/joblib/externals/loky/process_executor.py:787: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+[CV] END model__metric=euclidean, model__n_neighbors=3, model__weights=distance; total time=   1.4s
+[CV] END model__metric=euclidean, model__n_neighbors=3, model__weights=distance; total time=   1.3s
+[CV] END model__metric=euclidean, model__n_neighbors=3, model__weights=distance; total time=   1.5s
+[CV] END model__metric=euclidean, model__n_neighbors=3, model__weights=distance; total time=   1.5s
+[CV] END model__metric=euclidean, model__n_neighbors=3, model__weights=distance; total time=   1.5s
+[CV] END model__metric=euclidean, model__n_neighbors=5, model__weights=uniform; total time=   1.8s
+[CV] END model__metric=euclidean, model__n_neighbors=5, model__weights=uniform; total time=   1.7s
+[CV] END model__metric=euclidean, model__n_neighbors=5, model__weights=uniform; total time=   1.9s
+[CV] END model__metric=euclidean, model__n_neighbors=5, model__weights=uniform; total time=   1.9s
+[CV] END model__metric=euclidean, model__n_neighbors=5, model__weights=distance; total time=   1.9s
+[CV] END model__metric=euclidean, model__n_neighbors=5, model__weights=distance; total time=   1.9s
+[CV] END model__metric=euclidean, model__n_neighbors=5, model__weights=uniform; total time=   1.9s
+[CV] END model__metric=euclidean, model__n_neighbors=5, model__weights=distance; total time=   1.9s
+[CV] END model__metric=euclidean, model__n_neighbors=5, model__weights=distance; total time=   1.8s
+[CV] END model__metric=euclidean, model__n_neighbors=5, model__weights=distance; total time=   2.1s
+[CV] END model__metric=euclidean, model__n_neighbors=7, model__weights=uniform; total time=   2.1s
+[CV] END model__metric=euclidean, model__n_neighbors=7, model__weights=uniform; total time=   2.2s
+[CV] END model__metric=euclidean, model__n_neighbors=7, model__weights=uniform; total time=   2.2s
+[CV] END model__metric=euclidean, model__n_neighbors=7, model__weights=uniform; total time=   2.3s
+[CV] END model__metric=euclidean, model__n_neighbors=7, model__weights=distance; total time=   2.2s
+[CV] END model__metric=euclidean, model__n_neighbors=7, model__weights=uniform; total time=   2.3s
+[CV] END model__metric=euclidean, model__n_neighbors=7, model__weights=distance; total time=   2.2s
+[CV] END model__metric=euclidean, model__n_neighbors=7, model__weights=distance; total time=   2.0s
+[CV] END model__metric=euclidean, model__n_neighbors=7, model__weights=distance; total time=   2.2s
+[CV] END model__metric=euclidean, model__n_neighbors=7, model__weights=distance; total time=   2.2s
+[CV] END model__metric=euclidean, model__n_neighbors=9, model__weights=uniform; total time=   2.2s
+[CV] END model__metric=euclidean, model__n_neighbors=9, model__weights=uniform; total time=   2.4s
+[CV] END model__metric=euclidean, model__n_neighbors=9, model__weights=uniform; total time=   2.4s
+[CV] END model__metric=euclidean, model__n_neighbors=9, model__weights=uniform; total time=   2.4s
+[CV] END model__metric=euclidean, model__n_neighbors=9, model__weights=uniform; total time=   2.4s
+[CV] END model__metric=euclidean, model__n_neighbors=9, model__weights=distance; total time=   2.3s
+[CV] END model__metric=euclidean, model__n_neighbors=9, model__weights=distance; total time=   2.3s
+[CV] END model__metric=euclidean, model__n_neighbors=9, model__weights=distance; total time=   2.3s
+[CV] END model__metric=euclidean, model__n_neighbors=9, model__weights=distance; total time=   2.1s
+[CV] END model__metric=euclidean, model__n_neighbors=9, model__weights=distance; total time=   2.3s
+[CV] END model__metric=euclidean, model__n_neighbors=11, model__weights=uniform; total time=   2.4s
+[CV] END model__metric=euclidean, model__n_neighbors=11, model__weights=uniform; total time=   2.5s
+[CV] END model__metric=euclidean, model__n_neighbors=11, model__weights=uniform; total time=   2.4s
+[CV] END model__metric=euclidean, model__n_neighbors=11, model__weights=uniform; total time=   2.2s
+[CV] END model__metric=euclidean, model__n_neighbors=11, model__weights=uniform; total time=   2.4s
+[CV] END model__metric=euclidean, model__n_neighbors=11, model__weights=distance; total time=   2.3s
+[CV] END model__metric=euclidean, model__n_neighbors=11, model__weights=distance; total time=   2.4s
+[CV] END model__metric=euclidean, model__n_neighbors=11, model__weights=distance; total time=   2.3s
+[CV] END model__metric=euclidean, model__n_neighbors=11, model__weights=distance; total time=   2.1s
+[CV] END model__metric=euclidean, model__n_neighbors=11, model__weights=distance; total time=   2.4s
+[CV] END model__metric=manhattan, model__n_neighbors=3, model__weights=uniform; total time=   4.2s
+[CV] END model__metric=manhattan, model__n_neighbors=3, model__weights=uniform; total time=   4.3s
+[CV] END model__metric=manhattan, model__n_neighbors=3, model__weights=uniform; total time=   4.0s
+[CV] END model__metric=manhattan, model__n_neighbors=3, model__weights=uniform; total time=   4.2s
+[CV] END model__metric=manhattan, model__n_neighbors=3, model__weights=uniform; total time=   4.3s
+[CV] END model__metric=manhattan, model__n_neighbors=3, model__weights=distance; total time=   4.3s
+[CV] END model__metric=manhattan, model__n_neighbors=3, model__weights=distance; total time=   4.3s
+[CV] END model__metric=manhattan, model__n_neighbors=3, model__weights=distance; total time=   4.1s
+[CV] END model__metric=manhattan, model__n_neighbors=3, model__weights=distance; total time=   3.9s
+[CV] END model__metric=manhattan, model__n_neighbors=3, model__weights=distance; total time=   4.2s
+[CV] END model__metric=manhattan, model__n_neighbors=5, model__weights=uniform; total time=   4.8s
+[CV] END model__metric=manhattan, model__n_neighbors=5, model__weights=uniform; total time=   4.8s
+[CV] END model__metric=manhattan, model__n_neighbors=5, model__weights=uniform; total time=   4.5s
+[CV] END model__metric=manhattan, model__n_neighbors=5, model__weights=uniform; total time=   4.8s
+[CV] END model__metric=manhattan, model__n_neighbors=5, model__weights=uniform; total time=   4.9s
+[CV] END model__metric=manhattan, model__n_neighbors=5, model__weights=distance; total time=   4.8s
+[CV] END model__metric=manhattan, model__n_neighbors=5, model__weights=distance; total time=   5.0s
+[CV] END model__metric=manhattan, model__n_neighbors=5, model__weights=distance; total time=   4.9s
+[CV] END model__metric=manhattan, model__n_neighbors=5, model__weights=distance; total time=   4.6s
+[CV] END model__metric=manhattan, model__n_neighbors=5, model__weights=distance; total time=   5.0s
+[CV] END model__metric=manhattan, model__n_neighbors=7, model__weights=uniform; total time=   5.3s
+[CV] END model__metric=manhattan, model__n_neighbors=7, model__weights=uniform; total time=   5.0s
+[CV] END model__metric=manhattan, model__n_neighbors=7, model__weights=uniform; total time=   5.4s
+[CV] END model__metric=manhattan, model__n_neighbors=7, model__weights=uniform; total time=   5.4s
+[CV] END model__metric=manhattan, model__n_neighbors=7, model__weights=uniform; total time=   5.4s
+[CV] END model__metric=manhattan, model__n_neighbors=7, model__weights=distance; total time=   5.4s
+[CV] END model__metric=manhattan, model__n_neighbors=7, model__weights=distance; total time=   5.5s
+[CV] END model__metric=manhattan, model__n_neighbors=7, model__weights=distance; total time=   5.4s
+[CV] END model__metric=manhattan, model__n_neighbors=7, model__weights=distance; total time=   5.1s
+[CV] END model__metric=manhattan, model__n_neighbors=7, model__weights=distance; total time=   5.5s
+[CV] END model__metric=manhattan, model__n_neighbors=9, model__weights=uniform; total time=   5.7s
+[CV] END model__metric=manhattan, model__n_neighbors=9, model__weights=uniform; total time=   5.9s
+[CV] END model__metric=manhattan, model__n_neighbors=9, model__weights=uniform; total time=   5.8s
+[CV] END model__metric=manhattan, model__n_neighbors=9, model__weights=uniform; total time=   5.5s
+[CV] END model__metric=manhattan, model__n_neighbors=9, model__weights=uniform; total time=   5.8s
+[CV] END model__metric=manhattan, model__n_neighbors=9, model__weights=distance; total time=   5.9s
+[CV] END model__metric=manhattan, model__n_neighbors=9, model__weights=distance; total time=   6.0s
+[CV] END model__metric=manhattan, model__n_neighbors=9, model__weights=distance; total time=   5.5s
+[CV] END model__metric=manhattan, model__n_neighbors=9, model__weights=distance; total time=   5.9s
+[CV] END model__metric=manhattan, model__n_neighbors=9, model__weights=distance; total time=   6.0s
+[CV] END model__metric=manhattan, model__n_neighbors=11, model__weights=uniform; total time=   6.3s
+[CV] END model__metric=manhattan, model__n_neighbors=11, model__weights=uniform; total time=   6.3s
+[CV] END model__metric=manhattan, model__n_neighbors=11, model__weights=uniform; total time=   6.0s
+[CV] END model__metric=manhattan, model__n_neighbors=11, model__weights=uniform; total time=   5.9s
+[CV] END model__metric=manhattan, model__n_neighbors=11, model__weights=uniform; total time=   6.3s
+[CV] END model__metric=manhattan, model__n_neighbors=11, model__weights=distance; total time=   6.2s
+[CV] END model__metric=manhattan, model__n_neighbors=11, model__weights=distance; total time=   6.2s
+[CV] END model__metric=minkowski, model__n_neighbors=3, model__weights=uniform; total time=   1.5s
+[CV] END model__metric=minkowski, model__n_neighbors=3, model__weights=uniform; total time=   1.5s
+[CV] END model__metric=manhattan, model__n_neighbors=11, model__weights=distance; total time=   6.2s
+[CV] END model__metric=minkowski, model__n_neighbors=3, model__weights=uniform; total time=   1.6s
+[CV] END model__metric=minkowski, model__n_neighbors=3, model__weights=uniform; total time=   1.4s
+[CV] END model__metric=minkowski, model__n_neighbors=3, model__weights=uniform; total time=   1.5s
+[CV] END model__metric=minkowski, model__n_neighbors=3, model__weights=distance; total time=   1.5s
+[CV] END model__metric=minkowski, model__n_neighbors=3, model__weights=distance; total time=   1.6s
+[CV] END model__metric=minkowski, model__n_neighbors=3, model__weights=distance; total time=   1.5s
+[CV] END model__metric=minkowski, model__n_neighbors=3, model__weights=distance; total time=   1.4s
+[CV] END model__metric=manhattan, model__n_neighbors=11, model__weights=distance; total time=   5.7s
+[CV] END model__metric=minkowski, model__n_neighbors=3, model__weights=distance; total time=   1.6s
+[CV] END model__metric=minkowski, model__n_neighbors=5, model__weights=uniform; total time=   1.8s
+[CV] END model__metric=minkowski, model__n_neighbors=5, model__weights=uniform; total time=   1.8s
+[CV] END model__metric=minkowski, model__n_neighbors=5, model__weights=uniform; total time=   1.8s
+[CV] END model__metric=minkowski, model__n_neighbors=5, model__weights=uniform; total time=   1.7s
+[CV] END model__metric=manhattan, model__n_neighbors=11, model__weights=distance; total time=   6.2s
+[CV] END model__metric=minkowski, model__n_neighbors=5, model__weights=uniform; total time=   1.9s
+[CV] END model__metric=minkowski, model__n_neighbors=5, model__weights=distance; total time=   1.8s
+[CV] END model__metric=minkowski, model__n_neighbors=5, model__weights=distance; total time=   1.8s
+[CV] END model__metric=minkowski, model__n_neighbors=5, model__weights=distance; total time=   1.7s
+[CV] END model__metric=minkowski, model__n_neighbors=5, model__weights=distance; total time=   1.8s
+[CV] END model__metric=minkowski, model__n_neighbors=5, model__weights=distance; total time=   1.8s
+[CV] END model__metric=minkowski, model__n_neighbors=7, model__weights=uniform; total time=   2.1s
+[CV] END model__metric=minkowski, model__n_neighbors=7, model__weights=uniform; total time=   2.1s
+[CV] END model__metric=minkowski, model__n_neighbors=7, model__weights=uniform; total time=   1.8s
+[CV] END model__metric=minkowski, model__n_neighbors=7, model__weights=uniform; total time=   2.1s
+[CV] END model__metric=minkowski, model__n_neighbors=7, model__weights=uniform; total time=   2.1s
+[CV] END model__metric=minkowski, model__n_neighbors=7, model__weights=distance; total time=   2.0s
+[CV] END model__metric=minkowski, model__n_neighbors=7, model__weights=distance; total time=   2.0s
+[CV] END model__metric=minkowski, model__n_neighbors=7, model__weights=distance; total time=   2.1s
+[CV] END model__metric=minkowski, model__n_neighbors=7, model__weights=distance; total time=   1.9s
+[CV] END model__metric=minkowski, model__n_neighbors=7, model__weights=distance; total time=   2.1s
+[CV] END model__metric=minkowski, model__n_neighbors=9, model__weights=uniform; total time=   2.2s
+[CV] END model__metric=minkowski, model__n_neighbors=9, model__weights=uniform; total time=   2.3s
+[CV] END model__metric=minkowski, model__n_neighbors=9, model__weights=uniform; total time=   2.2s
+[CV] END model__metric=minkowski, model__n_neighbors=9, model__weights=uniform; total time=   2.0s
+[CV] END model__metric=minkowski, model__n_neighbors=9, model__weights=uniform; total time=   2.3s
+[CV] END model__metric=minkowski, model__n_neighbors=9, model__weights=distance; total time=   2.2s
+[CV] END model__metric=minkowski, model__n_neighbors=9, model__weights=distance; total time=   2.3s
+[CV] END model__metric=minkowski, model__n_neighbors=9, model__weights=distance; total time=   2.2s
+[CV] END model__metric=minkowski, model__n_neighbors=9, model__weights=distance; total time=   2.1s
+[CV] END model__metric=minkowski, model__n_neighbors=9, model__weights=distance; total time=   2.3s
+[CV] END model__metric=minkowski, model__n_neighbors=11, model__weights=uniform; total time=   2.4s
+[CV] END model__metric=minkowski, model__n_neighbors=11, model__weights=uniform; total time=   2.4s
+[CV] END model__metric=minkowski, model__n_neighbors=11, model__weights=uniform; total time=   2.4s
+[CV] END model__metric=minkowski, model__n_neighbors=11, model__weights=uniform; total time=   2.2s
+[CV] END model__metric=minkowski, model__n_neighbors=11, model__weights=uniform; total time=   2.4s
+[CV] END model__metric=minkowski, model__n_neighbors=11, model__weights=distance; total time=   2.3s
+[CV] END model__metric=minkowski, model__n_neighbors=11, model__weights=distance; total time=   2.3s
+[CV] END model__metric=minkowski, model__n_neighbors=11, model__weights=distance; total time=   2.2s
+[CV] END model__metric=minkowski, model__n_neighbors=11, model__weights=distance; total time=   2.0s
+[CV] END model__metric=minkowski, model__n_neighbors=11, model__weights=distance; total time=   2.1s
+DONE KNeighborsClassifier: CV hit_f1=0.1758; holdout {'rows': 14389, 'actual_hits': 456, 'predicted_hits': 189, 'accuracy': 0.9619848495378414, 'balanced_accuracy': 0.548704026538031, 'hit_precision': 0.25925925925925924, 'hit_recall': 0.1074561403508772, 'hit_f1': 0.15193798449612403, 'confusion_matrix': [[13793, 140], [407, 49]], 'average_precision': 0.10409050131230596, 'roc_auc': 0.6811068572529435}; 66.1s
+START GaussianNB: 10 candidates x 5 folds + refit; train=57556 holdout=14389
+Fitting 5 folds for each of 10 candidates, totalling 50 fits
+[CV] END .........................model__var_smoothing=1e-09; total time=   0.0s
+[CV] END .........................model__var_smoothing=1e-09; total time=   0.0s
+[CV] END .........................model__var_smoothing=1e-09; total time=   0.0s
+[CV] END .........................model__var_smoothing=1e-09; total time=   0.0s
+[CV] END .........................model__var_smoothing=1e-09; total time=   0.0s
+[CV] END .........model__var_smoothing=7.742636826811278e-09; total time=   0.0s
+[CV] END .........model__var_smoothing=7.742636826811278e-09; total time=   0.0s
+[CV] END .........model__var_smoothing=7.742636826811278e-09; total time=   0.0s
+[CV] END .........model__var_smoothing=7.742636826811278e-09; total time=   0.0s
+[CV] END ..........model__var_smoothing=5.99484250318941e-08; total time=   0.0s
+[CV] END ..........model__var_smoothing=5.99484250318941e-08; total time=   0.0s
+[CV] END ..........model__var_smoothing=5.99484250318941e-08; total time=   0.0s
+[CV] END .........model__var_smoothing=7.742636826811278e-09; total time=   0.0s
+[CV] END ........model__var_smoothing=4.6415888336127725e-07; total time=   0.0s
+[CV] END ........model__var_smoothing=4.6415888336127725e-07; total time=   0.0s
+[CV] END ..........model__var_smoothing=5.99484250318941e-08; total time=   0.0s
+[CV] END ..........model__var_smoothing=5.99484250318941e-08; total time=   0.0s
+[CV] END ........model__var_smoothing=3.5938136638046257e-06; total time=   0.0s
+[CV] END ........model__var_smoothing=4.6415888336127725e-07; total time=   0.0s
+[CV] END ........model__var_smoothing=4.6415888336127725e-07; total time=   0.0s
+[CV] END ........model__var_smoothing=4.6415888336127725e-07; total time=   0.0s
+[CV] END ........model__var_smoothing=3.5938136638046257e-06; total time=   0.0s
+[CV] END ........model__var_smoothing=3.5938136638046257e-06; total time=   0.0s
+[CV] END .........model__var_smoothing=2.782559402207126e-05; total time=   0.0s
+[CV] END ........model__var_smoothing=3.5938136638046257e-06; total time=   0.0s
+[CV] END ........model__var_smoothing=3.5938136638046257e-06; total time=   0.0s
+[CV] END .........model__var_smoothing=2.782559402207126e-05; total time=   0.0s
+[CV] END .........model__var_smoothing=2.782559402207126e-05; total time=   0.0s
+[CV] END .........model__var_smoothing=2.782559402207126e-05; total time=   0.0s
+[CV] END ........model__var_smoothing=0.00021544346900318823; total time=   0.0s
+[CV] END ........model__var_smoothing=0.00021544346900318823; total time=   0.0s
+[CV] END ........model__var_smoothing=0.00021544346900318823; total time=   0.0s
+[CV] END ........model__var_smoothing=0.00021544346900318823; total time=   0.0s
+[CV] END ........model__var_smoothing=0.00021544346900318823; total time=   0.0s
+[CV] END .........model__var_smoothing=0.0016681005372000558; total time=   0.0s
+[CV] END .........model__var_smoothing=0.0016681005372000558; total time=   0.0s
+[CV] END .........model__var_smoothing=0.0016681005372000558; total time=   0.0s
+[CV] END .........model__var_smoothing=0.0016681005372000558; total time=   0.0s
+[CV] END .........model__var_smoothing=0.0016681005372000558; total time=   0.0s
+[CV] END ..........model__var_smoothing=0.012915496650148827; total time=   0.0s
+[CV] END ..........model__var_smoothing=0.012915496650148827; total time=   0.0s
+[CV] END ..........model__var_smoothing=0.012915496650148827; total time=   0.0s
+[CV] END ..........model__var_smoothing=0.012915496650148827; total time=   0.0s
+[CV] END ..........model__var_smoothing=0.012915496650148827; total time=   0.0s
+[CV] END ...........................model__var_smoothing=0.1; total time=   0.0s
+[CV] END ...........................model__var_smoothing=0.1; total time=   0.0s
+[CV] END ...........................model__var_smoothing=0.1; total time=   0.0s
+[CV] END ...........................model__var_smoothing=0.1; total time=   0.0s
+[CV] END ...........................model__var_smoothing=0.1; total time=   0.0s
+DONE GaussianNB: CV hit_f1=0.3257; holdout {'rows': 14389, 'actual_hits': 456, 'predicted_hits': 651, 'accuracy': 0.9462784071165473, 'balanced_accuracy': 0.6657451985126817, 'hit_precision': 0.2565284178187404, 'hit_recall': 0.36622807017543857, 'hit_f1': 0.3017163504968383, 'confusion_matrix': [[13449, 484], [289, 167]], 'average_precision': 0.212920892744139, 'roc_auc': 0.8480424330221952}; 1.1s
+START GradientBoostingClassifier: 30 candidates x 5 folds + refit; train=57556 holdout=14389
+[CV] END .........model__var_smoothing=2.782559402207126e-05; total time=   0.0s
+Fitting 5 folds for each of 30 candidates, totalling 150 fits
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300, model__subsample=1.0; total time=  44.6s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300, model__subsample=1.0; total time=  44.7s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300, model__subsample=1.0; total time=  44.8s
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=400, model__subsample=0.6; total time= 1.2min
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=400, model__subsample=0.6; total time= 1.2min
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=400, model__subsample=0.6; total time= 1.2min
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=400, model__subsample=0.6; total time= 1.2min
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=400, model__subsample=0.6; total time= 1.2min
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=200, model__subsample=0.6; total time=  35.4s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=200, model__subsample=0.6; total time=  18.5s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300, model__subsample=1.0; total time=  46.3s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=300, model__subsample=1.0; total time=  46.5s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=200, model__subsample=0.6; total time=  18.6s
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=200, model__subsample=0.6; total time=  35.8s
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=200, model__subsample=0.6; total time=  35.6s
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=200, model__subsample=0.6; total time=  35.7s
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=200, model__subsample=0.6; total time=  35.9s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=200, model__subsample=0.6; total time=  18.6s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=200, model__subsample=0.6; total time=  18.5s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=200, model__subsample=0.6; total time=  18.6s
+[CV] END model__learning_rate=0.01, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300, model__subsample=1.0; total time= 1.0min
+[CV] END model__learning_rate=0.01, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300, model__subsample=1.0; total time= 1.0min
+[CV] END model__learning_rate=0.01, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300, model__subsample=1.0; total time= 1.0min
+[CV] END model__learning_rate=0.01, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300, model__subsample=1.0; total time= 1.0min
+[CV] END model__learning_rate=0.01, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300, model__subsample=1.0; total time= 1.0min
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=400, model__subsample=0.8; total time= 1.1min
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=400, model__subsample=0.8; total time= 1.1min
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=400, model__subsample=0.8; total time= 1.1min
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.8; total time=  37.8s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.8; total time=  37.9s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.8; total time=  37.8s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.8; total time=  37.9s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.8; total time=  37.8s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.8; total time=  37.9s
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=400, model__subsample=0.8; total time= 1.1min
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=400, model__subsample=0.8; total time= 1.1min
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.8; total time=  37.8s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.8; total time=  37.8s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.8; total time=  37.9s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.8; total time=  37.9s
+[CV] END model__learning_rate=0.01, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=400, model__subsample=1.0; total time= 1.7min
+[CV] END model__learning_rate=0.01, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=400, model__subsample=1.0; total time= 1.7min
+[CV] END model__learning_rate=0.01, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=400, model__subsample=1.0; total time= 1.7min
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500, model__subsample=0.6; total time= 1.5min
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500, model__subsample=0.6; total time= 1.5min
+[CV] END model__learning_rate=0.01, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=400, model__subsample=1.0; total time= 1.7min
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500, model__subsample=0.6; total time= 1.5min
+[CV] END model__learning_rate=0.01, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=400, model__subsample=1.0; total time= 1.7min
+[CV] END model__learning_rate=0.2, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=100, model__subsample=0.8; total time=  20.4s
+[CV] END model__learning_rate=0.2, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=100, model__subsample=0.8; total time=  20.5s
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500, model__subsample=0.6; total time= 1.5min
+[CV] END model__learning_rate=0.2, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=100, model__subsample=0.8; total time=  20.5s
+[CV] END model__learning_rate=0.2, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500, model__subsample=0.6; total time= 1.5min
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500, model__subsample=1.0; total time= 1.3min
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500, model__subsample=1.0; total time= 1.3min
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500, model__subsample=1.0; total time= 1.3min
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500, model__subsample=1.0; total time= 1.3min
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=500, model__subsample=1.0; total time= 1.3min
+[CV] END model__learning_rate=0.2, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=100, model__subsample=0.8; total time=  20.5s
+[CV] END model__learning_rate=0.2, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=100, model__subsample=0.8; total time=  20.5s
+[CV] END model__learning_rate=0.001, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.6; total time=  27.9s
+[CV] END model__learning_rate=0.001, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.6; total time=  27.8s
+[CV] END model__learning_rate=0.001, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.6; total time=  27.8s
+[CV] END model__learning_rate=0.001, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.6; total time=  27.8s
+[CV] END model__learning_rate=0.001, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=300, model__subsample=0.6; total time=  27.7s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=400, model__subsample=0.6; total time=  37.4s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=400, model__subsample=0.6; total time=  37.3s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=400, model__subsample=0.6; total time=  37.3s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=400, model__subsample=0.6; total time=  37.3s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=400, model__subsample=0.6; total time=  37.4s
+[CV] END model__learning_rate=0.001, model__max_depth=4, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=100, model__subsample=0.6; total time=  12.1s
+[CV] END model__learning_rate=0.001, model__max_depth=4, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=100, model__subsample=0.6; total time=  12.1s
+[CV] END model__learning_rate=0.001, model__max_depth=4, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=100, model__subsample=0.6; total time=  12.1s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500, model__subsample=0.6; total time=  46.6s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500, model__subsample=0.6; total time=  46.3s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500, model__subsample=0.6; total time=  46.5s
+[CV] END model__learning_rate=0.001, model__max_depth=4, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=100, model__subsample=0.6; total time=  12.1s
+[CV] END model__learning_rate=0.001, model__max_depth=4, model__min_samples_leaf=1, model__min_samples_split=2, model__n_estimators=100, model__subsample=0.6; total time=  12.0s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500, model__subsample=0.6; total time=  46.6s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500, model__subsample=0.6; total time=  46.3s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=300, model__subsample=0.6; total time=  28.1s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=300, model__subsample=0.6; total time=  28.2s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=300, model__subsample=0.6; total time=  28.0s
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100, model__subsample=0.6; total time=  12.3s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=300, model__subsample=0.6; total time=  28.1s
+[CV] END model__learning_rate=0.2, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=300, model__subsample=0.6; total time=  28.1s
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100, model__subsample=0.6; total time=  12.7s
+[CV] END model__learning_rate=0.001, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500, model__subsample=1.0; total time= 1.3min
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100, model__subsample=0.6; total time=  13.0s
+[CV] END model__learning_rate=0.001, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500, model__subsample=1.0; total time= 1.3min
+[CV] END model__learning_rate=0.001, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500, model__subsample=1.0; total time= 1.3min
+[CV] END model__learning_rate=0.001, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500, model__subsample=1.0; total time= 1.3min
+[CV] END model__learning_rate=0.001, model__max_depth=3, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=500, model__subsample=1.0; total time= 1.3min
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100, model__subsample=0.6; total time=  13.4s
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=100, model__subsample=0.6; total time=  13.4s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=300, model__subsample=0.6; total time=  30.1s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=300, model__subsample=0.6; total time=  29.9s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=300, model__subsample=0.6; total time=  29.2s
+[CV] END model__learning_rate=0.2, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=200, model__subsample=1.0; total time=  54.5s
+[CV] END model__learning_rate=0.2, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=200, model__subsample=1.0; total time=  54.2s
+[CV] END model__learning_rate=0.2, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=200, model__subsample=1.0; total time=  54.2s
+[CV] END model__learning_rate=0.2, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=200, model__subsample=1.0; total time=  54.1s
+[CV] END model__learning_rate=0.2, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=200, model__subsample=1.0; total time=  54.3s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=300, model__subsample=0.6; total time=  28.2s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=200, model__subsample=0.8; total time=  25.6s
+[CV] END model__learning_rate=0.01, model__max_depth=3, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=300, model__subsample=0.6; total time=  28.2s
+[CV] END model__learning_rate=0.1, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=100, model__subsample=0.6; total time=  15.4s
+[CV] END model__learning_rate=0.1, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=100, model__subsample=0.6; total time=  15.4s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=200, model__subsample=0.8; total time=  25.6s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=200, model__subsample=0.8; total time=  25.7s
+[CV] END model__learning_rate=0.1, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=100, model__subsample=0.6; total time=  15.4s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=200, model__subsample=0.8; total time=  25.7s
+[CV] END model__learning_rate=0.1, model__max_depth=3, model__min_samples_leaf=5, model__min_samples_split=10, model__n_estimators=200, model__subsample=0.8; total time=  25.6s
+[CV] END model__learning_rate=0.1, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=100, model__subsample=0.6; total time=  15.4s
+[CV] END model__learning_rate=0.1, model__max_depth=5, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=100, model__subsample=0.6; total time=  15.4s
+[CV] END model__learning_rate=0.001, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=200, model__subsample=1.0; total time=  51.4s
+[CV] END model__learning_rate=0.001, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=200, model__subsample=1.0; total time=  51.7s
+[CV] END model__learning_rate=0.001, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=200, model__subsample=1.0; total time=  51.5s
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300, model__subsample=0.8; total time= 1.2min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300, model__subsample=0.8; total time= 1.2min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300, model__subsample=0.8; total time= 1.2min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300, model__subsample=0.8; total time= 1.2min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=300, model__subsample=0.8; total time= 1.2min
+[CV] END model__learning_rate=0.001, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=200, model__subsample=1.0; total time=  51.5s
+[CV] END model__learning_rate=0.001, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=200, model__subsample=1.0; total time=  51.8s
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=400, model__subsample=0.8; total time= 1.6min
+[CV] END model__learning_rate=0.1, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=400, model__subsample=1.0; total time= 2.1min
+[CV] END model__learning_rate=0.1, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=400, model__subsample=1.0; total time= 2.1min
+[CV] END model__learning_rate=0.1, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=400, model__subsample=1.0; total time= 2.1min
+[CV] END model__learning_rate=0.1, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=400, model__subsample=1.0; total time= 2.1min
+[CV] END model__learning_rate=0.1, model__max_depth=6, model__min_samples_leaf=5, model__min_samples_split=2, model__n_estimators=400, model__subsample=1.0; total time= 2.1min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=400, model__subsample=0.8; total time= 1.6min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=400, model__subsample=0.8; total time= 1.6min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=400, model__subsample=0.8; total time= 1.6min
+[CV] END model__learning_rate=0.001, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=400, model__subsample=1.0; total time= 1.4min
+[CV] END model__learning_rate=0.001, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=400, model__subsample=1.0; total time= 1.4min
+[CV] END model__learning_rate=0.001, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=400, model__subsample=1.0; total time= 1.4min
+[CV] END model__learning_rate=0.001, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=400, model__subsample=1.0; total time= 1.4min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=2, model__min_samples_split=2, model__n_estimators=400, model__subsample=0.8; total time= 1.6min
+[CV] END model__learning_rate=0.001, model__max_depth=4, model__min_samples_leaf=5, model__min_samples_split=5, model__n_estimators=400, model__subsample=1.0; total time= 1.4min
+[CV] END model__learning_rate=0.1, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400, model__subsample=0.8; total time= 1.4min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=200, model__subsample=1.0; total time= 1.0min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=200, model__subsample=1.0; total time= 1.0min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=200, model__subsample=1.0; total time= 1.0min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=200, model__subsample=1.0; total time= 1.0min
+[CV] END model__learning_rate=0.1, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400, model__subsample=0.8; total time= 1.4min
+[CV] END model__learning_rate=0.1, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400, model__subsample=0.8; total time= 1.4min
+[CV] END model__learning_rate=0.1, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400, model__subsample=0.8; total time= 1.4min
+[CV] END model__learning_rate=0.1, model__max_depth=5, model__min_samples_leaf=2, model__min_samples_split=5, model__n_estimators=400, model__subsample=0.8; total time= 1.3min
+[CV] END model__learning_rate=0.01, model__max_depth=6, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=200, model__subsample=1.0; total time=  49.7s
+DONE GradientBoostingClassifier: CV hit_f1=0.1412; holdout {'rows': 14389, 'actual_hits': 456, 'predicted_hits': 113, 'accuracy': 0.9653207311140455, 'balanced_accuracy': 0.5355780829559005, 'hit_precision': 0.30973451327433627, 'hit_recall': 0.07675438596491228, 'hit_f1': 0.12302284710017575, 'confusion_matrix': [[13855, 78], [421, 35]], 'average_precision': 0.1950032865196217, 'roc_auc': 0.8803700762168826}; 1077.6s
+START XGBClassifier: 30 candidates x 5 folds + refit; train=57556 holdout=14389
+Fitting 5 folds for each of 30 candidates, totalling 150 fits
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=1, model__subsample=0.6; total time=   0.2s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=1, model__subsample=0.6; total time=   0.2s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=1, model__subsample=0.6; total time=   0.2s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.4s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.4s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.4s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.4s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.4s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=1, model__subsample=0.6; total time=   0.2s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=1, model__subsample=0.6; total time=   0.2s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=5, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.4s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=5, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.3s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=5, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.4s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=5, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.4s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=5, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.4s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0.1, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.9s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0.1, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.9s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.6s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0.1, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.9s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.7s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.7s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0.1, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.9s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0.1, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.9s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.1, model__max_depth=3, model__n_estimators=400, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.5s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.1, model__max_depth=3, model__n_estimators=400, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.5s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.1, model__max_depth=3, model__n_estimators=400, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.5s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.1, model__max_depth=3, model__n_estimators=400, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.5s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.7s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.7s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.1, model__max_depth=3, model__n_estimators=400, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.5s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=6, model__n_estimators=300, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.8; total time=   0.7s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=6, model__n_estimators=300, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.8; total time=   0.8s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=6, model__n_estimators=300, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.8; total time=   0.8s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=6, model__n_estimators=300, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.8; total time=   0.8s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=6, model__n_estimators=300, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.8; total time=   0.8s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=5, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=5, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=5, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   1.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   1.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   1.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   1.3s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.5s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=5, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=5, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.5s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.5s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=6, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   1.3s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=3, model__n_estimators=400, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=3, model__n_estimators=400, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=3, model__n_estimators=400, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=3, model__n_estimators=400, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=3, model__n_estimators=400, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1, model__subsample=1.0; total time=   0.8s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1, model__subsample=1.0; total time=   0.8s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1, model__subsample=1.0; total time=   0.8s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.2, model__learning_rate=0.1, model__max_depth=5, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.7s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.2, model__learning_rate=0.1, model__max_depth=5, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.7s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.2, model__learning_rate=0.1, model__max_depth=5, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.7s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1, model__subsample=1.0; total time=   0.8s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1, model__subsample=1.0; total time=   0.8s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.01, model__max_depth=3, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.01, model__max_depth=3, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.01, model__max_depth=3, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.01, model__max_depth=3, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.1, model__learning_rate=0.01, model__max_depth=3, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.2, model__learning_rate=0.1, model__max_depth=5, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.7s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.2, model__learning_rate=0.1, model__max_depth=5, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.7s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=4, model__n_estimators=400, model__reg_alpha=0, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.7s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.01, model__max_depth=5, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.9s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.01, model__max_depth=5, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.9s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.01, model__max_depth=5, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.9s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=4, model__n_estimators=400, model__reg_alpha=0, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.7s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.01, model__max_depth=5, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.9s
+[CV] END model__colsample_bytree=0.8, model__gamma=0.3, model__learning_rate=0.01, model__max_depth=5, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.9s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=4, model__n_estimators=400, model__reg_alpha=0, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.7s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=300, model__reg_alpha=0.1, model__reg_lambda=1, model__subsample=1.0; total time=   0.3s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=300, model__reg_alpha=0.1, model__reg_lambda=1, model__subsample=1.0; total time=   0.3s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=300, model__reg_alpha=0.1, model__reg_lambda=1, model__subsample=1.0; total time=   0.3s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=300, model__reg_alpha=0.1, model__reg_lambda=1, model__subsample=1.0; total time=   0.4s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=300, model__reg_alpha=0.1, model__reg_lambda=1, model__subsample=1.0; total time=   0.4s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=4, model__n_estimators=400, model__reg_alpha=0, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.6s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=4, model__n_estimators=400, model__reg_alpha=0, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.7s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=0.8; total time=   0.7s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=0.8; total time=   0.6s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.6s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=0.8; total time=   0.6s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=0.8; total time=   0.6s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=400, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=0.8; total time=   0.6s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.6s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.6s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.6s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=500, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=1, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=1, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=1, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=1, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=1, model__subsample=0.8; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1, model__subsample=1.0; total time=   0.5s
+[CV] END model__colsample_bytree=1.0, model__gamma=0, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=1, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=1, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=1, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=300, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.7s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=300, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.7s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=300, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.7s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=300, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.7s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=300, model__reg_alpha=0.5, model__reg_lambda=1.5, model__subsample=0.6; total time=   0.7s
+[CV] END model__colsample_bytree=1.0, model__gamma=0, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=1, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=1, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.1, model__max_depth=6, model__n_estimators=100, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.1, model__max_depth=6, model__n_estimators=100, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.1, model__max_depth=6, model__n_estimators=100, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.1, model__max_depth=6, model__n_estimators=100, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.1, model__max_depth=6, model__n_estimators=100, model__reg_alpha=0.1, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.6s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.6s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.6s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.5s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.5s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.6s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.1, model__learning_rate=0.001, model__max_depth=5, model__n_estimators=300, model__reg_alpha=0, model__reg_lambda=1.5, model__subsample=1.0; total time=   0.6s
+[CV] END model__colsample_bytree=0.8, model__gamma=0, model__learning_rate=0.001, model__max_depth=3, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=0.8, model__gamma=0, model__learning_rate=0.001, model__max_depth=3, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=0.8, model__gamma=0, model__learning_rate=0.001, model__max_depth=3, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=0.8, model__gamma=0, model__learning_rate=0.001, model__max_depth=3, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=0.8, model__gamma=0, model__learning_rate=0.001, model__max_depth=3, model__n_estimators=100, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.5s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=0.6, model__gamma=0.2, model__learning_rate=0.2, model__max_depth=6, model__n_estimators=200, model__reg_alpha=0.5, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.5s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0.3, model__learning_rate=0.2, model__max_depth=5, model__n_estimators=100, model__reg_alpha=0, model__reg_lambda=2.0, model__subsample=1.0; total time=   0.2s
+[CV] END model__colsample_bytree=1.0, model__gamma=0, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=200, model__reg_alpha=0.1, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=200, model__reg_alpha=0.1, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=200, model__reg_alpha=0.1, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=200, model__reg_alpha=0.1, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.3s
+[CV] END model__colsample_bytree=1.0, model__gamma=0, model__learning_rate=0.2, model__max_depth=3, model__n_estimators=200, model__reg_alpha=0.1, model__reg_lambda=2.0, model__subsample=0.6; total time=   0.3s
+DONE XGBClassifier: CV hit_f1=0.1296; holdout {'rows': 14389, 'actual_hits': 456, 'predicted_hits': 102, 'accuracy': 0.9666411842379595, 'balanced_accuracy': 0.5405023382579034, 'hit_precision': 0.38235294117647056, 'hit_recall': 0.08552631578947369, 'hit_f1': 0.13978494623655913, 'confusion_matrix': [[13870, 63], [417, 39]], 'average_precision': 0.22167227564605652, 'roc_auc': 0.8780485021676419}; 11.2s
+START MLPClassifier: 24 candidates x 5 folds + refit; train=57556 holdout=14389
+Fitting 5 folds for each of 24 candidates, totalling 120 fits
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   3.7s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   4.5s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   4.8s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   5.0s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   5.1s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  13.8s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  12.0s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  16.5s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  17.4s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  13.9s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  29.3s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  31.6s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  32.2s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   4.4s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  29.5s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  28.1s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   3.6s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  30.5s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  30.0s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   5.0s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  31.9s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   4.9s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   4.7s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  11.4s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  11.7s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  13.8s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  12.2s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  28.9s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  16.5s
+[CV] END model__activation=tanh, model__alpha=0.0001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  29.4s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  29.5s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  32.6s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  30.7s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  33.5s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  34.3s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  34.4s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   2.8s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   3.9s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  34.7s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   3.1s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   2.7s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  32.8s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   3.1s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100,), model__solver=adam; total time=   3.1s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100,), model__solver=adam; total time=   3.6s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100,), model__solver=adam; total time=   4.8s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100,), model__solver=adam; total time=   6.2s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100,), model__solver=adam; total time=   7.5s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  35.4s
+[CV] END model__activation=tanh, model__alpha=0.001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  36.5s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  29.6s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  37.0s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  36.8s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  37.2s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  36.0s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   4.4s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   3.9s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   3.4s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   3.3s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   5.6s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  45.3s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  11.6s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  40.8s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  11.7s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  12.5s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  12.2s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  15.0s
+/Users/anishech/Projects/ML_Spotify/.venv/lib/python3.14/site-packages/sklearn/neural_network/_multilayer_perceptron.py:785: ConvergenceWarning: Stochastic Optimizer: Maximum iterations (500) reached and the optimization hasn't converged yet.
+  warnings.warn(
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  48.6s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  45.4s
+[CV] END model__activation=tanh, model__alpha=0.01, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  46.0s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  28.5s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  23.6s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  29.6s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  27.5s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   4.2s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   2.9s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   3.2s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   2.3s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  26.6s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   3.3s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  27.5s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  25.9s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  10.7s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  10.7s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  12.7s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  27.4s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  29.8s
+[CV] END model__activation=relu, model__alpha=0.0001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  31.7s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  11.9s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100,), model__solver=adam; total time=  12.8s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  22.9s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  26.5s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  25.7s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   2.1s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  29.1s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   1.6s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   1.5s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  26.4s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   1.7s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  27.1s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(50,), model__solver=adam; total time=   3.1s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  32.9s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100,), model__solver=adam; total time=   4.1s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100,), model__solver=adam; total time=   4.7s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  31.6s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100,), model__solver=adam; total time=   8.7s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100,), model__solver=adam; total time=   5.2s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100,), model__solver=adam; total time=   8.5s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  26.3s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  13.0s
+[CV] END model__activation=relu, model__alpha=0.001, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  28.9s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  20.5s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  19.5s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  21.4s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100, 50), model__solver=adam; total time=  21.2s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  23.6s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  18.2s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  26.5s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  23.0s
+[CV] END model__activation=relu, model__alpha=0.01, model__hidden_layer_sizes=(100, 100), model__solver=adam; total time=  22.3s
+DONE MLPClassifier: CV hit_f1=0.1972; holdout {'rows': 14389, 'actual_hits': 456, 'predicted_hits': 293, 'accuracy': 0.9587879630273125, 'balanced_accuracy': 0.5778108202034549, 'hit_precision': 0.26621160409556316, 'hit_recall': 0.17105263157894737, 'hit_f1': 0.2082777036048064, 'confusion_matrix': [[13718, 215], [378, 78]], 'average_precision': 0.17001689230853667, 'roc_auc': 0.8547082623482556}; 333.8s
+START BaggingClassifier: 30 candidates x 5 folds + refit; train=57556 holdout=14389
+Fitting 5 folds for each of 30 candidates, totalling 150 fits
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=1.0, model__n_estimators=30; total time=  12.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=1.0, model__n_estimators=30; total time=  13.0s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=1.0, model__n_estimators=30; total time=  13.1s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=100; total time=  16.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=100; total time=  16.8s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=100; total time=  16.8s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=100; total time=  16.8s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=100; total time=  17.0s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=50; total time=  11.4s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=1.0, model__n_estimators=30; total time=  13.1s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=1.0, model__n_estimators=30; total time=  13.2s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=50; total time=  11.0s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=50; total time=  11.3s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=50; total time=  11.4s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=50; total time=  11.3s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=50; total time=  12.6s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=10; total time=   3.5s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=10; total time=   3.4s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=10; total time=   3.5s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=10; total time=   3.5s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=10; total time=   1.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=10; total time=   1.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=10; total time=   1.7s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=10; total time=   3.5s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=10; total time=   1.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=10; total time=   1.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=50; total time=  12.5s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=50; total time=  12.2s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=50; total time=  12.9s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=50; total time=  12.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=50; total time=  11.3s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=50; total time=  11.4s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=50; total time=  11.1s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  22.3s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  22.6s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  22.6s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  22.5s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  23.0s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=50; total time=  11.4s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=50; total time=  11.5s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=50; total time=  16.6s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=50; total time=  16.5s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=50; total time=  16.5s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=50; total time=  16.4s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=50; total time=  16.7s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.5, model__n_estimators=50; total time=   7.6s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.5, model__n_estimators=50; total time=   7.7s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.5, model__n_estimators=50; total time=   7.7s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=1.0, model__n_estimators=50; total time=  25.4s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=1.0, model__n_estimators=50; total time=  25.6s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=1.0, model__n_estimators=50; total time=  25.1s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.5, model__n_estimators=50; total time=   7.6s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.5, model__n_estimators=50; total time=   7.7s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=1.0, model__n_estimators=50; total time=  25.0s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=1.0, model__n_estimators=50; total time=  25.9s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  22.7s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  33.0s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  22.6s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  33.5s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  32.5s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  33.0s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  22.3s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  33.3s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=30; total time=   6.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.5, model__n_estimators=10; total time=   1.2s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.5, model__n_estimators=10; total time=   1.2s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.5, model__n_estimators=10; total time=   1.2s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.5, model__n_estimators=10; total time=   1.2s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=30; total time=   6.6s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=30; total time=   6.9s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.5, model__n_estimators=10; total time=   1.2s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=30; total time=   6.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=20; total time=   3.4s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=30; total time=   6.8s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=20; total time=   3.4s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=20; total time=   3.4s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=20; total time=   3.5s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=20; total time=   3.4s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=20; total time=   3.0s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=20; total time=   3.1s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=20; total time=   3.0s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=20; total time=   3.1s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=20; total time=   3.1s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=10; total time=   4.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  23.0s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=10; total time=   4.9s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=10; total time=   4.8s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=10; total time=   4.8s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=20; total time=   4.6s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=10; total time=   5.0s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.7, model__n_estimators=100; total time=  23.3s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=20; total time=   4.7s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=20; total time=   4.7s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=20; total time=   4.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=20; total time=   4.0s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=20; total time=   4.1s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=20; total time=   4.1s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=20; total time=   4.8s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=20; total time=   4.0s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=20; total time=   4.1s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=10; total time=   3.3s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=10; total time=   3.3s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=30; total time=   7.0s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=10; total time=   3.2s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=30; total time=   7.1s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=30; total time=   7.1s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=10; total time=   3.2s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=30; total time=   7.1s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=30; total time=   7.2s
+[CV] END model__bootstrap=False, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=10; total time=   3.3s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=10; total time=   2.5s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=10; total time=   2.5s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=10; total time=   2.4s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=10; total time=   2.6s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=1.0, model__max_samples=0.5, model__n_estimators=10; total time=   2.5s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=50; total time=  11.3s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=50; total time=  11.5s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=50; total time=  11.1s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=50; total time=  11.2s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=50; total time=  11.3s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=100; total time=  15.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=100; total time=  15.9s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=100; total time=  15.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=10; total time=   1.8s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=10; total time=   1.8s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=30; total time=  14.8s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=30; total time=  14.4s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=100; total time=  15.9s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=30; total time=  14.9s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.5, model__max_samples=0.7, model__n_estimators=100; total time=  15.9s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=10; total time=   1.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=10; total time=   1.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=False, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=10; total time=   1.8s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=30; total time=  14.9s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=50; total time=   8.6s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=50; total time=   8.5s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=50; total time=   8.7s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=50; total time=   8.7s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=30; total time=  14.9s
+[CV] END model__bootstrap=True, model__bootstrap_features=True, model__max_features=0.7, model__max_samples=0.5, model__n_estimators=50; total time=   8.7s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=50; total time=  17.4s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=50; total time=  17.6s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=50; total time=  17.1s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=50; total time=  17.4s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=0.5, model__max_samples=1.0, model__n_estimators=50; total time=  17.5s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=50; total time=  23.6s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=50; total time=  22.9s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=50; total time=  23.6s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=50; total time=  21.9s
+[CV] END model__bootstrap=False, model__bootstrap_features=False, model__max_features=1.0, model__max_samples=0.7, model__n_estimators=50; total time=  20.8s
+DONE BaggingClassifier: CV hit_f1=0.0960; holdout {'rows': 14389, 'actual_hits': 456, 'predicted_hits': 69, 'accuracy': 0.966571686705122, 'balanced_accuracy': 0.5224361637964141, 'hit_precision': 0.3188405797101449, 'hit_recall': 0.04824561403508772, 'hit_f1': 0.0838095238095238, 'confusion_matrix': [[13886, 47], [434, 22]], 'average_precision': 0.1912392522947044, 'roc_auc': 0.8354865735896476}; 246.6s
+Selected GaussianNB using hit_f1 from training folds only
+                         model  cv_selection_score  test_rows  \
+0        MajorityClassBaseline                 NaN      14389   
+1           LogisticRegression            0.275317      14389   
+2       DecisionTreeClassifier            0.249072      14389   
+3       RandomForestClassifier            0.317631      14389   
+4                          SVC            0.287721      14389   
+5         KNeighborsClassifier            0.175768      14389   
+6                   GaussianNB            0.325722      14389   
+7   GradientBoostingClassifier            0.141216      14389   
+8                XGBClassifier            0.129567      14389   
+9                MLPClassifier            0.197216      14389   
+10           BaggingClassifier            0.095962      14389   
+
+    test_actual_hits  test_predicted_hits  test_accuracy  \
+0                456                    0       0.968309   
+1                456                 1996       0.873237   
+2                456                 1557       0.895406   
+3                456                  710       0.943985   
+4                456                 1738       0.888248   
+5                456                  189       0.961985   
+6                456                  651       0.946278   
+7                456                  113       0.965321   
+8                456                  102       0.966641   
+9                456                  293       0.958788   
+10               456                   69       0.966572   
+
+    test_balanced_accuracy  test_hit_precision  test_hit_recall  test_hit_f1  \
+0                 0.500000            0.000000         0.000000     0.000000   
+1                 0.783938            0.157315         0.688596     0.256117   
+2                 0.731749            0.163134         0.557018     0.252360   
+3                 0.678349            0.253521         0.394737     0.308748   
+4                 0.769417            0.168585         0.642544     0.267092   
+5                 0.548704            0.259259         0.107456     0.151938   
+6                 0.665745            0.256528         0.366228     0.301716   
+7                 0.535578            0.309735         0.076754     0.123023   
+8                 0.540502            0.382353         0.085526     0.139785   
+9                 0.577811            0.266212         0.171053     0.208278   
+10                0.522436            0.318841         0.048246     0.083810   
+
+    ...  train_rows  train_actual_hits  train_predicted_hits  train_accuracy  \
+0   ...         NaN                NaN                   NaN             NaN   
+1   ...     57556.0             1825.0                7815.0        0.879422   
+2   ...     57556.0             1825.0                6011.0        0.917194   
+3   ...     57556.0             1825.0                2982.0        0.965199   
+4   ...     57556.0             1825.0                6834.0        0.893790   
+5   ...     57556.0             1825.0                 799.0        0.974772   
+6   ...     57556.0             1825.0                2528.0        0.949597   
+7   ...     57556.0             1825.0                 478.0        0.969438   
+8   ...     57556.0             1825.0                 545.0        0.975815   
+9   ...     57556.0             1825.0                1263.0        0.985336   
+10  ...     57556.0             1825.0                1087.0        0.986517   
+
+    train_balanced_accuracy  train_hit_precision  train_hit_recall  \
+0                       NaN                  NaN               NaN   
+1                  0.811861             0.172745          0.739726   
+2                  0.880391             0.255365          0.841096   
+3                  0.869934             0.470154          0.768219   
+4                  0.798876             0.186275          0.697534   
+5                  0.658637             0.733417          0.321096   
+6                  0.682737             0.287184          0.397808   
+7                  0.572672             0.569038          0.149041   
+8                  0.633470             0.897248          0.267945   
+9                  0.806132             0.888361          0.614795   
+10                 0.792432             0.982521          0.585205   
+
+    train_hit_f1  train_average_precision  train_roc_auc  
+0            NaN                      NaN            NaN  
+1       0.280083                 0.258031       0.900522  
+2       0.391782                 0.380000       0.893624  
+3       0.583316                 0.662278       0.983846  
+4       0.294029                 0.257979       0.910539  
+5       0.446646                 0.534472       0.982721  
+6       0.333563                 0.243586       0.866565  
+7       0.236214                 0.325727       0.916387  
+8       0.412658                 0.688568       0.977503  
+9       0.726684                 0.849286       0.991601  
+10      0.733516                 0.929215       0.995362  
+
+[11 rows x 23 columns]
+
+CELL 4
+Chosen using training CV: GaussianNB
+<IPython.core.display.Image object>

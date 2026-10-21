@@ -1,0 +1,100 @@
+
+CELL 1
+Profile: smoke
+Artifacts: /Users/anishech/Projects/ML_Spotify/runs/20261021_135938_718078_smoke
+High-popularity training rows: 203
+High-popularity holdout rows: 51
+
+CELL 3
+START Lasso: 2 candidates x 2 folds + refit; train=203 holdout=51
+Fitting 2 folds for each of 2 candidates, totalling 4 fits
+DONE Lasso: CV neg_rmse=-4.6038; holdout {'rows': 51, 'mae': 2.9480622106532626, 'rmse': 3.7556102641745484, 'r2': 0.15687427387785557, 'within_5_percent': 86.27450980392157}; 0.9s
+START Ridge: 2 candidates x 2 folds + refit; train=203 holdout=51
+DONE Ridge: CV neg_rmse=-4.6647; holdout {'rows': 51, 'mae': 2.8706304749507034, 'rmse': 3.7447771038202027, 'r2': 0.16173129700940048, 'within_5_percent': 84.31372549019608}; 0.0s
+START ElasticNet: 2 candidates x 2 folds + refit; train=203 holdout=51
+DONE ElasticNet: CV neg_rmse=-4.5789; holdout {'rows': 51, 'mae': 3.0182913554549335, 'rmse': 3.791453694963142, 'r2': 0.1407039429157435, 'within_5_percent': 84.31372549019608}; 0.0s
+START RandomForestRegressor: 2 candidates x 2 folds + refit; train=203 holdout=51
+[CV] END model__alpha=0.03199267137797385, model__max_iter=5000, model__selection=random, model__tol=0.001; total time=   0.0s
+[CV] END model__alpha=0.03199267137797385, model__max_iter=5000, model__selection=random, model__tol=0.001; total time=   0.0s
+[CV] END model__alpha=0.1873817422860385, model__max_iter=1000, model__selection=cyclic, model__tol=0.001; total time=   0.0s
+[CV] END model__alpha=0.1873817422860385, model__max_iter=1000, model__selection=cyclic, model__tol=0.001; total time=   0.0s
+Fitting 2 folds for each of 2 candidates, totalling 4 fits
+[CV] END model__alpha=0.0002782559402207126, model__max_iter=5000, model__tol=0.0001; total time=   0.0s
+[CV] END model__alpha=0.0002782559402207126, model__max_iter=5000, model__tol=0.0001; total time=   0.0s
+[CV] END model__alpha=0.008697490026177835, model__max_iter=5000, model__tol=0.0001; total time=   0.0s
+[CV] END model__alpha=0.008697490026177835, model__max_iter=5000, model__tol=0.0001; total time=   0.0s
+Fitting 2 folds for each of 2 candidates, totalling 4 fits
+[CV] END model__alpha=0.3274549162877732, model__l1_ratio=0.7999999999999999, model__max_iter=1000, model__tol=0.0001; total time=   0.0s
+[CV] END model__alpha=0.3274549162877732, model__l1_ratio=0.7999999999999999, model__max_iter=1000, model__tol=0.0001; total time=   0.0s
+[CV] END model__alpha=0.000145082877849594, model__l1_ratio=0.7999999999999999, model__max_iter=5000, model__tol=0.01; total time=   0.0s
+[CV] END model__alpha=0.000145082877849594, model__l1_ratio=0.7999999999999999, model__max_iter=5000, model__tol=0.01; total time=   0.0s
+Fitting 2 folds for each of 2 candidates, totalling 4 fits
+[CV] END model__max_depth=5, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=30; total time=   0.0s
+[CV] END model__max_depth=5, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=5, model__n_estimators=30; total time=   0.0s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=4, model__min_samples_split=2, model__n_estimators=30; total time=   0.0s
+[CV] END model__max_depth=10, model__max_features=log2, model__min_samples_leaf=4, model__min_samples_split=2, model__n_estimators=30; total time=   0.0s
+DONE RandomForestRegressor: CV neg_rmse=-4.6419; holdout {'rows': 51, 'mae': 3.129304430309903, 'rmse': 3.909057405666277, 'r2': 0.08656972302201371, 'within_5_percent': 80.3921568627451}; 0.1s
+START GradientBoostingRegressor: 2 candidates x 2 folds + refit; train=203 holdout=51
+DONE GradientBoostingRegressor: CV neg_rmse=-4.6639; holdout {'rows': 51, 'mae': 3.2650470513006074, 'rmse': 4.053314901605246, 'r2': 0.017908398607580756, 'within_5_percent': 84.31372549019608}; 0.1s
+START AdaBoostRegressor: 2 candidates x 2 folds + refit; train=203 holdout=51
+DONE AdaBoostRegressor: CV neg_rmse=-4.6349; holdout {'rows': 51, 'mae': 3.140367011190197, 'rmse': 3.887022552977254, 'r2': 0.0968384768466799, 'within_5_percent': 82.35294117647058}; 0.1s
+START KNeighborsRegressor: 2 candidates x 2 folds + refit; train=203 holdout=51
+DONE KNeighborsRegressor: CV neg_rmse=-4.6478; holdout {'rows': 51, 'mae': 3.0098734541285785, 'rmse': 3.9395541261650564, 'r2': 0.07226177742986528, 'within_5_percent': 82.35294117647058}; 0.0s
+START XGBRegressor: 2 candidates x 2 folds + refit; train=203 holdout=51
+Fitting 2 folds for each of 2 candidates, totalling 4 fits
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=30, model__subsample=1.0; total time=   0.0s
+[CV] END model__learning_rate=0.2, model__max_depth=4, model__max_features=log2, model__min_samples_leaf=1, model__min_samples_split=10, model__n_estimators=30, model__subsample=1.0; total time=   0.0s
+[CV] END model__learning_rate=0.005, model__max_depth=4, model__max_features=None, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=30, model__subsample=0.6; total time=   0.0s
+[CV] END model__learning_rate=0.005, model__max_depth=4, model__max_features=None, model__min_samples_leaf=2, model__min_samples_split=10, model__n_estimators=30, model__subsample=0.6; total time=   0.0s
+Fitting 2 folds for each of 2 candidates, totalling 4 fits
+[CV] END model__learning_rate=0.1, model__loss=linear, model__n_estimators=50; total time=   0.0s
+[CV] END model__learning_rate=0.1, model__loss=linear, model__n_estimators=50; total time=   0.0s
+[CV] END model__learning_rate=0.01, model__loss=linear, model__n_estimators=50; total time=   0.0s
+[CV] END model__learning_rate=0.01, model__loss=linear, model__n_estimators=50; total time=   0.0s
+Fitting 2 folds for each of 2 candidates, totalling 4 fits
+[CV] END model__metric=manhattan, model__n_neighbors=13, model__weights=distance; total time=   0.0s
+[CV] END model__metric=manhattan, model__n_neighbors=13, model__weights=distance; total time=   0.0s
+[CV] END model__metric=euclidean, model__n_neighbors=15, model__weights=distance; total time=   0.0s
+[CV] END model__metric=euclidean, model__n_neighbors=15, model__weights=distance; total time=   0.0s
+Fitting 2 folds for each of 2 candidates, totalling 4 fits
+DONE XGBRegressor: CV neg_rmse=-4.6410; holdout {'rows': 51, 'mae': 3.2047550678253174, 'rmse': 4.000949270142757, 'r2': 0.04312020540237427, 'within_5_percent': 86.27450980392157}; 0.1s
+Selected ElasticNet using neg_rmse from training folds only
+[CV] END model__colsample_bytree=0.7, model__gamma=0.3, model__learning_rate=0.005, model__max_depth=3, model__n_estimators=50, model__reg_alpha=0.1, model__reg_lambda=2.5, model__subsample=0.6; total time=   0.0s
+[CV] END model__colsample_bytree=0.7, model__gamma=0.3, model__learning_rate=0.005, model__max_depth=3, model__n_estimators=50, model__reg_alpha=0.1, model__reg_lambda=2.5, model__subsample=0.6; total time=   0.0s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=30, model__reg_alpha=1.0, model__reg_lambda=1, model__subsample=0.6; total time=   0.0s
+[CV] END model__colsample_bytree=0.6, model__gamma=0, model__learning_rate=0.01, model__max_depth=4, model__n_estimators=30, model__reg_alpha=1.0, model__reg_lambda=1, model__subsample=0.6; total time=   0.0s
+                       model  cv_selection_score  test_rows  test_mae  \
+0               MeanBaseline                 NaN         51  3.285907   
+1                      Lasso           -4.603839         51  2.948062   
+2                      Ridge           -4.664750         51  2.870630   
+3                 ElasticNet           -4.578904         51  3.018291   
+4      RandomForestRegressor           -4.641876         51  3.129304   
+5  GradientBoostingRegressor           -4.663930         51  3.265047   
+6          AdaBoostRegressor           -4.634860         51  3.140367   
+7        KNeighborsRegressor           -4.647776         51  3.009873   
+8               XGBRegressor           -4.641040         51  3.204755   
+
+   test_rmse   test_r2  test_within_5_percent   seconds  train_rows  \
+0   4.092911 -0.001373              88.235294       NaN         NaN   
+1   3.755610  0.156874              86.274510  0.929632       203.0   
+2   3.744777  0.161731              84.313725  0.022141       203.0   
+3   3.791454  0.140704              84.313725  0.021827       203.0   
+4   3.909057  0.086570              80.392157  0.136689       203.0   
+5   4.053315  0.017908              84.313725  0.057928       203.0   
+6   3.887023  0.096838              82.352941  0.110249       203.0   
+7   3.939554  0.072262              82.352941  0.023729       203.0   
+8   4.000949  0.043120              86.274510  0.052458       203.0   
+
+   train_mae  train_rmse  train_r2  train_within_5_percent  
+0        NaN         NaN       NaN                     NaN  
+1   3.160779    4.076029  0.268974               85.714286  
+2   3.027704    3.951281  0.313036               83.251232  
+3   3.261211    4.183284  0.229996               85.714286  
+4   2.725032    3.572578  0.438407               88.669951  
+5   3.537579    4.563667  0.083598               84.236453  
+6   3.009263    3.730134  0.387781               88.669951  
+7   1.914512    3.015151  0.599985               93.596059  
+8   3.443477    4.444298  0.130910               86.206897  
+
+CELL 4
+<IPython.core.display.Image object>

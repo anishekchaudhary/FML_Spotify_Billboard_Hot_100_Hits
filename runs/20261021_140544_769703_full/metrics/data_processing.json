@@ -1,0 +1,22 @@
+{
+  "raw_rows": 114000,
+  "after_missing_values": 113999,
+  "after_dedup_track_id": 89740,
+  "after_dedup_artists_album_name_track_name": 89379,
+  "after_dedup_artists_track_name": 81343,
+  "after_dedup_album_name_track_name": 80279,
+  "after_speechiness": 79433,
+  "after_instrumentalness": 74203,
+  "after_liveness": 71945,
+  "after_nonzero_duration": 71945,
+  "cleaned_rows": 71945,
+  "modeling_rows": 71945,
+  "train_rows": 57556,
+  "test_rows": 14389,
+  "modeling_hits": 2281,
+  "train_hits": 1825,
+  "test_hits": 456,
+  "source_sha256": "0789cc80067f3daa754ecdf15cdbab6fbaedc0a5fd52631e0d09d0665a576936",
+  "split_sha256": "c6f3895a0483e0dbeea7cf41d8aca17c16c3c83e88520dfba25e0dc50291e6d6",
+  "matches_original_processed_values": true
+}

@@ -1,0 +1,28 @@
+2026-10-21 14:05:44,771 Run directory: /Users/anishech/Projects/ML_Spotify/runs/20261021_140544_769703_full
+2026-10-21 14:05:50,638 Matplotlib is building the font cache; this may take a moment.
+2026-10-21 14:05:55,229 Verified 13 dependencies in /Users/anishech/Projects/ML_Spotify/.venv/bin/python
+2026-10-21 14:05:55,395 Search budget: 3746 model fits, 5 folds, 2 workers; sample_rows=all
+2026-10-21 14:05:55,413 START NOTEBOOK pipeline_notebooks/data_processing.ipynb
+2026-10-21 14:05:55,910 Executing notebook with kernel: 
+2026-10-21 14:05:57,096 data_processing: cell 1 finished
+2026-10-21 14:05:57,252 [data_processing] after_missing_values: 113999 rows
+2026-10-21 14:05:57,262 [data_processing] after_dedup_track_id: 89740 rows
+2026-10-21 14:05:57,285 [data_processing] after_dedup_artists_album_name_track_name: 89379 rows
+2026-10-21 14:05:57,301 [data_processing] after_dedup_artists_track_name: 81343 rows
+2026-10-21 14:05:57,317 [data_processing] after_dedup_album_name_track_name: 80279 rows
+2026-10-21 14:05:57,322 [data_processing] after_speechiness: 79433 rows
+2026-10-21 14:05:57,326 [data_processing] after_instrumentalness: 74203 rows
+2026-10-21 14:05:57,331 [data_processing] after_liveness: 71945 rows
+2026-10-21 14:05:57,332 [data_processing] after_nonzero_duration: 71945 rows
+2026-10-21 14:05:57,952 [data_processing] Prepared 71945 modeling rows; 57556 train / 14389 holdout; hits 1825 / 456
+2026-10-21 14:05:57,960 data_processing: cell 3 finished
+2026-10-21 14:05:58,027 data_processing: cell 4 finished
+2026-10-21 14:05:58,345 DONE NOTEBOOK pipeline_notebooks/data_processing.ipynb (2.9s)
+2026-10-21 14:05:58,346 START NOTEBOOK pipeline_notebooks/classification_model.ipynb
+2026-10-21 14:05:58,864 Executing notebook with kernel: 
+2026-10-21 14:05:59,983 classification: cell 1 finished
+2026-10-21 14:06:00,057 [classification] START LogisticRegression: 20 candidates x 5 folds + refit; train=57556 holdout=14389
+2026-10-21 14:06:03,629 [classification] DONE LogisticRegression: CV hit_f1=0.2753; holdout {'rows': 14389, 'actual_hits': 456, 'predicted_hits': 1996, 'accuracy': 0.8732365001042462, 'balanced_accuracy': 0.783937949913181, 'hit_precision': 0.15731462925851702, 'hit_recall': 0.6885964912280702, 'hit_f1': 0.2561174551386623, 'confusion_matrix': [[12251, 1682], [142, 314]], 'average_precision': 0.22533952989267833, 'roc_auc': 0.8884957427840757}; 3.6s
+2026-10-21 14:06:03,629 [classification] START DecisionTreeClassifier: 30 candidates x 5 folds + refit; train=57556 holdout=14389
+2026-10-21 14:06:25,525 [classification] DONE DecisionTreeClassifier: CV hit_f1=0.2491; holdout {'rows': 14389, 'actual_hits': 456, 'predicted_hits': 1557, 'accuracy': 0.8954062130794357, 'balanced_accuracy': 0.7317492800759524, 'hit_precision': 0.16313423249839434, 'hit_recall': 0.5570175438596491, 'hit_f1': 0.25235966219572775, 'confusion_matrix': [[12630, 1303], [202, 254]], 'average_precision': 0.11818292849395672, 'roc_auc': 0.7354340509279369}; 21.9s
+2026-10-21 14:06:25,526 [classification] START RandomForestClassifier: 30 candidates x 5 folds + refit; train=57556 holdout=14389

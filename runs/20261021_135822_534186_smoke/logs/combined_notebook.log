@@ -1,0 +1,97 @@
+
+CELL 1
+Profile: smoke
+Artifacts: /Users/anishech/Projects/ML_Spotify/runs/20261021_135822_534186_smoke
+
+CELL 3
+Combined holdout: 201 shortlisted / 1600; metrics {'rows': 1600, 'actual_hits': 51, 'predicted_hits': 201, 'accuracy': 0.89375, 'balanced_accuracy': 0.8503145609438094, 'hit_precision': 0.20398009950248755, 'hit_recall': 0.803921568627451, 'hit_f1': 0.3253968253968254, 'confusion_matrix': [[1389, 160], [10, 41]], 'average_precision': 0.2482557858716623, 'roc_auc': 0.9001126596539197, 'shortlist_regression': {'rows': 201, 'mae': 28.148268362468336, 'rmse': 38.4921767675666, 'r2': -1.0831664971697457, 'within_5_percent': 17.91044776119403}, 'shortlist_mean_baseline': {'rows': 201, 'mae': 28.4354091610911, 'rmse': 38.50364369088886, 'r2': -1.0844078438834805, 'within_5_percent': 18.407960199004975}}
+    row_id  actual_popularity  predicted_popularity  hit_score  \
+0    68978                 38             78.760971   0.863203   
+1    81074                  3             78.748611   0.738238   
+2    68935                 41             78.577481   0.877194   
+3    68873                 41             78.104307   0.852591   
+4    68941                 39             77.935561   0.650006   
+5    56058                 83             77.851892   0.659818   
+6    68602                 87             77.821162   0.748530   
+7    67818                  2             77.796061   0.773658   
+8    20409                 75             77.654363   0.781396   
+9    47770                 62             77.635324   0.588456   
+10   20534                  0             77.601895   0.873878   
+11   57012                 77             77.591416   0.796974   
+12   20077                  4             77.550880   0.860479   
+13   51571                  0             77.446129   0.823564   
+14   68868                 74             77.318874   0.836273   
+15   30691                 61             77.292908   0.678010   
+16   20021                 80             77.284976   0.892595   
+17   31501                 67             77.270917   0.861453   
+18   67392                  0             77.239186   0.862629   
+19   56493                  0             77.167556   0.786098   
+
+                  track_id                            artists  \
+0   75Bk2jHaVd5kR5KDDRsnT8                       Franky Style   
+1   4g7118rCobKcU4XQXSFlBS                         The Weeknd   
+2   6JXbjTYnHhVpgz8aRm1wTR                   Balbi El Chamako   
+3   2L5aP9ytaSmHqAAuaK4Vpk                       Young Cister   
+4   3JCcBtwNldEBd3O4hqYDWI              Almighty;Manny Montes   
+5   1ZdhOMWyFR8Iv9eylMGYg2                           Labrinth   
+6   2JPLbjOn0wPCngEot2STUS                          Bad Bunny   
+7   0ZkZtswuplfbjbXk7Y0jOv                           Bad Gyal   
+8   09AvsbivV1FQBRAEBJh7UL                   The Chainsmokers   
+9   38fIaph07Kd8ZIN6l17ZJs                          Metallica   
+10  5tkZJZiaeQExZNjCli2CD0                  Avicii;Aloe Blacc   
+11  5iFwAOB2TFkPJk8sMlxP8g                             PUBLIC   
+12  7vAPNx92EUeQoTaGhjGTpQ                  Dua Lipa;Saweetie   
+13  2ajQyTRxBRbPLaMmnO1SHj           Kodak Black;XXXTENTACION   
+14  2cXeLEN1eguDzERP5csBUs  Jay Wheeler;DJ Nelson;Myke Towers   
+15  4XMf6BjWH7Pme8eY4yyEZE          Dimitri Vegas & Like Mike   
+16  0tBbt8CrmxbjRP0pueQkyU            Selena Gomez;Marshmello   
+17  1S7ca5mJlpHn7GCE88jejz          Izzamuzzic;Julien Marchal   
+18  5PDSxvzJnXM0WnhVPBUvMS                       Aitana;Morat   
+19  5CuO4SNNPEnNsfwzeF6LIq                Death Cab for Cutie   
+
+                                album_name  \
+0                                EXPLÍCITO   
+1                            Drippy Drippy   
+2                          La Vida Es Bela   
+3                                  Xtaciss   
+4                               Genelipsis   
+5             Imagination & the Misfit Kid   
+6                                 Yonaguni   
+7                        Frescura y Perreo   
+8                           So Far So Good   
+9                Kill 'Em All (Remastered)   
+10                          pov: it's 2019   
+11                           Make You Mine   
+12                       2Step - Pop R'n'B   
+13                               Rap Party   
+14                 Platónicos Mix (DJ Mix)   
+15  Rampage (Free Fire Rampage Theme Song)   
+16                                  Wolves   
+17              Shootout (Slowed + Reverb)   
+18                            Dulce Balada   
+19                      Tek It - New Noise   
+
+                                   track_name  
+0                                     RUNAWAY  
+1                                   The Hills  
+2                           Ando Con el Carro  
+3                                  Lemon Kush  
+4                             No Me Arrodillo  
+5                               Mount Everest  
+6                                    Yonaguni  
+7                                      Hookah  
+8                                        High  
+9                       Whiplash - Remastered  
+10                                        SOS  
+11                              Make You Mine  
+12                                      IDGAF  
+13                              Roll in Peace  
+14  La Curiosidad (feat. Myke Towers) - Mixed  
+15     Rampage (Free Fire Rampage Theme Song)  
+16                                     Wolves  
+17                 Shootout (Slowed + Reverb)  
+18                       Más De Lo Que Aposté  
+19                              Roman Candles  
+
+CELL 4
+<IPython.core.display.Markdown object>

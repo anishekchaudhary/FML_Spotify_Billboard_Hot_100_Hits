@@ -1,0 +1,3 @@
+mean_fit_time,std_fit_time,mean_score_time,std_score_time,param_model__n_estimators,param_model__loss,param_model__learning_rate,params,split0_test_neg_rmse,split1_test_neg_rmse,mean_test_neg_rmse,std_test_neg_rmse,rank_test_neg_rmse
+0.3296325206756592,0.00048232078552246094,0.008641362190246582,9.644031524658203e-05,50,linear,0.1,"{'model__n_estimators': 50, 'model__loss': 'linear', 'model__learning_rate': 0.1}",-17.427088493045584,-17.082421132716625,-17.254754812881103,0.17233368016447947,1
+0.3346935510635376,0.00027358531951904297,0.007848620414733887,8.952617645263672e-05,50,linear,0.01,"{'model__n_estimators': 50, 'model__loss': 'linear', 'model__learning_rate': 0.01}",-17.396397054763096,-17.16292980451372,-17.279663429638408,0.11673362512468799,2

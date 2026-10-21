@@ -1,0 +1,10 @@
+2026-10-21 13:58:36,458 [data_processing] after_missing_values: 113999 rows
+2026-10-21 13:58:36,467 [data_processing] after_dedup_track_id: 89740 rows
+2026-10-21 13:58:36,490 [data_processing] after_dedup_artists_album_name_track_name: 89379 rows
+2026-10-21 13:58:36,505 [data_processing] after_dedup_artists_track_name: 81343 rows
+2026-10-21 13:58:36,520 [data_processing] after_dedup_album_name_track_name: 80279 rows
+2026-10-21 13:58:36,525 [data_processing] after_speechiness: 79433 rows
+2026-10-21 13:58:36,529 [data_processing] after_instrumentalness: 74203 rows
+2026-10-21 13:58:36,533 [data_processing] after_liveness: 71945 rows
+2026-10-21 13:58:36,534 [data_processing] after_nonzero_duration: 71945 rows
+2026-10-21 13:58:37,108 [data_processing] Prepared 8000 modeling rows; 6400 train / 1600 holdout; hits 203 / 51

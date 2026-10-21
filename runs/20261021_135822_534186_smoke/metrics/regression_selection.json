@@ -1,0 +1,15 @@
+{
+  "model": "Ridge",
+  "metric": "neg_rmse",
+  "cv_score": -15.677352252001386,
+  "selected_using": "training cross-validation only",
+  "train_rows": 6400,
+  "holdout_rows": 1600,
+  "baseline": {
+    "rows": 1600,
+    "mae": 16.1794255859375,
+    "rmse": 19.415414241799326,
+    "r2": -0.0007999268873337684,
+    "within_5_percent": 17.0
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "model": "RandomForestClassifier",
+  "best_parameters": {
+    "model__n_estimators": 30,
+    "model__min_samples_split": 10,
+    "model__min_samples_leaf": 1,
+    "model__max_features": "sqrt",
+    "model__max_depth": 5
+  },
+  "cv_selection_metric": "hit_f1",
+  "cv_selection_score": 0.26351679285575613,
+  "train": {
+    "rows": 6400,
+    "actual_hits": 203,
+    "predicted_hits": 749,
+    "accuracy": 0.903125,
+    "balanced_accuracy": 0.8618281052885116,
+    "hit_precision": 0.22162883845126835,
+    "hit_recall": 0.8177339901477833,
+    "hit_f1": 0.3487394957983193,
+    "confusion_matrix": [
+      [
+        5614,
+        583
+      ],
+      [
+        37,
+        166
+      ]
+    ],
+    "average_precision": 0.3389954657644837,
+    "roc_auc": 0.94173050522619
+  },
+  "test": {
+    "rows": 1600,
+    "actual_hits": 51,
+    "predicted_hits": 201,
+    "accuracy": 0.89375,
+    "balanced_accuracy": 0.8503145609438094,
+    "hit_precision": 0.20398009950248755,
+    "hit_recall": 0.803921568627451,
+    "hit_f1": 0.3253968253968254,
+    "confusion_matrix": [
+      [
+        1389,
+        160
+      ],
+      [
+        10,
+        41
+      ]
+    ],
+    "average_precision": 0.2482557858716623,
+    "roc_auc": 0.9001126596539197
+  },
+  "seconds": 0.38487570799770765,
+  "candidates": 2,
+  "pca_components": 13
+}

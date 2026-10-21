@@ -1,0 +1,57 @@
+{
+  "model": "KNeighborsClassifier",
+  "best_parameters": {
+    "model__weights": "distance",
+    "model__n_neighbors": 7,
+    "model__metric": "manhattan"
+  },
+  "cv_selection_metric": "hit_f1",
+  "cv_selection_score": 0.02643981148654046,
+  "train": {
+    "rows": 6400,
+    "actual_hits": 203,
+    "predicted_hits": 145,
+    "accuracy": 0.9909375,
+    "balanced_accuracy": 0.8571428571428572,
+    "hit_precision": 1.0,
+    "hit_recall": 0.7142857142857143,
+    "hit_f1": 0.8333333333333334,
+    "confusion_matrix": [
+      [
+        6197,
+        0
+      ],
+      [
+        58,
+        145
+      ]
+    ],
+    "average_precision": 0.9845469841858645,
+    "roc_auc": 0.9993811561449961
+  },
+  "test": {
+    "rows": 1600,
+    "actual_hits": 51,
+    "predicted_hits": 7,
+    "accuracy": 0.965,
+    "balanced_accuracy": 0.5078671881922556,
+    "hit_precision": 0.14285714285714285,
+    "hit_recall": 0.0196078431372549,
+    "hit_f1": 0.034482758620689655,
+    "confusion_matrix": [
+      [
+        1543,
+        6
+      ],
+      [
+        50,
+        1
+      ]
+    ],
+    "average_precision": 0.15850778405118782,
+    "roc_auc": 0.7780541525842098
+  },
+  "seconds": 0.9570355410032789,
+  "candidates": 2,
+  "pca_components": 13
+}

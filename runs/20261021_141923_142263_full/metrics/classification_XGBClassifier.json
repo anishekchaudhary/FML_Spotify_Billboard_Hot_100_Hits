@@ -1,0 +1,62 @@
+{
+  "model": "XGBClassifier",
+  "best_parameters": {
+    "model__subsample": 0.6,
+    "model__reg_lambda": 2.0,
+    "model__reg_alpha": 0,
+    "model__n_estimators": 400,
+    "model__max_depth": 4,
+    "model__learning_rate": 0.2,
+    "model__gamma": 0.3,
+    "model__colsample_bytree": 0.6
+  },
+  "cv_selection_metric": "hit_f1",
+  "cv_selection_score": 0.1295668469298267,
+  "train": {
+    "rows": 57556,
+    "actual_hits": 1825,
+    "predicted_hits": 545,
+    "accuracy": 0.9758148585725207,
+    "balanced_accuracy": 0.6334701893611755,
+    "hit_precision": 0.8972477064220183,
+    "hit_recall": 0.26794520547945205,
+    "hit_f1": 0.41265822784810124,
+    "confusion_matrix": [
+      [
+        55675,
+        56
+      ],
+      [
+        1336,
+        489
+      ]
+    ],
+    "average_precision": 0.6885677033169819,
+    "roc_auc": 0.9775028826090495
+  },
+  "test": {
+    "rows": 14389,
+    "actual_hits": 456,
+    "predicted_hits": 102,
+    "accuracy": 0.9666411842379595,
+    "balanced_accuracy": 0.5405023382579034,
+    "hit_precision": 0.38235294117647056,
+    "hit_recall": 0.08552631578947369,
+    "hit_f1": 0.13978494623655913,
+    "confusion_matrix": [
+      [
+        13870,
+        63
+      ],
+      [
+        417,
+        39
+      ]
+    ],
+    "average_precision": 0.22167227564605652,
+    "roc_auc": 0.8780485021676419
+  },
+  "seconds": 11.207403375010472,
+  "candidates": 30,
+  "pca_components": 13
+}

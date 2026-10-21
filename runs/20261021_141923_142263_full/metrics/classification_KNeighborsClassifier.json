@@ -1,0 +1,57 @@
+{
+  "model": "KNeighborsClassifier",
+  "best_parameters": {
+    "model__weights": "uniform",
+    "model__n_neighbors": 3,
+    "model__metric": "euclidean"
+  },
+  "cv_selection_metric": "hit_f1",
+  "cv_selection_score": 0.17576801069594536,
+  "train": {
+    "rows": 57556,
+    "actual_hits": 1825,
+    "predicted_hits": 799,
+    "accuracy": 0.9747723955799569,
+    "balanced_accuracy": 0.6586369800334926,
+    "hit_precision": 0.7334167709637046,
+    "hit_recall": 0.32109589041095893,
+    "hit_f1": 0.44664634146341464,
+    "confusion_matrix": [
+      [
+        55518,
+        213
+      ],
+      [
+        1239,
+        586
+      ]
+    ],
+    "average_precision": 0.5344724871287184,
+    "roc_auc": 0.982720951891461
+  },
+  "test": {
+    "rows": 14389,
+    "actual_hits": 456,
+    "predicted_hits": 189,
+    "accuracy": 0.9619848495378414,
+    "balanced_accuracy": 0.548704026538031,
+    "hit_precision": 0.25925925925925924,
+    "hit_recall": 0.1074561403508772,
+    "hit_f1": 0.15193798449612403,
+    "confusion_matrix": [
+      [
+        13793,
+        140
+      ],
+      [
+        407,
+        49
+      ]
+    ],
+    "average_precision": 0.10409050131230596,
+    "roc_auc": 0.6811068572529435
+  },
+  "seconds": 66.13314241600165,
+  "candidates": 30,
+  "pca_components": 13
+}
